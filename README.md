@@ -1,4 +1,4 @@
-Zestawienie danych statystycznych dotyczących gier na platformach Steam i Epic Games Store
+# Zestawienie danych statystycznych dotyczących gier na platformach Steam i Epic Games Store
 
 ## Projekt:
 - realizowany w grupach dwuosobowych
