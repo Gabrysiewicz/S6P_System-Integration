@@ -224,7 +224,7 @@ use Tymon\JWTAuth\Facades\JWTAuth;
 $token = JWTAuth::fromUser($user);
 ```
 
-Routing z wykorzystanie autoryzacji
+Routing z wykorzystaniem autoryzacji
 ```
 Route::group(['middleware' => 'jwt.auth'], function () {
     Route::get('/', function () {
@@ -234,4 +234,4 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 ```
 
 Widok dla nie zautoryzowanego użytkownika
-<img src="" >
+<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/Images/autoryzacja.jpg" >
