@@ -128,3 +128,110 @@ volumes:
     sail-mysql:
         driver: local
 ```
+
+## JWT
+Do logowania się do aplikacji zostanie zastosowana metoda autoryzacji JWT:
+
+Dodanie odpowiedniego pakietu
+```
+composer require tymon/jwt-auth
+```
+
+Konfiguracja config/auth.php
+```
+'guards' => [
+    'web' => [
+        'driver' => 'session',
+        'provider' => 'users',
+    ],
+
+    'api' => [
+        'driver' => 'jwt',
+        'provider' => 'users',
+    ],
+],
+```
+
+Następnie należy dodać kontroller do obsługi autoryzacji
+```
+sail artisan make:controller AuthController
+```
+```
+use Illuminate\Support\Facades\Auth;
+use Tymon\JWTAuth\Facades\JWTAuth;
+
+class AuthController extends Controller
+{
+    public function login(Request $request)
+    {
+        $credentials = $request->only('email', 'password');
+        
+        if (Auth::attempt($credentials)) {
+            $user = Auth::user();
+            $token = JWTAuth::fromUser($user);
+
+            return response()->json(['token' => $token]);
+        }
+
+        return response()->json(['error' => 'Unauthorized'], 401);
+    }
+}
+```
+
+Należy wygenerować SecretKey. Automatycznie zostanie dodany do .env
+```
+php artisan jwt:secret
+```
+
+Output
+```
+jwt-auth secret [cvVG7cV8RTY6KtpodfatKMweRhBTL7lVtMSNfYRWuNNjmOuGBUZVIFBvdnGwXJoJ] set successfully.
+```
+
+Wygenerowanie pliku jwt.php przechowującego informacje i konfikurację JWT:
+```
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+```
+
+Przykład zawartości jwt.php. Jak widać wartości są pobierane ze zmiennych w .env
+```
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | JWT Authentication Secret
+    |--------------------------------------------------------------------------
+    |
+    | Don't forget to set this in your .env file, as it will be used to sign
+    | your tokens. A helper command is provided for this:
+    | `php artisan jwt:secret`
+    |
+    | Note: This will be used for Symmetric algorithms only (HMAC),
+    | since RSA and ECDSA use a private/public key combo (See below).
+    |
+    */
+
+    'secret' => env('JWT_SECRET'),
+```
+
+Przykład autoryzacji dla użytkownika
+```
+use Tymon\JWTAuth\Facades\JWTAuth;
+
+// Generate a token for the user
+$token = JWTAuth::fromUser($user);
+```
+
+Routing z wykorzystanie autoryzacji
+```
+Route::group(['middleware' => 'jwt.auth'], function () {
+    Route::get('/', function () {
+        return view('welcome');
+    });
+});
+```
+
+Widok dla nie zautoryzowanego użytkownika
+<img src="" >
