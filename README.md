@@ -20,7 +20,7 @@
 - [ ] wykorzystanie poziomów izolacji w bazie danych – 5 pkt
 
 ## ORM
-
+ORM jest realizowany za pośrednictwen Laravel'owego Eloquent
 ```
 <?php
 
