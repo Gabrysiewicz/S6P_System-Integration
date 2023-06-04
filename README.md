@@ -235,3 +235,18 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 
 Widok dla nie zautoryzowanego użytkownika
 <img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/Images/autoryzacja.jpg" >
+
+## Baza danych
+Diagram ERD
+<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/Images/erd.png" >
+
+Relacje
+- jeden do jednego:
+    - game i steam - jedna gra może mieć informacje specyficzne dla platformy Steam w tabeli steam
+    - game i epic - jedna gra może mieć informacje specyficzne dla platformy Epic Games w tabeli epic
+- jeden do wielu:
+    - developer i game - jeden deweloper może mieć wiele gier, ale jedna gra jest tworzona przez jednego dewelopera
+    - publisher i game - jeden wydawca może mieć wiele gier, ale jedna gra jest wydana przez jednego wydawcę
+    - user i game - jeden użytkownik może dodać wiele gier, ale jedna gra jest dodana przez jednego użytkownika
+- wiele do wielu:
+    - game i genre - jedna gra może należeć do wielu różnych gatunków, a jeden gatunek może być przypisany do wielu różnych gier
