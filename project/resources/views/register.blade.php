@@ -122,16 +122,22 @@
             </section>
         </nav>
         <main>
-            <form id="register-form" method="POST" action='/user'>
-                @csrf
-                <input type='email' id='register-email' name='register-email' placeholder="your@email.com">
-                <input type='password' id='register-password' name='register-password' placeholder="password">
-                <input type='password' id='register-password-repeat' name='register-password-repeat' placeholder="repeat password">
-                <div>
-                    <a href="#"> Already have an account </a>
-                </div>
-                <input type="submit" id='register-button' name='register-button' value='register'>
-            </form>
+        <form id="register-form" method="POST" action="/user">
+            @csrf
+            <input type="email" id="email" name="email" placeholder="your@email.com">
+            @error('email')
+                <div class="error">{{ $message }}</div>
+            @enderror
+            <input type="password" id="password" name="password" placeholder="password">
+            @error('password')
+                <div class="error">{{ $message }}</div>
+            @enderror
+            <input type="password" id="password_confirmation" name="password_confirmation" placeholder="repeat password">
+            <div>
+                <a href="/login">Already have an account</a>
+            </div>
+            <input type="submit" id="register_button" name="register_button" value="register">
+        </form>
         </main>
         <script>
             let redirectTo = (dest) => {
