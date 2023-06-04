@@ -238,6 +238,7 @@ Widok dla nie zautoryzowanego użytkownika
 
 ## Baza danych
 Diagram ERD
+
 <img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/Images/erd.png" >
 
 Relacje
