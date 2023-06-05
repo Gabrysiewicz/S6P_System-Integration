@@ -6,10 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Epic extends Model
 {
+    public $timestamps = false;
+    protected $table = 'epic';
     protected $fillable = [
         'price', 
         'release_date', 
-        'game_id'
+        'game_id',
     ];
 
     public function game()

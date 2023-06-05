@@ -25,6 +25,11 @@ class User extends Authenticatable
         return $this->role === 'admin';
     }
 
+    public function games()
+    {
+        return $this->hasMany(Game::class);
+    }
+
     /**
      * The attributes that should be hidden for serialization.
      *
@@ -42,6 +47,6 @@ class User extends Authenticatable
      */
     protected $casts = [
         'password' => 'hashed',
-        'role' => 'string'
+        'role' => 'string',
     ];
 }

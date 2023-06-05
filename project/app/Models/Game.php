@@ -6,21 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Game extends Model
 {
+    protected $table = 'game';
     protected $fillable = [
-        'name', 
-        'developer_id', 
-        'publisher_id', 
-        'user_id'
+        'name',  
+        'user_id',
     ];
 
-    public function developer()
+    public function developers()
     {
-        return $this->belongsTo(Developer::class);
+        return $this->belongsToMany(Developer::class, 'game_developer');
     }
 
-    public function publisher()
+    public function publishers()
     {
-        return $this->belongsTo(Publisher::class);
+        return $this->belongsToMany(Publisher::class, 'game_publisher');
     }
 
     public function user()

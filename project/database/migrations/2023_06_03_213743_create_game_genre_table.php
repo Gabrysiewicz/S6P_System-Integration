@@ -15,7 +15,6 @@ return new class extends Migration
             $table->increments('id');
             $table->unsignedInteger('game_id');
             $table->unsignedInteger('genre_id');
-            $table->timestamps();
 
             $table->foreign('game_id')->references('id')->on('game')
                 ->onDelete('cascade')->onUpdate('cascade');

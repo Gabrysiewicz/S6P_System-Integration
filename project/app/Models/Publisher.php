@@ -6,7 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Publisher extends Model
 {
+    public $timestamps = false;
+    protected $table = 'publisher';
     protected $fillable = [
-        'name'
+        'name',
     ];
+
+    public function games()
+    {
+        return $this->belongsToMany(Game::class, 'game_publisher');
+    }
 }

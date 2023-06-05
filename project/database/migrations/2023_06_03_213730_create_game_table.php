@@ -14,15 +14,9 @@ return new class extends Migration
         Schema::create('game', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name')->unique();
-            $table->unsignedInteger('developer_id');
-            $table->unsignedInteger('publisher_id');
             $table->unsignedBigInteger('user_id');
             $table->timestamps();
 
-            $table->foreign('developer_id')->references('id')->on('developer')
-                ->onUpdate('cascade')->onDelete('cascade');
-            $table->foreign('publisher_id')->references('id')->on('publisher')
-                ->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('user_id')->references('id')->on('user')
                 ->onUpdate('cascade')->onDelete('cascade');
         });
