@@ -100,17 +100,50 @@
             </section>
         </nav>
         <main>
+            <article id='as-csv'>
+                <input type="button" id="import-as-csv-submit" value="csv">
+                <form id="import-csv" action="/import-csv" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <input type="file" name="import-as-csv" id="import-as-csv" accept=".csv" style="display: none;">
+                </form>
+            </article>
             <article id='as-xml'>
-                <input type='button' id='import-as-xml' name='import-as-xml' value='xml'>
+                <input type='button' id='import-as-xml-submit' name='import-as-xml' value='xml'>
+                <form action="/import-xml" method="POST" enctype="multipart/form-data" style="display: none;">
+                    @csrf
+                    <input type="file" name="import-as-xml" id="import-as-xml" accept=".xml">
+                </form>
             </article>
             <article id='as-json'>
-                <input type='button' id='import-as-json' name='import-as-json' value='json'>
+                <input type='button' id='import-as-json-submit' name='import-as-json' value='json'>
+                <form action="/import-json" method="POST" enctype="multipart/form-data" style="display: none;">
+                    @csrf
+                    <input type="file" name="import-as-json" id="import-as-json" accept=".json">
+                </form>
             </article>
             <article id='as-sql'>
-                <input type='button' id='import-as-sql' name='import-as-sql' value='sql'>
+                <input type='button' id='import-as-sql-submit' name='import-as-sql' value='sql'>
+                <form action="/import-sql" method="POST" enctype="multipart/form-data" style="display: none;">
+                    @csrf
+                    <input type="file" name="import-as-sql" id="import-as-sql" accept=".sql">
+                </form>
             </article>
         </main>
         <script>
+            function handleFileImport(submitButtonId, fileInputId, formId) {
+                document.getElementById(submitButtonId).addEventListener('click', function() {
+                    document.getElementById(fileInputId).click();
+                });
+                
+                document.getElementById(fileInputId).addEventListener('change', function() {
+                    document.getElementById(formId).submit();
+                });
+            }
+            handleFileImport('import-as-csv-submit', 'import-as-csv', 'import-csv');   
+            handleFileImport('import-as-xml-submit', 'import-as-xml', 'import-xml');
+            handleFileImport('import-as-json-submit', 'import-as-json', 'import-json');
+            handleFileImport('import-as-sql-submit', 'import-as-sql', 'import-sql');
+
             let redirectTo = (dest) => {
                 window.location.href = `/${dest}`;
             }

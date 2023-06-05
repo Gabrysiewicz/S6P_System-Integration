@@ -84,25 +84,45 @@
         <table>
             <thead>
                 <tr> 
-                    <th> Game </th>
-                    <th> Developer </th>
-                    <th> Publisher </th>
-                    <th> Genre </th>
-                    <th> Steam </th>
-                    <th> Epic </th> 
+                    <th>Game</th>
+                    <th>Developer</th>
+                    <th>Publisher</th>
+                    <th>Genre</th>
+                    <th>Steam</th>
+                    <th>Epic</th> 
                 </tr>
             </thead>
             <tbody>
-                @for( $i = 0; $i < 30; $i++)
+                @foreach($games as $game)
                     <tr> 
-                        <td> Lorem </td>
-                        <td> Ispum </td>
-                        <td> Dones </td>
-                        <td> Estas </td>
-                        <td> 12.34 </td>
-                        <td> 56.78 </td>
+                        <td>{{ $game->name }}</td>
+                        <td>
+                            @foreach($game->developers as $developer)
+                                {{ $developer->name }}<br>
+                            @endforeach
+                        </td>
+                        <td>
+                            @foreach($game->publishers as $publisher)
+                                {{ $publisher->name }}<br>
+                            @endforeach
+                        </td>
+                        <td>
+                            @foreach($game->genres as $genre)
+                                {{ $genre->name }}<br>
+                            @endforeach
+                        </td>
+                        <td>
+                            @if ($game->steam)
+                                {{ $game->steam->price }}
+                            @endif
+                        </td>
+                        <td>
+                            @if ($game->epic)
+                                {{ $game->epic->price }}
+                            @endif
+                        </td>
                     </tr>
-                @endfor
+                @endforeach
             </tbody>
         </table>
         <script>

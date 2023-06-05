@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ImportController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 
@@ -14,9 +15,7 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [ImportController::class, 'showGames']);
 
 Route::middleware(['guest'])->group(function () {
     Route::get('/login', function () {
@@ -43,6 +42,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/import', function () {
         return view('import');
     });
+
+    Route::post('/import-csv', [ImportController::class, 'importCSV']);
 
     Route::post('/logout', function () {
         Auth::logout();
