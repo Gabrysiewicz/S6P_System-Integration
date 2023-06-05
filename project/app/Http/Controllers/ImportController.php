@@ -35,9 +35,9 @@ class ImportController extends Controller
             $gameDevelopers = explode(';', $data[1]);
             $gamePublishers = explode(';', $data[2]);
             $gameGenres = explode(';', $data[3]);
-            $gameReleaseDateSteam = $data[4];
+            $gameReleaseDateSteam = date('Y-m-d', strtotime(str_replace('.', '-', $data[4])));
             $gamePriceSteam = str_replace(',', '.', $data[5]);
-            $gameReleaseDateEpic = $data[6];
+            $gameReleaseDateEpic = date('Y-m-d', strtotime(str_replace('.', '-', $data[6])));
             $gamePriceEpic = str_replace(',', '.', $data[7]);
     
             if (Game::where('name', $gameName)->exists()) {

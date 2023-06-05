@@ -88,8 +88,10 @@
                     <th>Developer</th>
                     <th>Publisher</th>
                     <th>Genre</th>
-                    <th>Steam</th>
-                    <th>Epic</th> 
+                    <th>Steam Release Date</th> 
+                    <th>Steam Price</th>
+                    <th>Epic Release Date</th> 
+                    <th>Epic Price</th> 
                 </tr>
             </thead>
             <tbody>
@@ -111,15 +113,17 @@
                                 {{ $genre->name }}<br>
                             @endforeach
                         </td>
-                        <td>
-                            @if ($game->steam)
-                                {{ $game->steam->price }}
-                            @endif
+                        <td>     
+                            {{ $game->steam->release_date }}                          
                         </td>
                         <td>
-                            @if ($game->epic)
-                                {{ $game->epic->price }}
-                            @endif
+                            {{ $game->steam->price }}       
+                        </td>
+                        <td>
+                            {{ $game->epic->release_date }}       
+                        </td>
+                        <td>
+                            {{ $game->epic->price }}       
                         </td>
                     </tr>
                 @endforeach
