@@ -246,8 +246,8 @@ Relacje
     - game i steam - jedna gra może mieć informacje specyficzne dla platformy Steam w tabeli steam
     - game i epic - jedna gra może mieć informacje specyficzne dla platformy Epic Games w tabeli epic
 - jeden do wielu:
-    - developer i game - jeden deweloper może mieć wiele gier, ale jedna gra jest tworzona przez jednego dewelopera
-    - publisher i game - jeden wydawca może mieć wiele gier, ale jedna gra jest wydana przez jednego wydawcę
     - user i game - jeden użytkownik może dodać wiele gier, ale jedna gra jest dodana przez jednego użytkownika
 - wiele do wielu:
     - game i genre - jedna gra może należeć do wielu różnych gatunków, a jeden gatunek może być przypisany do wielu różnych gier
+    - developer i game - jeden deweloper może mieć wiele gier, a jedna gra może być stworzona przez wielu deweloperów
+    - publisher i game - jeden wydawca może mieć wiele gier, a jedna gra może być wydana przez wielu wydawców
