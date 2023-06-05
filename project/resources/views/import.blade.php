@@ -90,12 +90,13 @@
                 Steam • Epic Games Store 
             </h1>
             <section id="control-section">
-                <input type="button" value="Export" id='export-button' name='export-button'
-                    onclick="redirectTo('export')">    
-                <input type="button" value="Import" id='import-button' name='import-button'
-                    onclick="redirectTo('import')">    
-                <input type="button" value="Login"  id='login-button' name='login-button' 
-                    onclick="redirectTo('login')">
+                <input type="button" value="Export" id='export-button' name='export-button' onclick="redirectTo('export')">
+                <input type="button" value="Import" id='import-button' name='import-button' onclick="redirectTo('import')">   
+                @if(auth()->check())
+                <input type="button" value="Profile" id='profile-button' name='profile-button' onclick="redirectTo('user')">
+                @else
+                <input type="button" value="Login" id='login-button' name='login-button' onclick="redirectTo('login')">
+                @endif
             </section>
         </nav>
         <main>

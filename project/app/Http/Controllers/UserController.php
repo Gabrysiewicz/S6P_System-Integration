@@ -9,13 +9,8 @@ use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller
 {
-    // Show register form
-    public function create(){
-        return view('register');
-    }
-
     // Create new user
-    public function store(Request $request){
+    public function register(Request $request){
         $request->validate([
             'email' => ['required', 'email', Rule::unique('user', 'email')],
             'password' => ['required', 'confirmed', 'min:8']
@@ -39,11 +34,7 @@ class UserController extends Controller
         return redirect('/')->with('message', 'logged out');
     }
 
-    public function login(){
-        return view('login');
-    }
-
-    public function authenticate(Request $request){
+    public function login(Request $request){
         $formFields = $request->validate([
             'email' => ['required','email'],
             'password' => ['required', 'min:8']

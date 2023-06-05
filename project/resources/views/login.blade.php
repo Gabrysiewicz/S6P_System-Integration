@@ -97,12 +97,10 @@
                 color:white;
                 font-size: 120%;
             }
-            form input[type="button"]{
+            form input[type="submit"]{
                 width:33%;
                 font-size: 120%;
-
                 align-self: flex-end;
-
                 border-radius: 25px;
             }
         </style>
@@ -122,14 +120,15 @@
             </section>
         </nav>
         <main>
-            <form id="login-form">
-                <input type='email' id='login-email' name='login-email' placeholder="your@email.com">
-                <input type='password' id='login-password' name='login-password' placeholder="********">
+            <form id="login-form" method="POST" action="/login">
+                @csrf
+                <input type='email' id='email' name='email' placeholder="your@email.com">
+                <input type='password' id='password' name='password' placeholder="********">
                 <div>
-                    <a href="/"> Don't remember password </a>
+                    <a href="/">Forgot password</a>
                     <a href="/register"> Create an account </a>
                 </div>
-                <input type="button" id='login-button' name='login-button' value='Login'>
+                <input type="submit" id='login_button' name='login_button' value='Login'>
             </form>
         </main>
         <script>

@@ -18,24 +18,37 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login', function () {
-    return view('login');
+Route::middleware(['guest'])->group(function () {
+    Route::get('/login', function () {
+        return view('login');
+    });
+
+    Route::get('/register', function () {
+        return view('register');
+    });
+
+    Route::post('/login', [UserController::class, 'login'])->name('login');
+    Route::post('/register', [UserController::class, 'register']);
 });
 
-Route::get('/import', function () {
-    return view('import');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/user', function () {
+        return view('user');
+    });
+    
+    Route::get('/export', function () {
+        return view('export');
+    });
+    
+    Route::get('/import', function () {
+        return view('import');
+    });
+
+    Route::post('/logout', function () {
+        Auth::logout();
+        return view('/login');
+    })->name('logout');
 });
-
-Route::get('/export', function () {
-    return view('export');
-});
-
-// Route::get('/register', function () {
-//     return view('register');
-// });
-Route::get('/register', [UserController::class, 'create'])->middleware('guest');
-Route::post('/user', [UserController::class, 'store']);
-
 
 /* 
 ===== Uncomment to enable JWT

@@ -100,9 +100,7 @@
             form input[type="submit"]{
                 width:33%;
                 font-size: 120%;
-
                 align-self: flex-end;
-
                 border-radius: 25px;
             }
         </style>
@@ -122,21 +120,24 @@
             </section>
         </nav>
         <main>
-        <form id="register-form" method="POST" action="/user">
+        <form id="register-form" method="POST" action="/register">
             @csrf
+
             <input type="email" id="email" name="email" placeholder="your@email.com">
             @error('email')
                 <div class="error">{{ $message }}</div>
             @enderror
+
             <input type="password" id="password" name="password" placeholder="password">
             @error('password')
                 <div class="error">{{ $message }}</div>
             @enderror
+
             <input type="password" id="password_confirmation" name="password_confirmation" placeholder="repeat password">
             <div>
                 <a href="/login">Already have an account</a>
             </div>
-            <input type="submit" id="register_button" name="register_button" value="register">
+            <input type="submit" id="register_button" name="register_button" value="Register">
         </form>
         </main>
         <script>
