@@ -234,12 +234,12 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 ```
 
 Widok dla nie zautoryzowanego użytkownika
-<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/Images/autoryzacja.jpg" >
+<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/images/autoryzacja.jpg" >
 
 ## Baza danych
 Diagram ERD
 
-<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/Images/erd.png" >
+<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/images/erd.png" >
 
 Relacje
 - jeden do jednego:
