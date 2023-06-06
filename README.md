@@ -251,3 +251,73 @@ Relacje
     - game i genre - jedna gra może należeć do wielu różnych gatunków, a jeden gatunek może być przypisany do wielu różnych gier
     - developer i game - jeden deweloper może mieć wiele gier, a jedna gra może być stworzona przez wielu deweloperów
     - publisher i game - jeden wydawca może mieć wiele gier, a jedna gra może być wydana przez wielu wydawców
+
+## Import/Export CSV
+Import plików .csv jest możliwy tylko gdy plik ma następującą strukturę:
+
+```
+name;developer;publisher;genres;release_date_steam;price_steam;release_date_epic;price_epic
+Test1;Developer1;Publisher1;Action;31.09.2008;19.99;29.09.2008;14,99
+Test2;"Developer2;Developer3";"Publisher2;Publisher3";"Adventure;Indie";31.09.2008;29.99;29.09.2008;24,99
+```
+
+Pierwszy wiersz musi zawierać nagłówki kolumn
+Kolumny muszą być oddzielone znakiem ";"
+W przypadku kolumn developer, publisher i genres, można podać wiele danych, oddzielając je znakiem ";"
+
+## Import/Export JSON
+Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
+
+W postaci pojedyńczego obiektu
+```
+{
+    "name": "Test1",
+    "developer": "Developer1",
+    "publisher": "Publisher1",
+    "genres": ["Action"],
+    "steam": {
+            "price": "14.99",
+            "release_date": "06.06.2023"
+    },
+    "epic": {
+            "price": "19.99",
+            "release_date": "31.09.2008"
+    }
+}
+```
+
+W postaci tablicy obiektów
+```
+[
+    {
+        "name": "Test1",
+        "developer": "Developer1",
+        "publisher": "Publisher1",
+        "genres": "Action",
+        "steam": {
+            "price": "19.99",
+            "release_date": "06.06.2023"
+        },
+        "epic": {
+            "price": "14.99",
+            "release_date": "31.09.2008"
+        }
+    },
+    {
+        "name": "Test2"
+        "developer": ["Developer2", "Developer3"],
+        "publisher": ["Publisher2", "Publisher3"],
+        "genres": "Adventure",
+        "steam": {
+            "price": "29.99",
+            "release_date": "06.06.2023"
+        },
+        "epic": {
+            "price": "24.99",
+            "release_date": "29.09.2023"
+        }
+    }
+]
+```
+
+W przypadku kolumn developer, publisher i genres, można podać wiele danych, umieszczając dane w tablicy [" "," "]
