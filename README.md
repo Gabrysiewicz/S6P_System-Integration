@@ -261,9 +261,9 @@ Test1;Developer1;Publisher1;Action;31.09.2008;19.99;29.09.2008;14,99
 Test2;"Developer2;Developer3";"Publisher2;Publisher3";"Adventure;Indie";31.09.2008;29.99;29.09.2008;24,99
 ```
 
-Pierwszy wiersz musi zawierać nagłówki kolumn
-Kolumny muszą być oddzielone znakiem ";"
-W przypadku kolumn developer, publisher i genres, można podać wiele danych, oddzielając je znakiem ";"
+Pierwszy wiersz musi zawierać nagłówki kolumn <br>
+Kolumny muszą być oddzielone znakiem ";" <br>
+W przypadku kolumn developer, publisher i genres, można podać wiele danych, oddzielając je znakiem ";" <br>
 
 ## Import/Export JSON
 Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
