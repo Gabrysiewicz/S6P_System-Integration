@@ -64,6 +64,29 @@ class ImportController extends Controller
         return redirect('/')->with('message', 'Games added.');
     }
 
+    function importXML(Request $request)
+    {
+        $file = $request->file('import-as-xml');
+        $filePath = $file->getPathname();
+
+        $xmlData = file_get_contents($filePath);
+        $games = simplexml_load_string($xmlData);
+
+        if (!$games) {
+            die("Nieprawidłowy format pliku XML");
+        }
+
+        if ($games instanceof SimpleXMLElement) {
+            $this->processGameData($games, "xml");
+        } else {
+            foreach ($games as $game) {
+                $this->processGameData($game, "xml");
+            }
+        }
+
+        return redirect('/')->with('message', 'Games added.');
+    }
+
     function processGameData($data, $type)
     {
         if ($type == "csv") {
@@ -88,7 +111,38 @@ class ImportController extends Controller
             $gamePriceSteam = str_replace(',', '.', $data['steam']['price']);
             $gameReleaseDateEpic = date('Y-m-d', strtotime(str_replace('.', '-', $data['epic']['release_date'])));
             $gamePriceEpic = str_replace(',', '.', $data['epic']['price']);
-        } 
+        } else { //xml         
+            // Sprawdzenie poprawności znaczników
+            if (!$data->name || !$data->developers || !$data->publishers || !$data->genre || !$data->steam || !$data->epic) {
+                return;
+            }
+            $gameName = (string)$data->name;
+            $gameDevelopers = [];
+            $gamePublishers = [];
+            $gameGenres = [];
+            $gameReleaseDateSteam = '';
+            $gamePriceSteam = '';
+            $gameReleaseDateEpic = '';
+            $gamePriceEpic = '';
+
+            foreach ($data->developers->developer as $developer) {
+                $gameDevelopers[] = (string)$developer;
+            }
+
+            foreach ($data->publishers->publisher as $publisher) {
+                $gamePublishers[] = (string)$publisher;
+            }
+
+            foreach ($data->genres->genre as $genre) {
+                $gameGenres[] = (string)$genre;
+            }
+
+            $gameReleaseDateSteam = date('Y-m-d', strtotime(str_replace('.', '-', (string)$data->steam->release_date)));
+            $gamePriceSteam = str_replace(',', '.', (string)$data->steam->price);
+
+            $gameReleaseDateEpic = date('Y-m-d', strtotime(str_replace('.', '-', (string)$data->epic->release_date)));
+            $gamePriceEpic = str_replace(',', '.', (string)$data->epic->price);
+        }
 
         if (empty($gameName) || empty($gameDevelopers) || empty($gamePublishers) || empty($gameGenres) || empty($gameReleaseDateSteam) || empty($gamePriceSteam) || empty($gameReleaseDateEpic) || empty($gamePriceEpic)) {
             return;

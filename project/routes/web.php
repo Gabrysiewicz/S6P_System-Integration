@@ -45,6 +45,7 @@ Route::middleware(['auth'])->group(function () {
 
     Route::post('/import-csv', [ImportController::class, 'importCSV']);
     Route::post('/import-json', [ImportController::class, 'importJSON']);
+    Route::post('/import-xml', [ImportController::class, 'importXML']);
 
     Route::post('/logout', function () {
         Auth::logout();
