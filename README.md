@@ -431,9 +431,9 @@ Kolumny muszą być oddzielone znakiem ";" <br>
 W przypadku kolumn developer, publisher i genre, można podać wiele danych, oddzielając je znakiem ";" <br>
 
 ## Import/Export JSON
-Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date
-W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]
-Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
+Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date<br>
+W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]<br>
+Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:<br>
 
 W postaci pojedyńczego obiektu
 ```
