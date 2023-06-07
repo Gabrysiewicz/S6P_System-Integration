@@ -51,12 +51,12 @@ class ImportController extends Controller
             die("Nieprawidłowy format pliku JSON");
         }   
 
-        if (is_array($jsonArray)) {
+        if (is_array($jsonArray)) { //tablica obiektów
             if (array_keys($jsonArray) === range(0, count($jsonArray) - 1)) {
                 foreach ($jsonArray as $game) {
                     $this->processGameData($game, "json");
                 }
-            } else {
+            } else { //pojedyńczy obiekt
                 $this->processGameData($jsonArray, "json");
             }
         }
@@ -70,18 +70,18 @@ class ImportController extends Controller
         $filePath = $file->getPathname();
 
         $xmlData = file_get_contents($filePath);
-        $games = simplexml_load_string($xmlData);
+        $elements = simplexml_load_string($xmlData);
 
-        if (!$games) {
+        if (!$elements) {
             die("Nieprawidłowy format pliku XML");
         }
 
-        if ($games instanceof SimpleXMLElement) {
-            $this->processGameData($games, "xml");
-        } else {
-            foreach ($games as $game) {
+        if (count($elements->game) > 0) { //tablica elementów znacznik <games>
+            foreach ($elements->game as $game) {
                 $this->processGameData($game, "xml");
             }
+        } else { //jeden element bez znacznika <games>
+            $this->processGameData($elements, "xml");
         }
 
         return redirect('/')->with('message', 'Games added.');
@@ -111,11 +111,12 @@ class ImportController extends Controller
             $gamePriceSteam = str_replace(',', '.', $data['steam']['price']);
             $gameReleaseDateEpic = date('Y-m-d', strtotime(str_replace('.', '-', $data['epic']['release_date'])));
             $gamePriceEpic = str_replace(',', '.', $data['epic']['price']);
-        } else { //xml         
-            // Sprawdzenie poprawności znaczników
-            if (!$data->name || !$data->developers || !$data->publishers || !$data->genre || !$data->steam || !$data->epic) {
-                return;
+        } else if ($type == "xml") { 
+            if (!$data->name || !$data->developers || !$data->publishers || !$data->genres || !$data->steam || !$data->epic ||
+                !$data->publishers->publisher || !$data->developers->developer || !$data->genres->genre) {
+                die("Niepoprawne znaczniki w pliku XML");
             }
+            
             $gameName = (string)$data->name;
             $gameDevelopers = [];
             $gamePublishers = [];
@@ -142,6 +143,8 @@ class ImportController extends Controller
 
             $gameReleaseDateEpic = date('Y-m-d', strtotime(str_replace('.', '-', (string)$data->epic->release_date)));
             $gamePriceEpic = str_replace(',', '.', (string)$data->epic->price);
+        } else {
+            die("Nieobsługiwany format pliku");
         }
 
         if (empty($gameName) || empty($gameDevelopers) || empty($gamePublishers) || empty($gameGenres) || empty($gameReleaseDateSteam) || empty($gamePriceSteam) || empty($gameReleaseDateEpic) || empty($gamePriceEpic)) {
