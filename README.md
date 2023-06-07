@@ -203,23 +203,73 @@ Następnie należy dodać kontroler do obsługi autoryzacji
 sail artisan make:controller AuthController
 ```
 ```
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Tymon\JWTAuth\Facades\JWTAuth;
 
 class AuthController extends Controller
 {
+    public function register(Request $request)
+    {
+        $validatedData = $request->validate([
+            'email' => 'required|string|email|max:255|unique:user',
+            'password' => 'required|string|min:8|confirmed',
+        ]);
+
+        $user = User::create([
+            'email' => $validatedData['email'],
+            'password' => Hash::make($validatedData['password']),
+        ]);
+
+        $token = JWTAuth::fromUser($user);
+
+        // Set the token as a session variable
+        session(['jwt_token' => $token]);
+
+        // Redirect the user to the desired page
+        return redirect('/');
+    }
+
     public function login(Request $request)
     {
         $credentials = $request->only('email', 'password');
-        
-        if (Auth::attempt($credentials)) {
-            $user = Auth::user();
-            $token = JWTAuth::fromUser($user);
 
-            return response()->json(['token' => $token]);
+        if (!Auth::attempt($credentials)) {
+            return response()->json(['error' => 'invalid_credentials'], 401);
         }
 
-        return response()->json(['error' => 'Unauthorized'], 401);
+        $user = Auth::user();
+        $token = JWTAuth::fromUser($user);
+
+        // Set the token as a session variable
+        session(['jwt_token' => $token]);
+
+        // Redirect the user to the desired page
+        return redirect('/');
+    }
+
+    public function logout()
+    {
+        // Clear the session token
+        session()->forget('jwt_token');
+
+        // Redirect the user to the desired page
+        return redirect('/');
+    }
+
+    public function getAuthenticatedUser()
+    {
+        // Retrieve the user from the session token
+        $token = session('jwt_token');
+        $user = JWTAuth::toUser($token);
+
+        return response()->json(compact('user'));
     }
 }
 ```
@@ -239,48 +289,112 @@ Wygenerowanie pliku jwt.php przechowującego informacje i konfikurację JWT:
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 ```
 
-Przykład zawartości jwt.php. Jak widać wartości są pobierane ze zmiennych w .env
+Utworzenie Middleware do obsługi JWT
+```
+php artisan make:middleware JwtMiddleware
+```
+
+`JwtMiddleware.php`
 ```
 <?php
 
-return [
+namespace App\Http\Middleware;
 
-    /*
-    |--------------------------------------------------------------------------
-    | JWT Authentication Secret
-    |--------------------------------------------------------------------------
-    |
-    | Don't forget to set this in your .env file, as it will be used to sign
-    | your tokens. A helper command is provided for this:
-    | `php artisan jwt:secret`
-    |
-    | Note: This will be used for Symmetric algorithms only (HMAC),
-    | since RSA and ECDSA use a private/public key combo (See below).
-    |
-    */
+use Closure;
+use JWTAuth;
+use Exception;
+use Tymon\JWTAuth\Http\Middleware\BaseMiddleware;
+use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
 
-    'secret' => env('JWT_SECRET'),
+class JwtMiddleware
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
+     */
+    public function handle(Request $request, Closure $next): Response
+    {
+        try {
+            $user = JWTAuth::parseToken()->authenticate();
+        } catch (Exception $e) {
+            if ($e instanceof \Tymon\JWTAuth\Exceptions\TokenInvalidException){
+                return response()->json(['status' => 'Token is Invalid']);
+            }else if ($e instanceof \Tymon\JWTAuth\Exceptions\TokenExpiredException){
+                return response()->json(['status' => 'Token is Expired']);
+            }else{
+                return response()->json(['status' => 'Authorization Token not found']);
+            }
+        }
+    }
+}
 ```
-
-Przykład autoryzacji dla użytkownika
+Modyfikacja `Models/User.php`
 ```
-use Tymon\JWTAuth\Facades\JWTAuth;
+<?php
 
-// Generate a token for the user
-$token = JWTAuth::fromUser($user);
-```
+namespace App\Models;
 
-Routing z wykorzystaniem autoryzacji
-```
-Route::group(['middleware' => 'jwt.auth'], function () {
-    Route::get('/', function () {
-        return view('welcome');
-    });
-});
-```
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Notifications\Notifiable;
+use Laravel\Sanctum\HasApiTokens;
+use Tymon\JWTAuth\Contracts\JWTSubject;
 
-Widok dla nieautoryzowanego użytkownika
-<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/images/autoryzacja.jpg" >
+class User extends Authenticatable implements JWTSubject
+{
+    use HasApiTokens, HasFactory, Notifiable;
+    
+    protected $table = 'user';
+
+    protected $fillable = [
+        'email',
+        'password',
+        'role',
+    ];
+
+    public function isAdmin()
+    {
+        return $this->role === 'admin';
+    }
+
+    public function games()
+    {
+        return $this->hasMany(Game::class);
+    }
+
+    /**
+     * The attributes that should be hidden for serialization.
+     *
+     * @var array<int, string>
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'password' => 'hashed',
+        'role' => 'string',
+    ];
+
+    public function getJWTIdentifier()
+    {
+        return $this->getKey();
+    }
+    public function getJWTCustomClaims()
+    {
+        return [];
+    }
+}
+```
 
 ## Baza danych
 Diagram ERD
