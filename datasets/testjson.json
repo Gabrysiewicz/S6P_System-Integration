@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Test1230",
+        "developer": ["test", "test222"],
+        "publisher": "test",
+        "genre": "test",
+        "steam": {
+            "price": "5",
+            "release_date": "06.06.2023"
+        },
+        "epic": {
+            "price": "6",
+            "release_date": "06.06.2023"
+        }
+    }
+]

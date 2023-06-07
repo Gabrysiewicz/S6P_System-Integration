@@ -1,0 +1,21 @@
+<game>
+    <name>Example Game 1</name>
+    <developers>
+        <developer>Example Developer</developer>
+    </developers>
+    <publishers>
+        <publisher>Example Publisher</publisher>
+    </publishers>
+    <genres>
+        <genre>Action</genre>
+        <genre>Adventure</genre>
+    </genres>
+    <steam>
+        <release_date>2023-06-01</release_date>
+        <price>19.99</price>
+    </steam>
+    <epic>
+        <release_date>2023-06-15</release_date>
+        <price>14.99</price>
+    </epic>   
+</game>
