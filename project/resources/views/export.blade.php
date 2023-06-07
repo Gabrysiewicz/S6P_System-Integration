@@ -116,8 +116,8 @@
                 <form action="/export-json" method="POST">
                     @csrf
                     <input type='submit' id='import-as-json' name='import-as-json' value='json'>
-                </article>
-            </form>
+                </form>
+            </article>
         </main>
         <script>
             let redirectTo = (dest) => {

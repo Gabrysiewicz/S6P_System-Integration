@@ -135,7 +135,6 @@
             handleFileImport('import-as-csv-submit', 'import-as-csv', 'import-csv');   
             handleFileImport('import-as-xml-submit', 'import-as-xml', 'import-xml');
             handleFileImport('import-as-json-submit', 'import-as-json', 'import-json');
-            handleFileImport('import-as-sql-submit', 'import-as-sql', 'import-sql');
 
             let redirectTo = (dest) => {
                 window.location.href = `/${dest}`;
