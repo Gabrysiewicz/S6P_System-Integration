@@ -24,7 +24,7 @@ class ImportController extends Controller
     
         $header = fgetcsv($csvFileHandle, 0, ';');
         $header[0] = str_replace("\u{FEFF}", '', $header[0]);
-        $expectedColumns = ['name', 'developer', 'publisher', 'genres', 'release_date_steam', 'price_steam', 'release_date_epic', 'price_epic'];
+        $expectedColumns = ['name', 'developer', 'publisher', 'genre', 'release_date_steam', 'price_steam', 'release_date_epic', 'price_epic'];
     
         if ($header !== $expectedColumns) {
             die("Nieprawidłowy format pliku CSV. Oczekiwane kolumny: " . implode(', ', $expectedColumns));
@@ -75,35 +75,29 @@ class ImportController extends Controller
             $gamePriceSteam = str_replace(',', '.', $data[5]);
             $gameReleaseDateEpic = date('Y-m-d', strtotime(str_replace('.', '-', $data[6])));
             $gamePriceEpic = str_replace(',', '.', $data[7]);
-        } else {
+        } else if ($type == "json") {
+            if (!isset($data['name']) || !isset($data['developer']) || !isset($data['publisher']) || !isset($data['genre']) || !isset($data['steam']['release_date']) || !isset($data['steam']['price']) || !isset($data['epic']['release_date']) || !isset($data['epic']['price'])) {
+                die("Brakuje jednego lub więcej kluczy w pliku JSON");
+            }
+            
             $gameName = $data['name'];
             $gameDevelopers = is_array($data['developer']) ? $data['developer'] : [$data['developer']];
             $gamePublishers = is_array($data['publisher']) ? $data['publisher'] : [$data['publisher']];
-            $gameGenres = is_array($data['genres']) ? $data['genres'] : [$data['genres']];
+            $gameGenres = is_array($data['genre']) ? $data['genre'] : [$data['genre']];
             $gameReleaseDateSteam = date('Y-m-d', strtotime(str_replace('.', '-', $data['steam']['release_date'])));
             $gamePriceSteam = str_replace(',', '.', $data['steam']['price']);
             $gameReleaseDateEpic = date('Y-m-d', strtotime(str_replace('.', '-', $data['epic']['release_date'])));
             $gamePriceEpic = str_replace(',', '.', $data['epic']['price']);
-        }
+        } 
 
         if (empty($gameName) || empty($gameDevelopers) || empty($gamePublishers) || empty($gameGenres) || empty($gameReleaseDateSteam) || empty($gamePriceSteam) || empty($gameReleaseDateEpic) || empty($gamePriceEpic)) {
             return;
         }
+        
+        $gameName = trim($gameName);
 
         if (Game::where('name', $gameName)->exists()) {
             return;
-        }
-
-        $genreIds = [];
-        foreach ($gameGenres as $genre) {
-            $genre = trim($genre);
-            $existingGenre = Genre::where('name', $genre)->first();
-            if (!$existingGenre) {
-                $newGenre = Genre::create(['name' => $genre]);
-                $genreIds[] = $newGenre->id;
-            } else {
-                $genreIds[] = $existingGenre->id;
-            }
         }
 
         $game = Game::create([
@@ -123,7 +117,11 @@ class ImportController extends Controller
             $game->publishers()->attach($publisher->id);
         }
 
-        $game->genres()->attach($genreIds);
+        foreach ($gameGenres as $genreName) {
+            $genreName = trim($genreName);
+            $genre = Genre::firstOrCreate(['name' => $genreName]);
+            $game->genres()->attach($genre->id);
+        }
 
         Steam::create([
             'price' => $gamePriceSteam,

@@ -1,6 +1,6 @@
-name;price;release_date;developer;publisher;genres
-Assassin's Creed® I: Director's Cut;23,99;09.04.2008;Ubisoft;Ubisoft;ACTION,RPG
-LEGO® Batman™: The Videogame;23,99;28.09.2008;Traveller's Tales;Warner Bros.;ACTION
+name;price;release_date;developer;publisher;genre
+Assassin's Creedï¿½ I: Director's Cut;23,99;09.04.2008;Ubisoft;Ubisoft;ACTION,RPG
+LEGOï¿½ Batmanï¿½: The Videogame;23,99;28.09.2008;Traveller's Tales;Warner Bros.;ACTION
 World of Goo;17,99;13.10.2008;2D Boy;2D Boy;INDIE,PUZZLE
 Shadow Complex Remastered;17,99;19.08.2009;Epic Games;Epic Games;ACTION
 Metro 2033 Redux;23,99;16.03.2010;4A Games;Deep Silver;SHOOTER,FPS
@@ -9,20 +9,20 @@ Limbo;11,99;30.07.2010;Playdead;Playdead;INDIE,PLATFORMER,PUZZLE
 Costume Quest;11,99;19.10.2010;Double Fine Productions;Double Fine Productions;ADVENTURE,RPG
 Super Meat Boy;17,99;20.10.2010;Team Meat;Team Meat;ACTION,PLATFORMER
 The Walking Dead: Season One;17,99;24.04.2012;Telltale Games;Skybound Games;SINGLE_PLAYER,NARRATION,ADVENTURE
-Alan Wake’s American Nightmare;10,79;22.05.2012;Remedy Entertainment;Remedy Entertainment;HORROR,ACTION,SHOOTER
+Alan Wakeï¿½s American Nightmare;10,79;22.05.2012;Remedy Entertainment;Remedy Entertainment;HORROR,ACTION,SHOOTER
 Ticket to Ride;11,99;24.05.2012;Days of Wonder;Asmodee Digital;STRATEGY,MULTIPLAYER,PARTY
-LEGO® Batman™ 2: DC Super Heroes;23,99;22.06.2012;Traveller's Tales;Warner Bros.;ACTION,OPEN_WORLD
+LEGOï¿½ Batmanï¿½ 2: DC Super Heroes;23,99;22.06.2012;Traveller's Tales;Warner Bros.;ACTION,OPEN_WORLD
 Batman Arkham City Game of the Year Edition;23,99;07.09.2012;Rocksteady Studios;Warner Bros.;ACTION,FIGHTING,STEALTH
 Little Inferno;17,99;19.11.2012;Tomorrow Corporation;Tomorrow Corporation;INDIE,PUZZLE,SIMULATION
-Far Cry®3 Standard Edition;23,99;15.01.2013;Ubisoft Montreal,Massive Entertainment,Ubisoft Shanghai;Ubisoft;OPEN_WORLD,FPS,ACTION
+Far Cryï¿½3 Standard Edition;23,99;15.01.2013;Ubisoft Montreal,Massive Entertainment,Ubisoft Shanghai;Ubisoft;OPEN_WORLD,FPS,ACTION
 The Bridge;11,99;22.02.2013;The Quantum Astrophysicists Guild, Ty Taylor,Mario Casta?eda;The Quantum Astrophysicists Guild;INDIE,PLATFORMER,PHYSICS
 The Walking Dead: Season Two;17,99;23.02.2013;Telltale Games;Skybound Games;SINGLE_PLAYER,NARRATION,ADVENTURE
 Fez;11,99;13.04.2013;Polytron Corporation, Inc;Polytron Corporation, Inc;PUZZLE,PLATFORMER,SINGLE_PLAYER
-South Park™: The Stick of Truth™;35,99;04.03.2014;Obsidian Entertainment;Ubisoft;RPG,COMEDY,TURN_BASED
-Child of Light: Ultimate Edition;23,99;30.04.2014;Ubisoft Montréal;Ubisoft;RPG,ADVENTURE
+South Parkï¿½: The Stick of Truthï¿½;35,99;04.03.2014;Obsidian Entertainment;Ubisoft;RPG,COMEDY,TURN_BASED
+Child of Light: Ultimate Edition;23,99;30.04.2014;Ubisoft Montrï¿½al;Ubisoft;RPG,ADVENTURE
 Transistor;23,99;20.05.2014;Supergiant Games;Supergiant Games;ACTION,RPG,SINGLE_PLAYER
 FTL: Faster Than Light;11,99;14.09.2014;Subset Games;Subset Games;ROGUE_LIKE,SPACE_SIM,STRATEGY
-LEGO® Batman™ 3: Beyond Gotham;23,99;11.11.2014;Traveller's Tales;Warner Bros.;ACTION,OPEN_WORLD
+LEGOï¿½ Batmanï¿½ 3: Beyond Gotham;23,99;11.11.2014;Traveller's Tales;Warner Bros.;ACTION,OPEN_WORLD
 Assassin's Creed Unity;35,99;11.11.2014;Ubisoft;Ubisoft;OPEN_WORLD,STEALTH,ACTION
 This War of Mine;23,99;14.11.2014;11 Bit Studios;11 Bit Studios;SURVIVAL,HORROR,SINGLE_PLAYER
 The Jackbox Party Pack;29,99;18.11.2014;Jackbox Games;Jackbox Games;CASUAL,PARTY,TRIVIA
@@ -76,7 +76,7 @@ Sundered: Eldritch Edition;23,99;28.07.2017;Thunder Lotus;Thunder Lotus;ACTION,I
 Slime Rancher;23,99;01.08.2017;Monomi Park;Monomi Park;EXPLORATION,OPEN_WORLD,FIRST_PERSON
 Last Day of June;23,99;31.08.2017;Ovosonico;505 Games;INDIE,RPG
 RUINER;23,99;26.09.2017;Reikon Games;Devolver Digital;ACTION,SHOOTER,ADVENTURE
-South Park™: The Fractured But Whole™ Standard Edition;59,99;16.10.2017; Ubisoft San Francisco;Ubisoft;RPG,COMEDY,TURN_BASED
+South Parkï¿½: The Fractured But Wholeï¿½ Standard Edition;59,99;16.10.2017; Ubisoft San Francisco;Ubisoft;RPG,COMEDY,TURN_BASED
 The Jackbox Party Pack 5;35,99;17.10.2017;Jackbox Games;Jackbox Games;CASUAL,PARTY,TRIVIA
 The Jackbox Party Pack 4;29,99;19.10.2017;Jackbox Games;Jackbox Games;CASUAL,PARTY,TRIVIA
 Assassin's Creed Origins Standard Edition;71,99;26.10.2017;Ubisoft Montreal;Ubisoft;ACTION,ADVENTURE,OPEN_WORLD
@@ -124,7 +124,7 @@ Operencia: The Stolen Sun;35,99;08.03.2019;Zen Studios;Zen Studios;RPG,SINGLE_PL
 The Division 2 Standard Edition;35,99;15.03.2019;Ubisoft;Ubisoft;MULTIPLAYER,ACTION,RPG
 Satisfactory;35,99;19.03.2019;Coffee Stain Studios;Coffee Stain Publishing;OPEN_WORLD,FIRST_PERSON,SIMULATION
 Outward;47,99;26.03.2019;Nine Dots Studio;PRIME MATTER;MULTIPLAYER,RPG,SINGLE_PLAYER
-Assassin's Creed® III: Remastered;47,99;29.03.2019;Ubisoft;Ubisoft;ACTION,RPG
+Assassin's Creedï¿½ III: Remastered;47,99;29.03.2019;Ubisoft;Ubisoft;ACTION,RPG
 Totally Accurate Battle Simulator;23,99;01.04.2019;Landfall Games;Landfall Games;STRATEGY,PHYSICS,SIMULATION
 Dangerous Driving;35,99;09.04.2019;Three Fields Entertainment;Three Fields Entertainment;RACING,SINGLE_PLAYER,MULTIPLAYER
 Close To The Sun;23,99;02.05.2019;Storm in a Teacup;Wired Productions;HORROR,FIRST_PERSON,ADVENTURE
@@ -141,7 +141,7 @@ Heavy Rain;23,99;24.06.2019;Quantic Dream;Quantic Dream;ACTION,SINGLE_PLAYER,NAR
 Griftlands;23,99;11.07.2019;Klei Entertainment;Klei Entertainment;CARD_GAME,ROGUE_LITE,TURN_BASED
 Horace;17,99;18.07.2019;Paul Helman,Sean Scapelhorn;505 Games;PLATFORMER,ADVENTURE,INDIE
 Beyond Two Souls;23,99;22.07.2019;Quantic Dream;Quantic Dream;SINGLE_PLAYER,NARRATION,ACTION
-Tetris® Effect: Connected;47,99;23.07.2019;Monstars inc., Resonair, Stage Games;Enhance;PUZZLE,MULTIPLAYER,COMPETITIVE
+Tetrisï¿½ Effect: Connected;47,99;23.07.2019;Monstars inc., Resonair, Stage Games;Enhance;PUZZLE,MULTIPLAYER,COMPETITIVE
 Rebel Galaxy Outlaw;35,99;13.08.2019;Double Damage;Double Damage;SINGLE_PLAYER,SPACE_SIM
 Auto Chess;0,00;23.08.2019;Dragonest Games;Dragonest Games;STRATEGY,MULTIPLAYER
 Control;35,99;27.08.2019;Remedy Entertainment;505 Games;ACTION,SUPERNATURAL,ADVENTURE
@@ -173,7 +173,7 @@ Bee Simulator;23,99;14.11.2019;VARSAV Game Studios S.A;Bigben Interactive;ADVENT
 The Messenger;23,99;14.11.2019;Sabotage Studios;Devolver Digital;ACTION,PLATFORMER,SINGLE_PLAYER
 Shenmue III - Standard Edition;35,99;19.11.2019;Ys Net;Deep Silver;ACTION,SINGLE_PLAYER,RPG
 Oxygen Not Included;29,99;25.11.2019;Klei Entertainment;Klei Entertainment;SIMULATION,BASE_BUILDING,STRATEGY
-RAYMAN® LEGENDS;35,99;29.11.2019;Ubisoft;Ubisoft;PLATFORMER,ACTION,ADVENTURE
+RAYMANï¿½ LEGENDS;35,99;29.11.2019;Ubisoft;Ubisoft;PLATFORMER,ACTION,ADVENTURE
 The Wolf Among Us;17,99;01.12.2019;LCG Entertainment, Inc.,Telltale;Telltale;ADVENTURE,ACTION,SINGLE_PLAYER
 Arise: A Simple Story;23,99;03.12.2019;Piccolo;Piccolo;CO_OP,ADVENTURE,PUZZLE
 Jotun: Valhalla Edition;17,99;06.12.2019;Thunder Lotus;Thunder Lotus;ACTION,ADVENTURE,INDIE
@@ -204,14 +204,14 @@ Torchlight;17,99;26.02.2020;;;ACTION,RPG,DUNGEON_CRAWLER
 Foregone;23,99;26.02.2020;Big Blue Bubble;Big Blue Bubble;PLATFORMER,RPG,ACTION
 Offworld Trading Company;35,99;27.02.2020;Mohawk Games;Stardock Entertainment;STRATEGY,COMPETITIVE,INDIE
 GoNNER;11,99;27.02.2020;Art in Heart;Raw Fury;PLATFORMER
-OVERPASS™;47,99;27.02.2020;Zordix Racing;Bigben Interactive;SIMULATION,SPORTS,RACING
+OVERPASSï¿½;47,99;27.02.2020;Zordix Racing;Bigben Interactive;SIMULATION,SPORTS,RACING
 Anodyne 2: Return To Dust;23,99;28.02.2020;Analgesic Productions;Analgesic Productions;ADVENTURE,INDIE,EXPLORATION
 Bloodroots;23,99;28.02.2020;Paper Cult;Paper Cult;ACTION,INDIE,ADVENTURE
 A Short Hike;9,59;04.03.2020;Adam Robinson-Yu;Adam Robinson-Yu;CASUAL,PLATFORMER,INDIE
 Mutazione;23,99;04.03.2020;Die Gute Fabrik;Akupara Games;ADVENTURE,SUPERNATURAL,FANTASY
 State of Decay 2: Juggernaut Edition;35,99;13.03.2020;Undead Labs;Xbox Game Studios;ACTION,CO_OP,RPG
 UNO Standard Edition;11,99;17.03.2020;Ubisoft;Ubisoft;STRATEGY,CARD_GAME
-MONOPOLY® PLUS;17,99;17.03.2020;;;
+MONOPOLYï¿½ PLUS;17,99;17.03.2020;;;
 Insurgency: Sandstorm - Mod Tools & Editor;0,00;17.03.2020;New World Interactive;;SHOOTER,MULTIPLAYER,FPS
 Dauntless;0,00;19.03.2020;Phoenix Labs;Phoenix Labs;ACTION,RPG,MULTIPLAYER
 Watch Dogs Standard Edition;35,99;19.03.2020;Ubisoft Montreal;Ubisoft;ACTION,ADVENTURE
@@ -242,8 +242,8 @@ Before We Leave;23,99;08.05.2020;Balancing Monkey Games;Team17;CITY_BUILDER,INDI
 Huntdown;23,99;12.05.2020;Easy Trigger Games;Coffee Stain Publishing;PLATFORMER,ACTION,CO_OP
 The Witcher 3: Wild Hunt - Game of the Year Edition;59,95;14.05.2020;CD PROJEKT RED;CD PROJEKT S.A.;RPG,OPEN_WORLD,ADVENTURE
 Grand Theft Auto V: Premium Edition;35,99;14.05.2020;Rockstar Games;Rockstar Games;ACTION,ADVENTURE
-Sid Meier’s Civilization® VI;71,99;21.05.2020;Firaxis Games;2K;TURN_BASED,STRATEGY,4X
-Saints Row®: The Third™  Remastered;47,99;22.05.2020;Deep Silver Volition, Sperasoft;Deep Silver;ACTION,SINGLE_PLAYER,MULTIPLAYER
+Sid Meierï¿½s Civilizationï¿½ VI;71,99;21.05.2020;Firaxis Games;2K;TURN_BASED,STRATEGY,4X
+Saints Rowï¿½: The Thirdï¿½  Remastered;47,99;22.05.2020;Deep Silver Volition, Sperasoft;Deep Silver;ACTION,SINGLE_PLAYER,MULTIPLAYER
 Maneater;47,99;22.05.2020; Tripwire Interactive;Tripwire Interactive;ACTION,RPG,SINGLE_PLAYER
 SLUDGE LIFE;17,99;28.05.2020;Terri Vellmann & Doseone;Devolver Digital;INDIE,COMEDY,FIRST_PERSON
 Borderlands: The Handsome Collection;71,99;28.05.2020;;;
@@ -286,8 +286,8 @@ Hellpoint;41,99;30.07.2020;Cradle Games;tinyBuild;ACTION,CO_OP,RPG
 Wizards: Wand of Epicosity;9,59;04.08.2020;Game Mechanic Studios;Game Mechanic Studios;ACTION,STRATEGY,ADVENTURE
 Wilmot's Warehouse;17,99;06.08.2020;Hollow Ponds, Richard Hogg;Finji;CO_OP,INDIE,PUZZLE
 3 out of 10, EP 1: Welcome To Shovelworks;0,00;06.08.2020;Terrible Posture Games, Inc.;Terrible Posture Games, Inc.;COMEDY,EXPLORATION,ADVENTURE
-Horizon Zero Dawn™ Complete Edition;59,99;07.08.2020;Guerrilla;PlayStation PC LLC;ACTION,RPG,ADVENTURE
-Milky Way Prince – The Vampire Star;17,99;13.08.2020;Lorenzo Redaelli / Eyeguys;Santa Ragione;NARRATION,INDIE,HORROR
+Horizon Zero Dawnï¿½ Complete Edition;59,99;07.08.2020;Guerrilla;PlayStation PC LLC;ACTION,RPG,ADVENTURE
+Milky Way Prince ï¿½ The Vampire Star;17,99;13.08.2020;Lorenzo Redaelli / Eyeguys;Santa Ragione;NARRATION,INDIE,HORROR
 A Total War Saga: TROY;59,99;13.08.2020;CREATIVE ASSEMBLY;SEGA;STRATEGY,SINGLE_PLAYER
 The Alto Collection;11,99;13.08.2020;Team Alto;Snowman;ADVENTURE,INDIE,SINGLE_PLAYER
 3 out of 10, EP 2: Foundation 101;0,00;13.08.2020;Terrible Posture Games, Inc.;Terrible Posture Games, Inc.;COMEDY,EXPLORATION,ADVENTURE
@@ -296,7 +296,7 @@ Kill It With Fire;17,99;13.08.2020; Casey Donnellan Games LLC;tinyBuild;INDIE,PH
 Mortal Shell;35,99;18.08.2020;Cold Symmetry ;Playstack Ltd;INDIE,RPG,SINGLE_PLAYER
 Far Cry 2: Standard Edition;11,99;18.08.2020;Ubisoft Montreal;Ubisoft;ACTION,FPS
 Far Cry;11,99;18.08.2020;Crytek Studios;Ubisoft;ACTION,FPS
-Spiritfarer®: Farewell Edition;35,99;18.08.2020;Thunder Lotus;Thunder Lotus;INDIE,PLATFORMER,SIMULATION
+Spiritfarerï¿½: Farewell Edition;35,99;18.08.2020;Thunder Lotus;Thunder Lotus;INDIE,PLATFORMER,SIMULATION
 Rogue Legacy 2;29,99;18.08.2020;Cellar Door Games;Cellar Door Games;EARLY_ACCESS,INDIE,ROGUE_LITE
 3 out of 10, EP 3: Pivot Like A Champion;0,00;20.08.2020;Terrible Posture Games, Inc.;Terrible Posture Games, Inc.;COMEDY,EXPLORATION,ADVENTURE
 God's Trigger;17,99;20.08.2020;One More Level;Techland;ACTION,INDIE,ROGUE_LIKE
@@ -311,7 +311,7 @@ Alluris;11,99;27.08.2020;562 Interactive;562 Interactive;CARD_GAME,ADVENTURE,RPG
 HITMAN 3;71,99;27.08.2020;IO Interactive A/S;IO Interactive A/S;ACTION,SINGLE_PLAYER,STEALTH
 3 out of 10, EP 4: Thank You For Being An Asset;0,00;27.08.2020;Terrible Posture Games, Inc.;Terrible Posture Games, Inc.;COMEDY,ADVENTURE,EXPLORATION
 Shadowrun Returns;17,99;27.08.2020;Harebrained Schemes;Paradox Interactive;TURN_BASED,RPG
-Shadowrun: Dragonfall - Director’s Cut;17,99;27.08.2020;Harebrained Schemes; Paradox Interactive;TURN_BASED,STRATEGY,RPG
+Shadowrun: Dragonfall - Directorï¿½s Cut;17,99;27.08.2020;Harebrained Schemes; Paradox Interactive;TURN_BASED,STRATEGY,RPG
 Shadowrun Hong Kong - Extended Edition;23,99;27.08.2020;Harebrained Schemes;Paradox Interactive;TURN_BASED,INDIE,RPG
 Surgeon Simulator 2;23,99;27.08.2020;Bossa Studios;Bossa Studios;COMEDY,PHYSICS,CO_OP
 Windbound;23,99;28.08.2020;5 Lives Studios;Deep Silver;INDIE,RPG,SURVIVAL,ADVENTURE
@@ -321,7 +321,7 @@ HITMAN - Game of the Year Edition;71,99;03.09.2020;IO Interactive A/S;IO Interac
 3 out of 10, EP 5: The Rig Is Up!;0,00;03.09.2020;Terrible Posture Games, Inc.;Terrible Posture Games, Inc.;COMEDY,EXPLORATION,ADVENTURE
 Shadowrun Trilogy;65,99;03.09.2020;;;
 WRC 9 FIA World Rally Championship;35,99;03.09.2020;KT Racing;Nacon;SIMULATION,RACING,SPORTS
-Tony Hawk's™ Pro Skater™ 1 + 2;47,99;04.09.2020;Vicarious Visions;Activision;ACTION,SPORTS
+Tony Hawk'sï¿½ Pro Skaterï¿½ 1 + 2;47,99;04.09.2020;Vicarious Visions;Activision;ACTION,SPORTS
 Kingdoms of Amalur: Re-Reckoning;47,99;08.09.2020; KAIKO, Big Huge Games; THQ Nordic;ACTION,RPG,FANTASY
 Railway Empire;35,99;10.09.2020;Gaming Minds Studios;Kalypso Media;STRATEGY,SINGLE_PLAYER,SIMULATION
 Where The Water Tastes Like Wine;23,99;10.09.2020;Dim Bulb Games,Serenity Forge;Good Shepherd Entertainment;SINGLE_PLAYER,NARRATION,ADVENTURE
@@ -332,9 +332,9 @@ Stick It To The Man!;9,59;17.09.2020;Zoink;Ripstone;ACTION,PLATFORMER,ADVENTURE
 The Dungeon of Naheulbeuk;41,99;17.09.2020;Artefacts Studio;Dear Villagers;TURN_BASED,RPG,ADVENTURE
 Crysis Remastered;35,99;18.09.2020;Crytek;Crytek;SHOOTER,FIRST_PERSON,FPS
 CastleStorm 2;23,99;23.09.2020;Zen Studios;Zen Studios;STRATEGY,FANTASY,4X
-Rocket League®;0,00;23.09.2020;Psyonix LLC;Psyonix LLC;CO_OP,MULTIPLAYER,SINGLE_PLAYER
+Rocket Leagueï¿½;0,00;23.09.2020;Psyonix LLC;Psyonix LLC;CO_OP,MULTIPLAYER,SINGLE_PLAYER
 Art of Rally;29,99;23.09.2020;Funselektor Labs Inc.;Funselektor Labs Inc.;ARCADE,RACING,PHYSICS
-DRAGON QUEST® XI S: Echoes of an Elusive Age™;47,99;24.09.2020;Square Enix;Square Enix;RPG,SINGLE_PLAYER
+DRAGON QUESTï¿½ XI S: Echoes of an Elusive Ageï¿½;47,99;24.09.2020;Square Enix;Square Enix;RPG,SINGLE_PLAYER
 Heroes & Generals WWII;0,00;24.09.2020;;;SHOOTER,FPS,ACTION
 Freedom Fighters;17,99;24.09.2020;IO Interactive A/S;IO Interactive A/S;ACTION,SHOOTER
 RollerCoaster Tycoon 3 Complete Edition;23,99;24.09.2020;Frontier Developments;Frontier Foundry;STRATEGY,SIMULATION
@@ -347,7 +347,7 @@ Port Royale 4;47,99;25.09.2020;Gaming Minds Studios;Kalypso Media ;STRATEGY,SIMU
 Going Under;23,99;29.09.2020;Aggro Crab Games;Team17 Digital Ltd;DUNGEON_CRAWLER,ROGUE_LIKE,INDIE
 Rogue Company;0,00;30.09.2020;First Watch Games;Hi-Rez Studios;SHOOTER,CO_OP,MULTIPLAYER
 Pikuniku;15,59;01.10.2020;Sectordub ;Devolver Digital;INDIE,ADVENTURE,CASUAL
-STAR WARS™: Squadrons;47,99;02.10.2020;Motive Studios;Electronic Arts;SINGLE_PLAYER,MULTIPLAYER
+STAR WARSï¿½: Squadrons;47,99;02.10.2020;Motive Studios;Electronic Arts;SINGLE_PLAYER,MULTIPLAYER
 The Solitaire Conspiracy;14,39;06.10.2020;Bithell Games;Bithell Games;STRATEGY,INDIE,CARD_GAME
 Assassin's Creed II Standard Edition;23,99;06.10.2020;Ubisoft;Ubisoft;OPEN_WORLD,STEALTH,ACTION
 Star Trek Online;0,00;06.10.2020;;;MULTIPLAYER,RPG,EXPLORATION
@@ -376,10 +376,10 @@ Empires of the Undergrowth;23,99;28.10.2020;Slug Disco;Slug Disco;STRATEGY,SIMUL
 ZEN Triple RPG Bundle;71,99;28.10.2020;;;
 CARRION;23,99;29.10.2020;Phobia Game Studio;Devolver Digital;ACTION,INDIE,HORROR
 Blair Witch;35,99;29.10.2020;Bloober Team;Bloober Team NA;HORROR,SUPERNATURAL,FIRST_PERSON
-A Total War Saga: TROY – ASSEMBLY KIT;0,00;29.10.2020;CREATIVE ASSEMBLY;SEGA;STRATEGY,SINGLE_PLAYER
+A Total War Saga: TROY ï¿½ ASSEMBLY KIT;0,00;29.10.2020;CREATIVE ASSEMBLY;SEGA;STRATEGY,SINGLE_PLAYER
 Watch Dogs: Legion Standard Edition;71,99;29.10.2020;Ubisoft Toronto;Ubisoft;ACTION,MULTIPLAYER,OPEN_WORLD
 Dungeons 3;35,99;05.11.2020;Realmforge Studios;Kalypso Media;STRATEGY,MULTIPLAYER,SINGLE_PLAYER
-FUSER™;23,99;10.11.2020;Harmonix Music Systems, Inc;NCSOFT;MULTIPLAYER,SINGLE_PLAYER,CO_OP
+FUSERï¿½;23,99;10.11.2020;Harmonix Music Systems, Inc;NCSOFT;MULTIPLAYER,SINGLE_PLAYER,CO_OP
 Neverwinter;0,00;10.11.2020;;;MULTIPLAYER,RPG,EXPLORATION
 Observer: System Redux;35,99;10.11.2020;Bloober Team;Bloober Team;ADVENTURE,HORROR,FIRST_PERSON
 Bugsnax;29,99;12.11.2020;Young Horses;Young Horses;ADVENTURE,COMEDY,INDIE
@@ -387,7 +387,7 @@ The Pathless;47,99;12.11.2020;Giant Squid;Annapurna Interactive;ACTION,ADVENTURE
 The Textorcist: The Story of Ray Bibbia;17,99;12.11.2020;MorbidWare;Headup GmbH;ACTION,INDIE
 Warhammer 40,000: Gladius - Relics of War;47,99;12.11.2020;Proxy Studios;Slitherine Ltd.;STRATEGY,4X,TURN_BASED
 Phantom Brigade;35,99;16.11.2020;Brace Yourself Games;Brace Yourself Games;RPG,STRATEGY,TURN_BASED
-Assassin's Creed® Valhalla Standard Edition;71,99;17.11.2020;Ubisoft Montreal;Ubisoft;ACTION,RPG,OPEN_WORLD
+Assassin's Creedï¿½ Valhalla Standard Edition;71,99;17.11.2020;Ubisoft Montreal;Ubisoft;ACTION,RPG,OPEN_WORLD
 The World Next Door;11,99;19.11.2020;Rose City Games;VIZ Media;ADVENTURE,ACTION,INDIE
 Elite Dangerous;35,99;19.11.2020;Frontier Developments;Frontier Developments;MULTIPLAYER,SPACE_SIM,ACTION
 Bridge Constructor: The Walking Dead;11,99;19.11.2020;ClockStone Software;Headup;PUZZLE,SIMULATION,STRATEGY
@@ -412,7 +412,7 @@ Tyranny - Gold Edition;59,99;10.12.2020;Obsidian Entertainment;Paradox Interacti
 Through the Darkest of Times;17,99;10.12.2020;Paintbucket;Handy Games GmbH;STRATEGY,SIMULATION,ADVENTURE
 Shady Part of Me;17,99;11.12.2020;Douze Dixi?mes;Focus Entertainment;INDIE,PUZZLE,SINGLE_PLAYER
 Warframe;0,00;11.12.2020;Digital Extremes;Digital Extremes;ACTION,CO_OP,SHOOTER
-Werewolf: The Apocalypse – Earthblood;35,99;14.12.2020;Cyanide Studio;Nacon;ACTION,FIGHTING,ADVENTURE
+Werewolf: The Apocalypse ï¿½ Earthblood;35,99;14.12.2020;Cyanide Studio;Nacon;ACTION,FIGHTING,ADVENTURE
 SpellForce 3: Versus Edition;0,00;14.12.2020;Grimlore Games;THQ Nordic;RPG,STRATEGY,MULTIPLAYER
 SpellForce 3: Fallen God;23,99;14.12.2020;Grimlore Games;THQ Nordic;RPG,STRATEGY,BASE_BUILDING
 Big Pharma;29,99;15.12.2020;Twice Circled;Positech Games;STRATEGY,INDIE,SIMULATION
@@ -433,17 +433,17 @@ Alien: Isolation;47,99;21.12.2020;Creative Assembly;SEGA;ACTION,SINGLE_PLAYER
 Super Meat Boy Forever;23,99;23.12.2020;Team Meat;Team Meat;PLATFORMER,ACTION,ADVENTURE
 Tropico 6;47,99;23.12.2020;Limbic Entertainment;Kalypso Media Group GmbH;SIMULATION,STRATEGY,CITY_BUILDER
 Tropico 5;23,99;23.12.2020;Haemimont Games;Kalypso Media Group GmbH;RPG,SIMULATION,STRATEGY
-Darkest Dungeon®;29,99;25.12.2020;Red Hook Studios;Red Hook Studios;RPG,TURN_BASED,STRATEGY
+Darkest Dungeonï¿½;29,99;25.12.2020;Red Hook Studios;Red Hook Studios;RPG,TURN_BASED,STRATEGY
 Night in the Woods;23,99;27.12.2020;Infinite Fall;Finji;ADVENTURE,PLATFORMER,NARRATION
 Stranded Deep;17,99;28.12.2020;Beam Team Games;Beam Team Publishing;SURVIVAL,INDIE,EARLY_ACCESS
 Solitairica;11,99;29.12.2020;Righteous Hammer Games;Righteous Hammer Games;CARD_GAME,ROGUE_LITE,INDIE
 Jurassic World Evolution;53,99;31.12.2020;Frontier Developments;Frontier Developments;STRATEGY,SIMULATION,SINGLE_PLAYER
 Crying Suns;29,99;07.01.2021;Alt Shift;Humble Games;RPG,ROGUE_LIKE,STRATEGY
-Scott Pilgrim vs. The World: The Game – Complete Edition;17,99;14.01.2021;Ubisoft;Ubisoft;ACTION,FIGHTING
+Scott Pilgrim vs. The World: The Game ï¿½ Complete Edition;17,99;14.01.2021;Ubisoft;Ubisoft;ACTION,FIGHTING
 Down in Bermuda;23,99;14.01.2021;Yak & Co;Yak & Co;PUZZLE,ADVENTURE,INDIE
-STAR WARS™ Battlefront™ Ultimate Edition;23,99;14.01.2021;DICE;Electronic Arts;ACTION,SHOOTER,SIMULATION
-STAR WARS™ Battlefront™ II: Celebration Edition;47,99;14.01.2021;DICE;Electronic Arts;ACTION,ADVENTURE,SHOOTER
-EA STAR WARS™ TRIPLE BUNDLE;107,99;21.01.2021;;;
+STAR WARSï¿½ Battlefrontï¿½ Ultimate Edition;23,99;14.01.2021;DICE;Electronic Arts;ACTION,SHOOTER,SIMULATION
+STAR WARSï¿½ Battlefrontï¿½ II: Celebration Edition;47,99;14.01.2021;DICE;Electronic Arts;ACTION,ADVENTURE,SHOOTER
+EA STAR WARSï¿½ TRIPLE BUNDLE;107,99;21.01.2021;;;
 Galactic Civilizations III;29,99;21.01.2021;Stardock Entertainment;Stardock Entertainment;STRATEGY,4X,TURN_BASED
 Olija;17,99;28.01.2021;Skeleton Crew Studio;Devolver Digital;ADVENTURE,INDIE,ACTION
 Dandara: Trials of Fear Edition;17,99;28.01.2021;Long Hat House ;Raw Fury ;METROIDVANIA,PLATFORMER,ACTION
@@ -483,7 +483,7 @@ Loop Hero;17,99;04.03.2021;Four Quarters;Devolver Digital;ROGUE_LIKE,INDIE,CARD_
 Crayta;0,00;10.03.2021;Unit 2 Games;Unit 2 Games;MULTIPLAYER,ACTION,EARLY_ACCESS
 Trials Fusion: Standard Edition;23,99;11.03.2021;RedLynx;Ubisoft;RACING,MULTIPLAYER
 Tom Clancy's Splinter Cell;11,99;11.03.2021;Ubisoft;Ubisoft;ACTION,STEALTH,SHOOTER
-Tom Clancy’s Splinter Cell Double Agent;11,99;11.03.2021;Ubisoft Montreal;Ubisoft;ACTION,STEALTH,SHOOTER
+Tom Clancyï¿½s Splinter Cell Double Agent;11,99;11.03.2021;Ubisoft Montreal;Ubisoft;ACTION,STEALTH,SHOOTER
 Cyanide & Happiness - Freakpocalypse (Episode 1);23,99;11.03.2021;Explosm, Skeleton Crew Studios;Serenity Forge;ADVENTURE,COMEDY,NARRATION
 The Fall Part 2: Unbound;20,39;15.03.2021;Over The Moon;Over The Moon;ACTION,ADVENTURE,PUZZLE
 Mundaun;23,99;16.03.2021;Hidden Fields ;MWM Interactive ;HORROR,ADVENTURE,INDIE
@@ -496,7 +496,7 @@ Ancient Enemy;17,99;18.03.2021;Grey Alien Games;Grey Alien Games;CARD_GAME,TURN_
 Neurodeck;16,79;18.03.2021;TavroxGames;Goblinz Publishing;INDIE,RPG,STRATEGY
 HyperParasite;17,99;19.03.2021;Troglobytes Games;Nicalis, Inc.;ACTION,ADVENTURE,ROGUE_LIKE
 Murder by Numbers;17,99;23.03.2021;;;ADVENTURE,PUZZLE,INDIE
-OCTOPATH TRAVELER™;71,99;25.03.2021;Square Enix, ACQUIRE Corp.;Square Enix;RPG,SINGLE_PLAYER
+OCTOPATH TRAVELERï¿½;71,99;25.03.2021;Square Enix, ACQUIRE Corp.;Square Enix;RPG,SINGLE_PLAYER
 ELEX;35,99;25.03.2021;Piranha Bytes;THQ Nordic;RPG,ACTION,ADVENTURE
 Creature in the Well;17,99;25.03.2021;Flight School Studio;MWM Interactive ;ACTION,INDIE,DUNGEON_CRAWLER
 Battle Chasers: Nightwar;35,99;25.03.2021;Airship Syndicate;THQ Nordic;RPG,INDIE,ACTION
@@ -541,7 +541,7 @@ Itch.io;0,00;22.04.2021;itch.io;itch.io;
 Krita;11,99;22.04.2021;Krita Team;Krita Project;INDIE
 Brave;0,00;22.04.2021;Brave Software, Inc.;Brave Software, Inc.;
 Hand of Fate 2;35,99;22.04.2021;Defiant Development;Defiant Development;DUNGEON_CRAWLER,ROGUE_LIKE,ACTION
-MotoGP™21;47,99;22.04.2021;Milestone S.r.l.;Milestone S.r.l.;RACING,SPORTS,SIMULATION
+MotoGPï¿½21;47,99;22.04.2021;Milestone S.r.l.;Milestone S.r.l.;RACING,SPORTS,SIMULATION
 The Signifier: Director's Cut;26,39;22.04.2021;Playmestudio;Raw Fury;ADVENTURE,INDIE,INVESTIGATION
 Panzer Corps 2;47,99;27.04.2021;Flashback Games;Slitherine Ltd.;STRATEGY,TURN_BASED
 A Good Snowman is Hard to Build;11,99;27.04.2021;;;PUZZLE,INDIE,CASUAL
@@ -560,8 +560,8 @@ Hood: Outlaws & Legends;23,99;10.05.2021;Sumo Digital;Focus Entertainment;ACTION
 Sockventure;17,99;11.05.2021;Nighthouse Games;Versus Evil;ACTION,ADVENTURE,INDIE
 The Hand of Merlin;29,99;11.05.2021;Room-C Games;Versus Evil;RPG,STRATEGY,INDIE
 The Architect: Paris;21,59;12.05.2021;Enodo Games;Enodo Games;EARLY_ACCESS,SINGLE_PLAYER,CASUAL
-Assassin’s Creed® Valhalla + Immortals Fenyx Rising™ Bundle;131,99;12.05.2021;;;
-Assassin’s Creed Valhalla + Watch Dogs: Legion Bundle;131,99;12.05.2021;;;
+Assassinï¿½s Creedï¿½ Valhalla + Immortals Fenyx Risingï¿½ Bundle;131,99;12.05.2021;;;
+Assassinï¿½s Creed Valhalla + Watch Dogs: Legion Bundle;131,99;12.05.2021;;;
 Realpolitiks II;41,99;12.05.2021;Jujubee S.A.;1C Entertainment;SINGLE_PLAYER,INDIE,STRATEGY
 Hundred Days - Winemaking Simulator;29,99;13.05.2021;Broken Arms Games;Broken Arms Games;SIMULATION,STRATEGY,INDIE
 The Lion's Song;9,59;13.05.2021;Mi'pu'mi Games;Mi'pu'mi Games;ADVENTURE,SINGLE_PLAYER,NARRATION
@@ -581,11 +581,11 @@ Wanna Survive;17,99;21.05.2021;PINIX Games;Nicalis, Inc.;STRATEGY,ADVENTURE,RPG
 Chicken Police - Paint it Red!;23,99;21.05.2021;The Wild Gentlemen;HandyGames;ADVENTURE,INDIE,INVESTIGATION
 Tennis Manager 2021;47,99;25.05.2021;Rebound CG.;Rebound CG.;SPORTS,SIMULATION,EARLY_ACCESS
 BIOMUTANT;71,99;25.05.2021;Experiment 101;THQ Nordic;ACTION,ADVENTURE,RPG
-GRAVEN;29,99;26.05.2021;Slipgate Ironworks™;1C Entertainment, 3D Realms;EARLY_ACCESS,SHOOTER,ACTION
+GRAVEN;29,99;26.05.2021;Slipgate Ironworksï¿½;1C Entertainment, 3D Realms;EARLY_ACCESS,SHOOTER,ACTION
 Truck Driver;35,99;27.05.2021;SOEDESCO;SOEDESCO;ADVENTURE,CASUAL,SIMULATION
 The Longest Road on Earth;11,99;27.05.2021;;;
 Timelie - Game of the Year Edition;21,59;28.05.2021;Urnique Studio;Urnique Studio;INDIE,PUZZLE,ADVENTURE
-Knockout City™;23,99;30.05.2021;;;MULTIPLAYER,COMPETITIVE,ACTION
+Knockout Cityï¿½;23,99;30.05.2021;;;MULTIPLAYER,COMPETITIVE,ACTION
 Necromunda: Hired Gun;47,99;01.06.2021;Streum On Studio;Focus Entertainment;ACTION,ADVENTURE,SINGLE_PLAYER
 Stonefly;23,99;01.06.2021;Flight School Studio;MWM Interactive ;ACTION,ADVENTURE,RPG
 Going Medieval;29,99;01.06.2021;;;
@@ -607,7 +607,7 @@ Hell is other demons;11,99;17.06.2021;Cuddle Monster Games;Kongregate;ROGUE_LITE
 Overcooked! 2;29,99;17.06.2021;Ghost Town Games and Team17 Digital Ltd;Team17 Digital Ltd;CO_OP,MULTIPLAYER,SIMULATION
 Doctor Who: The Lonely Assassins;7,19;18.06.2021;Kaigan Games;Maze Theory ;INDIE,ADVENTURE,PUZZLE
 Mars Horizon;23,99;22.06.2021;;;STRATEGY,SIMULATION,INDIE
-LEGO® Builder's Journey;23,99;22.06.2021;;;PUZZLE,ADVENTURE,CASUAL
+LEGOï¿½ Builder's Journey;23,99;22.06.2021;;;PUZZLE,ADVENTURE,CASUAL
 Alex Kidd in Miracle World DX;23,99;22.06.2021;;;PLATFORMER,ACTION,ADVENTURE
 Pascal's Wager: Definitive Edition;23,99;23.06.2021;TipsWorks;Giant Mobile;ACTION,SINGLE_PLAYER,RPG
 Sakuna: Of Rice and Ruin;35,99;23.06.2021;;;
@@ -657,13 +657,13 @@ Chernobylite;35,99;28.07.2021;;;
 Unbound: Worlds Apart;23,99;28.07.2021;Alien Pixel Studios;Alien Pixel Studios;PLATFORMER,PUZZLE,INDIE
 OMNO;22,79;29.07.2021;;;ADVENTURE,PLATFORMER,INDIE
 Fuga: Melodies of Steel;47,99;29.07.2021;;;
-Train Sim World® 2;35,99;29.07.2021;Dovetail Games;Dovetail Games;SIMULATION,SINGLE_PLAYER
+Train Sim Worldï¿½ 2;35,99;29.07.2021;Dovetail Games;Dovetail Games;SIMULATION,SINGLE_PLAYER
 Mothergunship;29,99;29.07.2021;Terrible Posture Games;Versus Evil;ACTION,SHOOTER,FPS
 Banners of Ruin;23,99;29.07.2021;MonteBearo;Goblinz Publishing;CARD_GAME,STRATEGY,ROGUE_LIKE
 No Longer Home;17,99;30.07.2021;;;
 GRIME;29,99;02.08.2021;Clover Bite;Akupara Games;ACTION,PLATFORMER,METROIDVANIA
 Neon City Riders: Super-powered Edition;17,99;03.08.2021;Mecha Studios;Mecha Studios;ACTION,ADVENTURE,OPEN_WORLD
-Drone Racing League®;11,99;04.08.2021;The Drone Racing League;The Drone Racing League;RACING,SIMULATION,MULTIPLAYER
+Drone Racing Leagueï¿½;11,99;04.08.2021;The Drone Racing League;The Drone Racing League;RACING,SIMULATION,MULTIPLAYER
 Dreamscaper;29,99;05.08.2021;;;
 The Falconeer: Standard Edition;23,99;05.08.2021;Tomas Sala;Wired Productions;ACTION,INDIE,OPEN_WORLD
 Death Trash;23,99;05.08.2021;Crafting Legends;Crafting Legends;
@@ -679,7 +679,7 @@ The Last Show of Mr. Chardish;11,99;12.08.2021;;;
 Voidtrain;35,99;12.08.2021;;;
 Road 96;23,95;16.08.2021;Digixart;Ravenscourt;ADVENTURE,INDIE,SINGLE_PLAYER
 Fort Triumph;23,99;17.08.2021;;;
-HUMANKIND™ Standard Edition;59,99;17.08.2021;AMPLITUDE Studios;SEGA;STRATEGY,TURN_BASED,4X
+HUMANKINDï¿½ Standard Edition;59,99;17.08.2021;AMPLITUDE Studios;SEGA;STRATEGY,TURN_BASED,4X
 Transport Fever 2;47,99;18.08.2021;Urban Games;Good Shepherd Entertainment;SINGLE_PLAYER,SIMULATION
 The Vale: Shadow of the Crown;23,99;19.08.2021;;;
 8Doors: Arum's Afterlife Adventure;23,99;19.08.2021;;;
@@ -742,7 +742,7 @@ Sable;29,99;23.09.2021;;;
 Mind Scanners;20,39;23.09.2021;;;
 Warhammer Age of Sigmar: Storm Ground;23,99;23.09.2021;;Focus Entertainment;
 The Surge;17,99;23.09.2021;;;
-Nioh 2 – The Complete Edition;59,99;23.09.2021;KOEI TECMO GAMES CO., LTD.;KOEI TECMO GAMES CO., LTD.;ACTION,RPG,SINGLE_PLAYER,MULTIPLAYER,CO_OP
+Nioh 2 ï¿½ The Complete Edition;59,99;23.09.2021;KOEI TECMO GAMES CO., LTD.;KOEI TECMO GAMES CO., LTD.;ACTION,RPG,SINGLE_PLAYER,MULTIPLAYER,CO_OP
 Buddy Simulator 1984;11,99;23.09.2021;;;
 Teacup;11,99;23.09.2021;;;
 Out of the Park Baseball 22;23,99;23.09.2021;;;
@@ -758,11 +758,11 @@ NEO: The World Ends with You;71,99;28.09.2021;h.a.n.d., Inc.;Square Enix;ACTION,
 UnMetal;23,99;28.09.2021;UnEpic Fran;Versus Evil;ACTION,ADVENTURE,STEALTH
 Centipede: Recharged;11,99;29.09.2021;;;
 Rogue Lords;29,99;30.09.2021;Leikir Studio;Nacon;INDIE,ROGUE_LIKE,ROGUE_LITE
-Second Extinction™;29,99;30.09.2021;;;
+Second Extinctionï¿½;29,99;30.09.2021;;;
 Bonfire Peaks;23,99;30.09.2021;;;
 Europa Universalis IV;47,99;30.09.2021;Paradox Development Studio / Paradox Tinto;Paradox Interactive;STRATEGY,SIMULATION
 Astria Ascending;41,99;30.09.2021;Artisan Studios;Dear Villagers;RPG,TURN_BASED,SINGLE_PLAYER
-HOT WHEELS UNLEASHED™;59,99;30.09.2021;;;
+HOT WHEELS UNLEASHEDï¿½;59,99;30.09.2021;;;
 Milestone S.r.l.;0,00;;;;
 The Last Friend;17,99;30.09.2021;The Stonebot Studio, Ludus Games;Skystone Games Inc.;ARCADE,STRATEGY,FIGHTING
 INDUSTRIA;23,99;30.09.2021;;;
@@ -806,7 +806,7 @@ Legend of Grimrock 2;35,99;25.10.2021;;;RPG,DUNGEON_CRAWLER,INDIE
 Legend of Grimrock;17,99;25.10.2021;;;RPG,INDIE,DUNGEON_CRAWLER
 At Eve's Wake;29,99;26.10.2021;;;
 Darkest Dungeon II;35,99;26.10.2021;;;
-Marvel's Guardians of the Galaxy;71,99;26.10.2021;Eidos-Montréal;Square Enix;ACTION,ADVENTURE
+Marvel's Guardians of the Galaxy;71,99;26.10.2021;Eidos-Montrï¿½al;Square Enix;ACTION,ADVENTURE
 Aeon Must Die!;23,99;27.10.2021;;;
 Riders Republic;71,99;28.10.2021;Ubisoft Annecy;Ubisoft;OPEN_WORLD,SPORTS,MULTIPLAYER,ACTION
 Black Widow: Recharged;11,99;28.10.2021;;;ACTION,ARCADE,SHOOTER
@@ -822,7 +822,7 @@ Tunche;23,99;02.11.2021;;;ACTION,ROGUE_LIKE,CO_OP
 Franchise Hockey Manager 8;47,99;03.11.2021;Out of the Park Developments;Out of the Park Developments;STRATEGY,SIMULATION,SPORTS
 ChromaGun;15,59;03.11.2021;;;INDIE,FIRST_PERSON,PUZZLE
 Time Loader;17,99;03.11.2021;;;
-Trüberbrook;35,99;03.11.2021;;;ADVENTURE,INDIE
+Trï¿½berbrook;35,99;03.11.2021;;;ADVENTURE,INDIE
 Starsand;23,99;04.11.2021;;;
 Demon Turf;29,99;04.11.2021;Fabraz;Playtonic Games;INDIE,PLATFORMER,ADVENTURE
 Aven Colony;35,99;04.11.2021; Mothership Entertainment LLC;Team17;CITY_BUILDER,SIMULATION,STRATEGY
@@ -842,19 +842,19 @@ Moonglow Bay;29,99;11.11.2021;;;INDIE,RPG,ADVENTURE
 Lifeslide;11,99;15.11.2021;Dreamteck;Dreamteck;ADVENTURE,ARCADE,INDIE
 The Last Stand: Aftermath;29,99;16.11.2021;;;ACTION,ROGUE_LIKE,SHOOTER
 Sherlock Holmes Chapter One;53,99;16.11.2021;Frogwares;Frogwares;ACTION,INVESTIGATION,ADVENTURE
-Ruined King: A League of Legends Story™;35,99;16.11.2021;Airship Syndicate;Riot Forge;RPG,INDIE,TURN_BASED
-Hextech Mayhem: A League of Legends Story™;11,99;16.11.2021;;;
+Ruined King: A League of Legends Storyï¿½;35,99;16.11.2021;Airship Syndicate;Riot Forge;RPG,INDIE,TURN_BASED
+Hextech Mayhem: A League of Legends Storyï¿½;11,99;16.11.2021;;;
 Surviving the Aftermath;35,99;16.11.2021;Iceflake Studios Oy;Paradox Interactive AB;STRATEGY,CITY_BUILDER,SIMULATION
 Exo One;20,39;18.11.2021;;;
 Guild of Dungeoneering Ultimate Edition;23,99;18.11.2021;;;CARD_GAME,DUNGEON_CRAWLER,ROGUE_LIKE
 Never Alone (Kisima Ingitchuna);17,99;18.11.2021;Upper One Games, E-Line Media;E-Line Media;CO_OP,INDIE,PLATFORMER
 Antstream Arcade;0,00;18.11.2021;;;
 KID A MNESIA EXHIBITION;0,00;18.11.2021;;;
-Battlefield™ 2042;71,99;19.11.2021;;;SHOOTER,FIRST_PERSON,MULTIPLAYER
+Battlefieldï¿½ 2042;71,99;19.11.2021;;;SHOOTER,FIRST_PERSON,MULTIPLAYER
 Farming Simulator 22;59,99;22.11.2021;;;
 Total War: WARHAMMER;71,99;22.11.2021;CREATIVE ASSEMBLY;SEGA;STRATEGY,ACTION
 Conan Exiles;47,99;23.11.2021;Funcom;Funcom;
-theHunter: Call of the Wild™;23,99;25.11.2021;;;
+theHunter: Call of the Wildï¿½;23,99;25.11.2021;;;
 Nexomon: Extinction;23,99;30.11.2021;;;
 STORY OF SEASONS: Friends of Mineral Town;47,99;30.11.2021;;;
 Quake;11,99;02.12.2021;id Software,Nightdive Studios,MachineGames;Bethesda Softworks;SHOOTER,ACTION,ADVENTURE
@@ -899,7 +899,7 @@ Farmer's Dynasty;35,99;13.01.2022;;;
 Rescue Party: Live!;11,99;13.01.2022;TAG Studio;505 Games;PARTY,CASUAL
 God of War;59,99;14.01.2022;;;
 Tom Clancy's Rainbow Six Extraction;47,99;20.01.2022;Ubisoft;Ubisoft;SHOOTER,STRATEGY,CO_OP,MULTIPLAYER,ACTION
-Tom Clancy's Rainbow Six® Extraction United Bundle;71,99;20.01.2022;Ubisoft;Ubisoft;
+Tom Clancy's Rainbow Sixï¿½ Extraction United Bundle;71,99;20.01.2022;Ubisoft;Ubisoft;
 Pupperazzi;23,99;20.01.2022;;;
 FOCUS INDIES BUNDLE: Curse of the Dead Gods + Shady Part of Me + Aeon Must Die!;47,99;20.01.2022;;;
 Expeditions: Rome;53,99;20.01.2022;;;RPG,STRATEGY,SINGLE_PLAYER
