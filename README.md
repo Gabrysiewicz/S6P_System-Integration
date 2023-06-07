@@ -9,9 +9,9 @@
 - Poniżej przedstawiono punktację za poszczególne realizowane funkcjonalności
 
 ### W projekcie:
-- [ ] eksport/import z pliku XML – 5 pkt
-- [ ] eksport/import z pliku JSON/YAML – 5 pkt
-- [ ] eksport/import z bazy danych – 5 pkt
+- [X] eksport/import z pliku XML – 5 pkt
+- [X] eksport/import z pliku JSON/YAML – 5 pkt
+- [X] eksport/import z bazy danych – 5 pkt
 - [X] wykorzystanie ORM w celu dostępu do bazy danych – 5 pkt
 - [ ] wykorzystanie usług typu SOAP – 5 pkt
 - [ ] wykorzystanie usług typu REST – 5 pkt
