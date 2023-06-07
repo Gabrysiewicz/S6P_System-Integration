@@ -37,29 +37,29 @@ cd S6P_Integracja_systemow/project
 composer install
 ```
 
-4. Stwórz plik `.env` w katalogu projektu:
-```
-touch .env
-```
-
-5. Skopiuj zawartość pliku `.env.example` do nowo utworzonego pliku `.env`:
+4. Skopiuj zawartość pliku `.env.example` do pliku `.env`:
 ```
 cp .env.example .env
 ```
 
-6. Wygeneruj klucz aplikacji:
+5. Wygeneruj klucz aplikacji:
 ```
 php artisan key:generate
 ```
 
-7. Zainstaluj i skonfiguruj narzędzie Sail, które umożliwi uruchomienie kontenerów Dockera:
+6. Zainstaluj i skonfiguruj narzędzie Sail, które umożliwi uruchomienie kontenerów Dockera:
 ```
 php artisan sail:install
 ```
 
-8. Wyczyść zbuforowane dane aplikacji, przed uruchomieniem kontenerów:
+7. Wyczyść zbuforowane dane aplikacji, przed uruchomieniem kontenerów:
 ```
 php artisan optimize:clear
+```
+
+8. Wyszyść już istniejące migracje
+```
+./vendor/bin/sail artisan migrate:fresh
 ```
 
 9. Uruchom kontenery Dockera przy użyciu polecenia:
