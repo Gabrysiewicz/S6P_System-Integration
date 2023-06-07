@@ -6,7 +6,7 @@
 - należy zaprezentować prowadzącemu i przesłać w terminie do przedostatnich zajęć włącznie
 - integrowane dane przechowywane w plikach lub bazie danych muszą być zgodne z tematyką projektu
 - wymagany jest interfejs graficzny pozwalający na wykonywanie akcji oraz prezentację danych
-- Poniżej przedstawiono punktację za poszczególne funkcjonalności realizowane
+- Poniżej przedstawiono punktację za poszczególne realizowane funkcjonalności
 
 ### W projekcie:
 - [ ] eksport/import z pliku XML – 5 pkt
@@ -20,8 +20,6 @@
 - [ ] wykorzystanie poziomów izolacji w bazie danych – 5 pkt
 
 ## Instrukcja instalacji
-Instrukcje instalacji projektu:
-
 1. Sklonuj projekt z repozytorium Git:
 ```
 git clone https://github.com/Gabrysiewicz/S6P_Integracja_systemow.git
@@ -57,7 +55,7 @@ php artisan sail:install
 php artisan optimize:clear
 ```
 
-8. Wyszyść już istniejące migracje
+8. Wyczyść już istniejące migracje
 ```
 ./vendor/bin/sail artisan migrate:fresh
 ```
@@ -106,7 +104,7 @@ return new class extends Migration
 
 ## Docker
 
-Konterneryzacja we frameworku Laravel jest realizowana za pośrednictwem sail. W tym celu do już istniejącego projektu należy doinstalować sail:
+Konteneryzacja we frameworku Laravel jest realizowana za pośrednictwem sail. W tym celu do już istniejącego projektu należy doinstalować sail:
 ```
 composer require laravel/sail --dev
 ```
@@ -116,7 +114,7 @@ Następnie za pośrednictwem sail zostanie wygenerowany docker-compose wykorzyst
 php artisan sail:install
 ```
 
-Wygenerowany docker-compose.yml zawiera 2 kontenery, laravel.test z zainstalowanym laravelem i composerem wewnątrz którego będzie również znajdywał się pojekt,
+Wygenerowany docker-compose.yml zawiera 2 kontenery, laravel.test z zainstalowanym laravelem i composerem wewnątrz którego będzie również znajdował się projekt,
 oraz kontener bazodanowy z mysql:
 ```
 version: '3'
@@ -200,7 +198,7 @@ Konfiguracja config/auth.php
 ],
 ```
 
-Następnie należy dodać kontroller do obsługi autoryzacji
+Następnie należy dodać kontroler do obsługi autoryzacji
 ```
 sail artisan make:controller AuthController
 ```
@@ -281,7 +279,7 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 });
 ```
 
-Widok dla nie zautoryzowanego użytkownika
+Widok dla nieautoryzowanego użytkownika
 <img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/images/autoryzacja.jpg" >
 
 ## Baza danych
@@ -304,16 +302,18 @@ Relacje
 Import plików .csv jest możliwy tylko gdy plik ma następującą strukturę:
 
 ```
-name;developer;publisher;genres;release_date_steam;price_steam;release_date_epic;price_epic
+name;developer;publisher;genre;release_date_steam;price_steam;release_date_epic;price_epic
 Test1;Developer1;Publisher1;Action;31.09.2008;19.99;29.09.2008;14,99
 Test2;"Developer2;Developer3";"Publisher2;Publisher3";"Adventure;Indie";31.09.2008;29.99;29.09.2008;24,99
 ```
 
 Pierwszy wiersz musi zawierać nagłówki kolumn <br>
 Kolumny muszą być oddzielone znakiem ";" <br>
-W przypadku kolumn developer, publisher i genres, można podać wiele danych, oddzielając je znakiem ";" <br>
+W przypadku kolumn developer, publisher i genre, można podać wiele danych, oddzielając je znakiem ";" <br>
 
 ## Import/Export JSON
+Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date
+W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]
 Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
 
 W postaci pojedyńczego obiektu
@@ -322,14 +322,14 @@ W postaci pojedyńczego obiektu
     "name": "Test1",
     "developer": "Developer1",
     "publisher": "Publisher1",
-    "genres": ["Action"],
+    "genre": ["Action"],
     "steam": {
-            "price": "14.99",
-            "release_date": "06.06.2023"
+        "price": "14.99",
+        "release_date": "06.06.2023"
     },
     "epic": {
-            "price": "19.99",
-            "release_date": "31.09.2008"
+        "price": "19.99",
+        "release_date": "31.09.2008"
     }
 }
 ```
@@ -341,7 +341,7 @@ W postaci tablicy obiektów
         "name": "Test1",
         "developer": "Developer1",
         "publisher": "Publisher1",
-        "genres": "Action",
+        "genre": "Action",
         "steam": {
             "price": "19.99",
             "release_date": "06.06.2023"
@@ -355,7 +355,7 @@ W postaci tablicy obiektów
         "name": "Test2"
         "developer": ["Developer2", "Developer3"],
         "publisher": ["Publisher2", "Publisher3"],
-        "genres": "Adventure",
+        "genre": "Adventure",
         "steam": {
             "price": "29.99",
             "release_date": "06.06.2023"
@@ -368,4 +368,79 @@ W postaci tablicy obiektów
 ]
 ```
 
-W przypadku kolumn developer, publisher i genres, można podać wiele danych, umieszczając dane w tablicy [" "," "]
+## Import/Export XML
+Import plików .xml jest możliwy tylko gdy plik ma następującą strukturę:
+
+W postaci pojedyńczego elementu
+```
+<game>
+    <name>Example Game 1</name>
+    <developers>
+        <developer>Example Developer</developer>
+    </developers>
+    <publishers>
+        <publisher>Example Publisher</publisher>
+    </publishers>
+    <genres>
+        <genre>Action</genre>
+        <genre>Adventure</genre>
+    </genres>
+    <steam>
+        <release_date>2023-06-01</release_date>
+        <price>19.99</price>
+    </steam>
+    <epic>
+        <release_date>2023-06-15</release_date>
+        <price>14.99</price>
+    </epic>   
+</game>
+```
+
+W postaci tablicy elementów
+```
+<games>
+    <game>
+        <name>Example Game 1</name>
+        <developers>
+            <developer>Example Developer</developer>
+        </developers>
+        <publishers>
+            <publisher>Example Publisher</publisher>
+        </publishers>
+        <genres>
+            <genre>Action</genre>
+            <genre>Adventure</genre>
+        </genres>
+        <steam>
+            <release_date>2023-06-01</release_date>
+            <price>19.99</price>
+        </steam>
+        <epic>
+            <release_date>2023-06-15</release_date>
+            <price>14.99</price>
+        </epic>
+    </game>
+    <game>
+        <name>Example Game 2</name>
+        <developers>
+            <developer>Example Developer</developer>
+        </developers>
+        <publishers>
+            <publisher>Example Publisher</publisher>
+            <publisher>Example Publisher 2</publisher>
+        </publishers>
+        <genres>
+            <genre>Action</genre>
+            <genre>Adventure</genre>
+        </genres>
+        <steam>
+            <release_date>2023-06-01</release_date>
+            <price>19.99</price>
+        </steam>
+        <epic>
+            <release_date>2023-06-15</release_date>
+            <price>14.99</price>
+        </epic>
+    </game>
+</games>
+```
