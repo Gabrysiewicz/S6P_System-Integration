@@ -121,13 +121,6 @@
                     <input type="file" name="import-as-json" id="import-as-json" accept=".json" style="display: none;">
                 </form>
             </article>
-            <article id='as-sql'>
-                <input type='button' id='import-as-sql-submit' name='import-as-sql' value='sql'>
-                <form id="import-sql" action="/import-sql" method="POST" enctype="multipart/form-data">
-                    @csrf
-                    <input type="file" name="import-as-sql" id="import-as-sql" accept=".sql" style="display: none;">
-                </form>
-            </article>
         </main>
         <script>
             function handleFileImport(submitButtonId, fileInputId, formId) {
