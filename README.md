@@ -60,7 +60,12 @@ php artisan optimize:clear
 ./vendor/bin/sail artisan migrate:fresh
 ```
 
-9. Uruchom kontenery Dockera przy użyciu polecenia:
+9. Wygeneruj Secret Key (JWT)
+```
+sail artisan key:generate
+```
+
+10. Uruchom kontenery Dockera przy użyciu polecenia:
 ```
 ./vendor/bin/sail up
 ```
