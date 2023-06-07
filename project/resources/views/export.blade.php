@@ -100,15 +100,24 @@
             </section>
         </nav>
         <main>
+            <article id='as-csv'>
+                <form action="/export-csv" method="POST">
+                    @csrf
+                    <input type='submit' id='import-as-csv' name='import-as-csv' value='csv'>
+                </form>
+            </article>
             <article id='as-xml'>
-                <input type='button' id='import-as-xml' name='import-as-xml' value='xml'>
+                <form action="/export-xml" method="POST">
+                    @csrf
+                    <input type='submit' id='import-as-xml' name='import-as-xml' value='xml'>
+                </form>        
             </article>
             <article id='as-json'>
-                <input type='button' id='import-as-json' name='import-as-json' value='json'>
-            </article>
-            <article id='as-sql'>
-                <input type='button' id='import-as-sql' name='import-as-sql' value='sql'>
-            </article>
+                <form action="/export-json" method="POST">
+                    @csrf
+                    <input type='submit' id='import-as-json' name='import-as-json' value='json'>
+                </article>
+            </form>
         </main>
         <script>
             let redirectTo = (dest) => {
