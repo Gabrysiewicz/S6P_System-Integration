@@ -665,7 +665,7 @@ Utworzenie Middleware do obsługi JWT
 php artisan make:middleware JwtMiddleware
 ```
 
-`Http/Middleware/JwtMiddleware.php`
+### `Http/Middleware/JwtMiddleware.php`
 ```
 class JwtMiddleware
 {
@@ -692,7 +692,7 @@ class JwtMiddleware
 
 ```
 
-Wewnątrz `Models/User.php` należy dodać funkcję do popierania tokenów od User
+Wewnątrz `Models/User.php` należy dodać funkcję do pobierania tokenów od User
 ```
     public function getJWTIdentifier()
     {
@@ -711,16 +711,8 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 })
 ```
 
-Pierwszy wiersz musi zawierać nagłówki kolumn <br>
-Kolumny muszą być oddzielone znakiem ";" <br>
-W przypadku kolumn developer, publisher i genre, można podać wiele danych, oddzielając je znakiem ";" <br>
+Wewnątrz `Http/Kernel.php` musimy dodać alias do tego middleware
 
-## Import/Export JSON
-Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date
-W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]
-Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
-
-W postaci pojedyńczego obiektu
 ```
 protected $middlewareAliases = [
         [...],
