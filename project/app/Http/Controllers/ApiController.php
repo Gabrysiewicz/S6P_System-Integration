@@ -6,28 +6,40 @@ use App\Models\Game;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB; // Isolation
 
 class ApiController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
+
+    // REPEATABLE READ
     public function index()
     {
         $user = Auth::user();
-        // $games = Game::latest()->paginate(10);
+
+        DB::beginTransaction();
+
+        sleep(15);
+        
         $games = Game::latest()->get();
 
-        if( $user->isAdmin() ){
-            $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])->latest()->get();
+        if ($user->isAdmin()) {
+            $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])
+                ->latest()
+                ->lockForUpdate()
+                ->get();
         }
-
+    
+        // Commit the transaction
+        DB::commit();
+    
         return [
             "status" => 1,
             "data" => $games
         ];
     }
-
     /**
      * Show the form for creating a new resource.
      */
