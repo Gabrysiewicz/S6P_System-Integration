@@ -318,7 +318,7 @@ Route::group(['middleware' => 'jwt.auth'], function () {
     Route::delete('games/{game}', [ApiController::class, 'destroy']);
 });
 ```
-** Zakomentowana linia pozwala na bardzo uproszczony dostęp do wszystkich funkcji (index, edit, delete, itd...)**
+* Zakomentowana linia pozwala na bardzo uproszczony dostęp do wszystkich funkcji (index, edit, delete, itd...) *
 
 Dostęp do api domyślnie odbywa się poprzez trasę `localhost/api` np (POST) `localhost/api/login` 
 z loginem i hasłem umieszczonym wewnątrz body w celu pobrania tokenu JWT
@@ -448,7 +448,7 @@ Widok Index dla klienta o roli `admin`
 }
 ```
 
-** Admin posiada dostęp do wszelich danych podczas gry user widzi zaledwie nazwę gry, id user który tę grę dodał, oraz daty dodania oraz modyfikacji**
+* Admin posiada dostęp do wszelich danych podczas gry user widzi zaledwie nazwę gry, id user który tę grę dodał, oraz daty dodania oraz modyfikacji *
 
 # Docker
 
