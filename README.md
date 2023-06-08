@@ -8,10 +8,10 @@
 - wymagany jest interfejs graficzny pozwalający na wykonywanie akcji oraz prezentację danych
 - Poniżej przedstawiono punktację za poszczególne realizowane funkcjonalności
 
-## W projekcie:
-- [ ] eksport/import z pliku XML – 5 pkt
-- [ ] eksport/import z pliku JSON/YAML – 5 pkt
-- [ ] eksport/import z bazy danych – 5 pkt
+### W projekcie:
+- [X] eksport/import z pliku XML – 5 pkt
+- [X] eksport/import z pliku JSON/YAML – 5 pkt
+- [X] eksport/import z bazy danych – 5 pkt
 - [X] wykorzystanie ORM w celu dostępu do bazy danych – 5 pkt
 - [ ] wykorzystanie usług typu SOAP – 5 pkt
 - [X] wykorzystanie usług typu REST – 5 pkt
@@ -711,7 +711,16 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 })
 ```
 
-Wewnątrz `Http/Kernel.php` należy dodać wykorzystany alias
+Pierwszy wiersz musi zawierać nagłówki kolumn <br>
+Kolumny muszą być oddzielone znakiem ";" <br>
+W przypadku kolumn developer, publisher i genre, można podać wiele danych, oddzielając je znakiem ";" <br>
+
+## Import/Export JSON
+Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date
+W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]
+Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
+
+W postaci pojedyńczego obiektu
 ```
 protected $middlewareAliases = [
         [...],

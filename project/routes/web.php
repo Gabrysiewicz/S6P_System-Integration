@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ImportController;
+use App\Http\Controllers\ExportController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AuthController;
@@ -33,6 +34,10 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/import-csv', [ImportController::class, 'importCSV']);
     Route::post('/import-json', [ImportController::class, 'importJSON']);
     Route::post('/import-xml', [ImportController::class, 'importXML']);
+
+    Route::post('/export-csv', [ExportController::class, 'exportCSV']);
+    Route::post('/export-json', [ExportController::class, 'exportJSON']);
+    Route::post('/export-xml', [ExportController::class, 'exportXML']);
 
     Route::post('/logout', function () {
         Auth::logout();
