@@ -721,3 +721,93 @@ protected $middlewareAliases = [
 ```
 
 # ISOLLATION
+
+W Laravelu dla bazydanych jest możliwy tylko 1 tryb izolacji na raz.
+
+Aby wykorzystać izolacje musimy skonfigurować `config/database.php`
+REPETABLE READ:
+```
+        'mysql' => [
+            [...]
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+                PDO::MYSQL_ATTR_INIT_COMMAND => 'SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ',
+            ]) : [],
+        ],
+```
+READ COMMITTED:
+```
+        'mysql' => [
+            [...]
+            'options' => extension_loaded('pdo_mysql') ? array_filter([
+                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+                PDO::MYSQL_ATTR_INIT_COMMAND => 'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED',
+            ]) : [],
+        ],
+```
+
+Aby zmiana `config` działała należy użyć polecenia
+```
+sail artisan config:cache
+```
+
+## Wykorzystanie poziomów izolacji dla API
+REPEATABLE READ:
+```
+    public function index()
+    {
+        $user = Auth::user();
+
+        DB::beginTransaction();
+
+        sleep(15);
+        
+        $games = Game::latest()->get();
+
+        if ($user->isAdmin()) {
+            $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])
+                ->latest()
+                ->lockForUpdate()
+                ->get();
+        }
+    
+        // Commit the transaction
+        DB::commit();
+    
+        return [
+            "status" => 1,
+            "data" => $games
+        ];
+    }
+```
+*Podczas pobierania danych za pośrednictwem api /localhost/api/games jest tworzona transakcja z wykorzystanie mechanizmu REPEATABLE READ. Aby poprawnie wykorzystać tę transakcję należy zastosować lockForUpdate(). Z kolei w przypadku READ COMMITTED wystarczy usunąć tę funkcję pośredniczącą.*
+
+READ COMMITTED
+```
+REPEATABLE READ:
+```
+    public function index()
+    {
+        $user = Auth::user();
+
+        DB::beginTransaction();
+
+        sleep(15);
+        
+        $games = Game::latest()->get();
+
+        if ($user->isAdmin()) {
+            $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])
+                ->latest()
+                ->get();
+        }
+    
+        // Commit the transaction
+        DB::commit();
+    
+        return [
+            "status" => 1,
+            "data" => $games
+        ];
+    }
+```
