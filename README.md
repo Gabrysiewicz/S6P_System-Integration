@@ -69,8 +69,8 @@ sail artisan key:generate
 ```
 ./vendor/bin/sail up
 ```
-# XML 
 
+# XML 
 Import plików .xml jest możliwy tylko gdy plik ma następującą strukturę:
 
 W postaci pojedyńczego elementu
@@ -148,7 +148,6 @@ W postaci tablicy elementów
 ```
 
 # JSON
-
 Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date<br>
 W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]<br>
 Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
@@ -279,6 +278,7 @@ return new class extends Migration
     }
 };
 ```
+
 # SOAP
 Soap server jest tworzony razem z plikiem wsdl poprzez biblioteke NuSOAP
 ```
@@ -365,7 +365,6 @@ static async Task Main(string[] args)
 ```
 
 # REST
-
 REST API jest realizowane z wykorzystaniem JWT. W Laravel'u do wstępnej implementacji API należy utworzyć odpowiedni kontroler wykorzystujący
 odpowiadający nam model:
 ```
@@ -408,24 +407,24 @@ z loginem i hasłem umieszczonym wewnątrz body w celu pobrania tokenu JWT
 
 Routing związany z api można konfigurować w `Providers/RouteServiceProvider.php` w funkcji `boot()`:
 ```
-    public function boot(): void
-    {
-        RateLimiter::for('api', function (Request $request) {
-            return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
-        });
+public function boot(): void
+{
+    RateLimiter::for('api', function (Request $request) {
+        return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
+    });
 
-        $this->routes(function () {
-            Route::middleware('api')
-                ->prefix('api')
-                ->namespace($this->namespace)
-                ->group(base_path('routes/api.php'));
+    $this->routes(function () {
+        Route::middleware('api')
+            ->prefix('api')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/api.php'));
 
 
-            Route::middleware('web')
-                ->group(base_path('routes/web.php'));
+        Route::middleware('web')
+            ->group(base_path('routes/web.php'));
 
-        });
-    }
+    });
+}
 ```
 
 Widok Index dla klienta o roli `user`
@@ -534,7 +533,6 @@ Widok Index dla klienta o roli `admin`
 *Admin posiada dostęp do wszelkich danych podczas gry user widzi zaledwie nazwę gry, id user który tę grę dodał, oraz daty dodania oraz modyfikacji*
 
 # Docker
-
 Konteneryzacja we frameworku Laravel jest realizowana za pośrednictwem sail. W tym celu do już istniejącego projektu należy doinstalować sail:
 ```
 composer require laravel/sail --dev
@@ -727,7 +725,6 @@ Ponieważ JWT zostało wykorzystane zarówno do logowania na stronie (WEB) jak i
 Dla API zwracany jest `response` z json, a dla `WEB` widok lub redirect
 Co ważne `$request->expectsJson()` w kodzie odnosi się do klucza `Accept` i wartości `application/json` w programach typu Postman a nie do klucza `Expect`
 
-
 Jeżeli się tego nie zrobiło, należy wygenerować SecretKey. Automatycznie zostanie dodany do .env
 ```
 php artisan jwt:secret
@@ -776,14 +773,14 @@ class JwtMiddleware
 
 Wewnątrz `Models/User.php` należy dodać funkcję do pobierania tokenów od User
 ```
-    public function getJWTIdentifier()
-    {
-        return $this->getKey();
-    }
-    public function getJWTCustomClaims()
-    {
-        return [];
-    }
+public function getJWTIdentifier()
+{
+    return $this->getKey();
+}
+public function getJWTCustomClaims()
+{
+    return [];
+}
 ```
 
 Ponieważ w `routes/api.php` korzystamy z non-default middleware
@@ -802,29 +799,28 @@ protected $middlewareAliases = [
 ```
 
 # ISOLATION
-
 W Laravelu dla bazydanych jest możliwy tylko 1 tryb izolacji na raz.
 
 Aby wykorzystać izolacje musimy skonfigurować `config/database.php`
 REPETABLE READ:
 ```
-        'mysql' => [
-            [...]
-            'options' => extension_loaded('pdo_mysql') ? array_filter([
-                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-                PDO::MYSQL_ATTR_INIT_COMMAND => 'SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ',
-            ]) : [],
-        ],
+'mysql' => [
+    [...]
+    'options' => extension_loaded('pdo_mysql') ? array_filter([
+        PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ',
+    ]) : [],
+],        
 ```
 READ COMMITTED:
 ```
-        'mysql' => [
-            [...]
-            'options' => extension_loaded('pdo_mysql') ? array_filter([
-                PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
-                PDO::MYSQL_ATTR_INIT_COMMAND => 'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED',
-            ]) : [],
-        ],
+'mysql' => [
+    [...]
+    'options' => extension_loaded('pdo_mysql') ? array_filter([
+        PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
+        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED',
+    ]) : [],
+],
 ```
 
 Aby zmiana `config` działała należy użyć polecenia
@@ -835,58 +831,58 @@ sail artisan config:cache
 ## Wykorzystanie poziomów izolacji dla API
 REPEATABLE READ:
 ```
-    public function index()
-    {
-        $user = Auth::user();
+public function index()
+{
+    $user = Auth::user();
 
-        DB::beginTransaction();
+    DB::beginTransaction();
 
-        sleep(15);
+    sleep(15);
         
-        $games = Game::latest()->get();
+    $games = Game::latest()->get();
 
-        if ($user->isAdmin()) {
-            $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])
-                ->latest()
-                ->lockForUpdate()
-                ->get();
-        }
-    
-        // Commit the transaction
-        DB::commit();
-    
-        return [
-            "status" => 1,
-            "data" => $games
-        ];
+    if ($user->isAdmin()) {
+        $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])
+            ->latest()
+            ->lockForUpdate()
+            ->get();
     }
+
+    // Commit the transaction
+    DB::commit();
+
+    return [
+        "status" => 1,
+        "data" => $games
+    ];
+}
 ```
 *Podczas pobierania danych za pośrednictwem api /localhost/api/games jest tworzona transakcja z wykorzystanie mechanizmu REPEATABLE READ. Aby poprawnie wykorzystać tę transakcję należy zastosować lockForUpdate(). Z kolei w przypadku READ COMMITTED wystarczy usunąć tę funkcję pośredniczącą.*
 
 READ COMMITTED:
 ```
-    public function index()
-    {
-        $user = Auth::user();
+public function index()
+{
+    $user = Auth::user();
 
-        DB::beginTransaction();
+    DB::beginTransaction();
 
-        sleep(15);
+    sleep(15);
         
-        $games = Game::latest()->get();
+    $games = Game::latest()->get();
 
-        if ($user->isAdmin()) {
-            $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])
-                ->latest()
-                ->get();
-        }
-    
-        // Commit the transaction
-        DB::commit();
-    
-        return [
-            "status" => 1,
-            "data" => $games
-        ];
+    if ($user->isAdmin()) {
+        $games = Game::with(['developers', 'publishers', 'user', 'steam', 'epic', 'genres'])
+            ->latest()
+            ->get();
     }
+    
+    // Commit the transaction
+    DB::commit();
+
+    return [
+        "status" => 1,
+        "data" => $games
+    ];
+}
 ```
