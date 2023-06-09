@@ -863,9 +863,7 @@ REPEATABLE READ:
 ```
 *Podczas pobierania danych za pośrednictwem api /localhost/api/games jest tworzona transakcja z wykorzystanie mechanizmu REPEATABLE READ. Aby poprawnie wykorzystać tę transakcję należy zastosować lockForUpdate(). Z kolei w przypadku READ COMMITTED wystarczy usunąć tę funkcję pośredniczącą.*
 
-READ COMMITTED
-```
-REPEATABLE READ:
+READ COMMITTED:
 ```
     public function index()
     {
