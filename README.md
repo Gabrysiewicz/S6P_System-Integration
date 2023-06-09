@@ -13,11 +13,11 @@
 - [X] eksport/import z pliku JSON/YAML – 5 pkt
 - [X] eksport/import z bazy danych – 5 pkt
 - [X] wykorzystanie ORM w celu dostępu do bazy danych – 5 pkt
-- [ ] wykorzystanie usług typu SOAP – 5 pkt
+- [X] wykorzystanie usług typu SOAP – 5 pkt
 - [X] wykorzystanie usług typu REST – 5 pkt
 - [X] wykorzystanie kontenerów Docker – 5 pkt
 - [X] wykorzystanie mechanizmów uwierzytelnienia i autoryzacji przy użyciu tokenów JWT – 5 pkt
-- [ ] wykorzystanie poziomów izolacji w bazie danych – 5 pkt
+- [X] wykorzystanie poziomów izolacji w bazie danych – 5 pkt
 
 # Instrukcja instalacji
 1. Sklonuj projekt z repozytorium Git:
@@ -149,8 +149,8 @@ W postaci tablicy elementów
 
 # JSON
 
-Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date
-W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]
+Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date<br>
+W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]<br>
 Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
 
 W postaci pojedyńczego obiektu
@@ -280,6 +280,89 @@ return new class extends Migration
 };
 ```
 # SOAP
+Soap server jest tworzony razem z plikiem wsdl poprzez biblioteke NuSOAP
+```
+composer require econea/nusoap
+```
+
+Tworzenie routa w pliku `routes/api.php` w celu odbierania pliku wsdl, wraz z funkcją do pobierania nazwy gry na podstawie podanego id od strony clienta
+```
+Route::any('soap', function() {
+    $server = new \nusoap_server();
+
+    $server->configureWSDL('GameService', false, url('api/soap'));
+
+    $server->soap_defencoding = 'UTF-8';
+    $server->decode_utf8 = FALSE;
+
+    function GetGameName($gameId)
+    {
+        $game = Game::find($gameId);
+
+        // Sprawdź, czy gra o podanym id istnieje
+        if (!$game) {
+            return null;
+        }
+        
+        $gameName = $game->name;
+
+        return $gameName;
+    }
+
+    // Dodanie funkcji do SOAP
+    $server->register('GetGameName',
+        array('id' => 'xsd:string'),
+        array('result' => 'xsd:string'),
+    );
+
+    $rawPostData = file_get_contents("php://input");
+    return response($server->service($rawPostData), 200, array('Content-Type' => 'text/xml; charset=UTF-8'));
+});
+```
+
+Ważne jest aby w pliku konfiguracyjnym /vendor/econea/nusoap/src/nusoap.php zmienić linie odpowiedzialne za encoding pliku wsdl.
+Jest to wymagane aby połączyć się z usługą ze strony clienta.
+
+Przed zmianą
+```
+var $soap_defencoding = 'ISO-8859-1';
+//var $soap_defencoding = 'UTF-8';
+
+$xml = '<?xml version="1.0" encoding="ISO-8859-1"?>';
+```
+
+Po zmianie:
+```
+//var $soap_defencoding = 'ISO-8859-1';
+var $soap_defencoding = 'UTF-8';
+
+$xml = '<?xml version="1.0" encoding="' . $this->soap_defencoding . '"?>';
+```
+
+Soap client został stworzony za pomocą narzędzia WCF Web Service, dostępnego w Visual Studio, które umożliwia łączenie projektu .NET z usługą internetową.
+To narzędzie generuje cały kod oraz referencje po podaniu adresu do usługi.
+
+Główny kod programu pobierający nazwę gry na podstawie podanego id:
+```
+static async Task Main(string[] args)
+{
+    Console.OutputEncoding = Encoding.Unicode;
+    Console.WriteLine("SOAP Client");
+    GameServicePortTypeClient client = new GameServicePortTypeClient();
+    string id = "1";
+    GetGameNameResponse response = await
+    client.GetGameNameAsync(id);
+    if(response.result == null)
+    {
+        Console.WriteLine($"Brak gry o podanym id w bazie danych");
+    }
+    else
+    {
+        Console.WriteLine($"ID: {id}");
+        Console.WriteLine($"Nazwa: {response.result}");
+    }
+}
+```
 
 # REST
 
@@ -448,7 +531,7 @@ Widok Index dla klienta o roli `admin`
 }
 ```
 
-*Admin posiada dostęp do wszelich danych podczas gry user widzi zaledwie nazwę gry, id user który tę grę dodał, oraz daty dodania oraz modyfikacji*
+*Admin posiada dostęp do wszelkich danych podczas gry user widzi zaledwie nazwę gry, id user który tę grę dodał, oraz daty dodania oraz modyfikacji*
 
 # Docker
 
@@ -639,13 +722,13 @@ class AuthController extends Controller
     }
 }
 ```
-Jak widać w kodzie, kontroler obsługuje rejestracje, logowanie, wylogowywanie oraz popranie informacji o aktualnie zalogowanym użytkowniku.
+Jak widać w kodzie, kontroler obsługuje rejestracje, logowanie, wylogowywanie oraz pobranie informacji o aktualnie zalogowanym użytkowniku.
 Ponieważ JWT zostało wykorzystane zarówno do logowania na stronie (WEB) jak i w API, musiały zostać odpowiednio obsłużone `returny`.
 Dla API zwracany jest `response` z json, a dla `WEB` widok lub redirect
 Co ważne `$request->expectsJson()` w kodzie odnosi się do klucza `Accept` i wartości `application/json` w programach typu Postman a nie do klucza `Expect`
 
 
-Jeżeli się tego niezrobiło, należy wygenerować SecretKey. Automatycznie zostanie dodany do .env
+Jeżeli się tego nie zrobiło, należy wygenerować SecretKey. Automatycznie zostanie dodany do .env
 ```
 php artisan jwt:secret
 ```
@@ -655,7 +738,7 @@ Output
 jwt-auth secret [cvVG7cV8RTY6KtpodfatKMweRhBTL7lVtMSNfYRWuNNjmOuGBUZVIFBvdnGwXJoJ] set successfully.
 ```
 
-Wygenerowanie pliku `config/jwt.php` przechowującego informacje i konfikurację JWT:
+Wygenerowanie pliku `config/jwt.php` przechowującego informacje i konfigurację JWT:
 ```
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 ```
@@ -689,7 +772,6 @@ class JwtMiddleware
         }
     }
 }
-
 ```
 
 Wewnątrz `Models/User.php` należy dodać funkcję do pobierania tokenów od User
@@ -704,7 +786,7 @@ Wewnątrz `Models/User.php` należy dodać funkcję do pobierania tokenów od Us
     }
 ```
 
-Poniważ w `routes/api.php` korzystamy z non-default middleware
+Ponieważ w `routes/api.php` korzystamy z non-default middleware
 ```
 Route::group(['middleware' => 'jwt.auth'], function () {
     [...]
@@ -712,7 +794,6 @@ Route::group(['middleware' => 'jwt.auth'], function () {
 ```
 
 Wewnątrz `Http/Kernel.php` musimy dodać alias do tego middleware
-
 ```
 protected $middlewareAliases = [
         [...],
@@ -720,7 +801,7 @@ protected $middlewareAliases = [
 ]
 ```
 
-# ISOLLATION
+# ISOLATION
 
 W Laravelu dla bazydanych jest możliwy tylko 1 tryb izolacji na raz.
 
