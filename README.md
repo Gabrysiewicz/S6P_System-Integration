@@ -344,25 +344,24 @@ To narzędzie generuje cały kod oraz referencje po podaniu adresu do usługi.
 
 Główny kod programu pobierający nazwę gry na podstawie podanego id:
 ```
-static async Task Main(string[] args)
+private async Task GetNameAsync(string id)
 {
-    Console.OutputEncoding = Encoding.Unicode;
-    Console.WriteLine("SOAP Client");
     GameServicePortTypeClient client = new GameServicePortTypeClient();
-    string id = "1";
-    GetGameNameResponse response = await
-    client.GetGameNameAsync(id);
-    if(response.result == null)
+    GetGameNameResponse response = await client.GetGameNameAsync(id);
+    if (response.result == null)
     {
-        Console.WriteLine($"Brak gry o podanym id w bazie danych");
+        wynikLabel.Text = "Nazwa gry: Brak gry o podanym id";
     }
     else
     {
-        Console.WriteLine($"ID: {id}");
-        Console.WriteLine($"Nazwa: {response.result}");
+        wynikLabel.Text = $"Nazwa gry: {response.result}";
     }
 }
 ```
+
+Wygląd aplikacji stworzony za pomocą Windows Forms
+
+<img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/images/soapclient.png" >
 
 # REST
 REST API jest realizowane z wykorzystaniem JWT. W Laravel'u do wstępnej implementacji API należy utworzyć odpowiedni kontroler wykorzystujący
