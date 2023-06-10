@@ -91,7 +91,7 @@
             Controls.Add(idTextBox);
             Controls.Add(pobierzLabel);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            MinimizeBox = false;
+            MaximizeBox = false;
             Name = "Form1";
             Text = "SOAP Client";
             Load += Form1_Load;
