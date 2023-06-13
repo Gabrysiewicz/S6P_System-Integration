@@ -53,19 +53,23 @@
             }
             #control-section input:not(:hover), nav h1:not(:hover){
                 font-size: initial;
-            }
-            
-            main{
-                display: flex;
-                justify-content: space-around;
+            }     
+            main{         
+                justify-content: center;
                 align-items: center;
-
                 height: 100%;
                 width: 100%;
                 box-shadow: inset 0 0 1px 1px red;
             }
-            article{
-                /* box-shadow: inset 0 5px 5px blue; */
+            #buttons {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 80%;
+                width: 100%;
+            }
+            h1 {
+                text-align: center;
             }
             article input{
                 width: 250px;
@@ -100,6 +104,8 @@
             </section>
         </nav>
         <main>
+        <h1>Import</h1>
+        <div id="buttons">
             <article id='as-csv'>
                 <input type="button" id="import-as-csv-submit" value="csv">
                 <form id="import-csv" action="/import-csv" method="POST" enctype="multipart/form-data">
@@ -121,6 +127,7 @@
                     <input type="file" name="import-as-json" id="import-as-json" accept=".json" style="display: none;">
                 </form>
             </article>
+        </div>
         </main>
         <script>
             function handleFileImport(submitButtonId, fileInputId, formId) {

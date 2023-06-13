@@ -53,19 +53,23 @@
             }
             #control-section input:not(:hover), nav h1:not(:hover){
                 font-size: initial;
-            }
-            
-            main{
-                display: flex;
-                justify-content: space-around;
+            }     
+            main{         
+                justify-content: center;
                 align-items: center;
-
                 height: 100%;
                 width: 100%;
                 box-shadow: inset 0 0 1px 1px red;
             }
-            article{
-                /* box-shadow: inset 0 5px 5px blue; */
+            #buttons {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 80%;
+                width: 100%;
+            }
+            h1 {
+                text-align: center;
             }
             article input{
                 width: 250px;
@@ -100,6 +104,8 @@
             </section>
         </nav>
         <main>
+        <h1>Export</h1>
+        <div id="buttons">
             <article id='as-csv'>
                 <form action="/export-csv" method="POST">
                     @csrf
@@ -118,6 +124,7 @@
                     <input type='submit' id='import-as-json' name='import-as-json' value='json'>
                 </form>
             </article>
+        </div>
         </main>
         <script>
             let redirectTo = (dest) => {

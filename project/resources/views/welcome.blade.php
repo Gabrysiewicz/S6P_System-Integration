@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <title>Steam • Epic Games Store </title>
 
@@ -60,9 +61,24 @@
                 background: black;
                 color: white;
             }
-            tbody tr:nth-child(2n){
+            tbody tr.highlight {
                 background-color: rgba(0, 0, 0, 0.200);
-                color:rgb(68, 68, 68);
+                color: rgb(68, 68, 68);
+            }
+            #search-input {
+                width: 50%;
+            }
+            .delete-button {
+                background-color: red;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .highlight {
+                background-color: #f2f2f2;
+                color: #000;
             }
         </style>
     </head>
@@ -81,22 +97,41 @@
                 @endif
             </section>
         </nav>
-        <table>
+        <table id="games">
             <thead>
+                <tr>
+                    @if(auth()->check() && auth()->user()->isAdmin())
+                    <th colspan="9"> <input type="text" id="search-input" placeholder="Search..." /></th>
+                    @else
+                    <th colspan="8"> <input type="text" id="search-input" placeholder="Search..." /></th>                     
+                    @endif            
+                </tr>
                 <tr> 
-                    <th>Game</th>
-                    <th>Developer</th>
-                    <th>Publisher</th>
-                    <th>Genre</th>
-                    <th>Steam Release Date</th> 
-                    <th>Steam Price</th>
-                    <th>Epic Release Date</th> 
-                    <th>Epic Price</th> 
+                    @if(auth()->check() && auth()->user()->isAdmin())
+                    <th>Delete</th>
+                    @endif
+                    <th click-count="0">Game</th>
+                    <th click-count="0">Developer</th>
+                    <th click-count="0">Publisher</th>
+                    <th click-count="0">Genre</th>
+                    <th click-count="0">Steam Release Date</th> 
+                    <th click-count="0">Steam Price</th>
+                    <th click-count="0">Epic Release Date</th> 
+                    <th click-count="0">Epic Price</th> 
                 </tr>
             </thead>
             <tbody>
                 @foreach($games as $game)
                     <tr> 
+                        @if(auth()->check() && auth()->user()->isAdmin())
+                        <td>
+                        <form action="/remove/{{ $game->id }}" method="POST">
+                            @csrf
+                            @method('DELETE')
+                            <input type="submit" value="Delete">
+                        </form>
+                        </td>
+                        @endif
                         <td>{{ $game->name }}</td>
                         <td>
                             @foreach($game->developers as $developer)
@@ -132,6 +167,43 @@
         <script>
             let redirectTo = (dest) => {
                 window.location.href = `/${dest}`;
+            }
+
+            $(document).ready(function() {
+                highlightTableRows();
+
+                $('#search-input').on('keyup', function() {
+                    var searchTerm = $(this).val();
+                    filterTableRows(searchTerm);
+                });
+            });
+
+            function highlightTableRows() {
+                var visibleRows = $('#games').find('tbody tr:visible');
+
+                visibleRows.removeClass('highlight');
+
+                visibleRows.filter(':odd').addClass('highlight');
+            }
+
+            function filterTableRows(searchTerm) {
+                var tableRows = $('#games').find('tbody tr');
+
+                tableRows.removeClass('highlight');
+
+                tableRows.show();
+
+                var searchTermLower = searchTerm.toLowerCase();
+
+                tableRows.each(function() {
+                    var rowData = $(this).find('td').text().toLowerCase();
+
+                    if (rowData.indexOf(searchTermLower) === -1) {
+                        $(this).hide();
+                    }
+                });
+
+                highlightTableRows();
             }
         </script>
     </body>

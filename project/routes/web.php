@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GameController;
 use App\Http\Controllers\ImportController;
 use App\Http\Controllers\ExportController;
 use Illuminate\Support\Facades\Route;
@@ -16,7 +17,7 @@ use App\Http\Controllers\AuthController;
 |
 */
 
-Route::get('/', [ImportController::class, 'showGames']);
+Route::get('/', [GameController::class, 'index']);
 
 Route::group(['middleware' => ['auth']], function () {
     Route::get('/user', function () {
@@ -38,6 +39,8 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/export-csv', [ExportController::class, 'exportCSV']);
     Route::post('/export-json', [ExportController::class, 'exportJSON']);
     Route::post('/export-xml', [ExportController::class, 'exportXML']);
+
+    Route::delete('/remove/{game}', [GameController::class, 'delete']);
 
     Route::post('/logout', function () {
         Auth::logout();

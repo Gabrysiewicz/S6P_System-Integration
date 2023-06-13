@@ -192,10 +192,4 @@ class ImportController extends Controller
             'game_id' => $game->id,
         ]);
     }
-    
-    public function showGames()
-    {
-        $games = Game::with(['developers', 'publishers', 'genres', 'steam', 'epic'])->get();
-        return view('welcome', ['games' => $games]);
-    }
 }
