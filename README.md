@@ -1,3 +1,11 @@
+<table align='center'>
+  <tr> <td colspan='3'> <img width="884px" > </td> </tr>
+  <tr> <td colspan="3" align='center'> <img src='https://github.com/Gabrysiewicz/Programowanie-aplikacji-w-chmurze-obliczeniowe/blob/main/logo_politechniki_lubelskiej.jpg' width="400px" height="400px"></td> </tr>
+  <tr> <td> Kamil Gabrysiewicz </td> <td> Index: 95400 </td> <td> Grupa: 6.3 </td> </tr>  
+  <tr> <td> Jakub Dudek </td> <td> Index: 95391 </td> <td> Grupa: 6.3 </td> </tr>  
+  <tr> <td> Semestr 6 </td> <td colspan='2' align='center'> Integracja systemów </td> </tr>  
+</table>
+
 # Zestawienie danych statystycznych dotyczących gier na platformach Steam i Epic Games Store
 
 ## Projekt:
@@ -20,14 +28,11 @@
 - [X] wykorzystanie poziomów izolacji w bazie danych – 5 pkt
 
 # Instrukcja instalacji
-1. Sklonuj projekt z repozytorium Git:
-```
-git clone https://github.com/Gabrysiewicz/S6P_Integracja_systemow.git
-```
+1. Rozpakuj projekt
 
 2. Przejdź do katalogu projektu:
 ```
-cd S6P_Integracja_systemow/project
+cd Project/project
 ```
 
 3. Zainstaluj zależności Composer:
