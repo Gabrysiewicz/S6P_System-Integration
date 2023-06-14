@@ -59,6 +59,11 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+5.5. Wygeneruj Secret key
+```
+php artisan jwt:secret
+```
+
 6. Zainstaluj i skonfiguruj narzędzie Sail, które umożliwi uruchomienie kontenerów Dockera (należy wybrać mysql [0]):
 ```
 php artisan sail:install
