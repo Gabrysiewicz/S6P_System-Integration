@@ -89,6 +89,10 @@ php artisan optimize:clear
 chmod 777 -R *
 ```
 
+10. Zamknięcie aplikacji (wewnątrz katalogu z projektem)
+```
+./vendor/bin/sail down
+```
 # Opis
 Projekt przedstawia zestawienie danych o grach na platformach Steam i Epic Games Store. Umożliwia użytkownikom rejestracje, logowanie, import/export danych oraz wyświetlanie ich na stronie internetowej
 
