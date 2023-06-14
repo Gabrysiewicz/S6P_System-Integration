@@ -104,6 +104,7 @@ Należy zaimportować jeden z plików:
 
 Aby import/export był możliwy należy utworzyć konto. `Create an account` w sekcji login
 
+Aplikacja działa na porcie `8000` więc adresem projektu jest `localhost:8000`
 # XML 
 Import plików .xml jest możliwy tylko gdy plik ma następującą strukturę:
 
