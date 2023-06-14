@@ -50,7 +50,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-6. Zainstaluj i skonfiguruj narzędzie Sail, które umożliwi uruchomienie kontenerów Dockera:
+6. Zainstaluj i skonfiguruj narzędzie Sail, które umożliwi uruchomienie kontenerów Dockera (należy wybrać mysql [0]):
 ```
 php artisan sail:install
 ```
