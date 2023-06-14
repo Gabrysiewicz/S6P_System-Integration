@@ -67,13 +67,24 @@ php artisan optimize:clear
 
 9. Wygeneruj Secret Key (JWT)
 ```
-sail artisan key:generate
+./vendor/bin/sail artisan key:generate
 ```
 
 10. Uruchom kontenery Dockera przy użyciu polecenia:
 ```
 ./vendor/bin/sail up
 ```
+
+# Opis
+Projekt przedstawia zestawienie danych o grach na platformach Steam i Epic Games Store. Umożliwia użytkownikom rejestracje, logowanie, import/export danych oraz wyświetlanie ich na stronie internetowej
+
+Dane do projektu znajdują się w katalogu datasets. 
+Należy zaimportować jeden z plików:
+- games.csv,
+- games.json,
+- games.xml
+
+Aby import/export był możliwy należy utworzyć konto. `Create an account` w sekcji login
 
 # XML 
 Import plików .xml jest możliwy tylko gdy plik ma następującą strukturę:
