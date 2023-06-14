@@ -1,0 +1,4160 @@
+<?xml version="1.0"?>
+<games>
+  <game>
+    <name>Defense Grid: The Awakening</name>
+    <developers>
+      <developer>Hidden Path Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Hidden Path Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2008-12-08</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-20</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Bad North</name>
+    <developers>
+      <developer>Traveller's Tales</developer>
+    </developers>
+    <publishers>
+      <publisher>Warner Bros. Interactive Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2008-09-29</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2008-09-28</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Limbo</name>
+    <developers>
+      <developer>Playdead</developer>
+    </developers>
+    <publishers>
+      <publisher>Playdead</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2011-08-02</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2010-07-30</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Amnesia: The Dark Descent</name>
+    <developers>
+      <developer>Frictional Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Frictional Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2010-09-08</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-30</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Ticket to Ride</name>
+    <developers>
+      <developer>Days of Wonder</developer>
+    </developers>
+    <publishers>
+      <publisher>Days of Wonder</publisher>
+      <publisher>Asmodee Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2012-05-24</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2012-05-24</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Alan Wake</name>
+    <developers>
+      <developer>Remedy Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Remedy Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2012-02-16</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2016-02-16</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Costume Quest</name>
+    <developers>
+      <developer>Double Fine Productions</developer>
+    </developers>
+    <publishers>
+      <publisher>Double Fine Productions</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2011-10-14</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2010-10-19</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Cave Story+</name>
+    <developers>
+      <developer>Nicalis, Inc.</developer>
+      <developer>Studio Pixel</developer>
+    </developers>
+    <publishers>
+      <publisher>Nicalis, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2011-11-22</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-03</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Wolfenstein: The New Order</name>
+    <developers>
+      <developer>Machine Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Bethesda-Soft</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <steam>
+      <release_date>2014-05-19</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-09</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Superbrothers: Sword &amp; Sworcery EP</name>
+    <developers>
+      <developer>Capybara</developer>
+      <developer>Superbrothers</developer>
+      <developer>Jim Guthrie</developer>
+    </developers>
+    <publishers>
+      <publisher>Capybara Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2012-04-16</release_date>
+      <price>4.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-30</release_date>
+      <price>9.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Bridge</name>
+    <developers>
+      <developer>Ty Taylor and Mario Casta?eda</developer>
+      <developer>The Quantum Astrophysicists Guild</developer>
+    </developers>
+    <publishers>
+      <publisher>The Quantum Astrophysicists Guild</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2013-02-22</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2013-02-22</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Witness</name>
+    <developers>
+      <developer>Thekla, Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Thekla, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-01-26</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-01-26</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>FTL: Faster Than Light</name>
+    <developers>
+      <developer>Subset Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Subset Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2012-09-14</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2014-09-14</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>LEGO&#xAE; Batman&#x2122; 2: DC Super Heroes</name>
+    <developers>
+      <developer>TT Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Warner Bros. Interactive Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2012-06-22</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2012-06-22</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>South Park&#x2122;: The Stick of Truth&#x2122;</name>
+    <developers>
+      <developer>Obsidian Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Ubisoft</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2014-03-06</release_date>
+      <price>25.99</price>
+    </steam>
+    <epic>
+      <release_date>2014-03-04</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Alien: Isolation</name>
+    <developers>
+      <developer>Creative Assembly</developer>
+      <developer>Feral Interactive (Mac)</developer>
+      <developer>Feral Interactive (Linux)</developer>
+    </developers>
+    <publishers>
+      <publisher>SEGA</publisher>
+      <publisher>Feral Interactive (Mac)</publisher>
+      <publisher>Feral Interactive (Linux)</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <steam>
+      <release_date>2014-10-06</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-21</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Trials Evolution: Gold Edition</name>
+    <developers>
+      <developer>Redlynx Ltd</developer>
+      <developer>Ubisoft  Shangha?</developer>
+    </developers>
+    <publishers>
+      <publisher>Ubisoft</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Racing</genre>
+    </genres>
+    <steam>
+      <release_date>2013-03-21</release_date>
+      <price>16.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-02-11</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Little Inferno</name>
+    <developers>
+      <developer>Tomorrow Corporation</developer>
+    </developers>
+    <publishers>
+      <publisher>Tomorrow Corporation</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2012-11-19</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2012-11-19</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Stanley Parable</name>
+    <developers>
+      <developer>Galactic Cafe</developer>
+    </developers>
+    <publishers>
+      <publisher>Galactic Cafe</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2013-10-17</release_date>
+      <price>9.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-03-26</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Fez</name>
+    <developers>
+      <developer>Polytron Corporation</developer>
+    </developers>
+    <publishers>
+      <publisher>Trapdoor</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2013-05-01</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2013-04-13</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Galactic Civilizations III</name>
+    <developers>
+      <developer>Stardock Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Stardock Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2015-05-14</release_date>
+      <price>23.79</price>
+    </steam>
+    <epic>
+      <release_date>2021-01-21</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Killing Floor 2</name>
+    <developers>
+      <developer>Tripwire Interactive</developer>
+    </developers>
+    <publishers>
+      <publisher>Tripwire Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <steam>
+      <release_date>2016-11-18</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-09</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Gone Home</name>
+    <developers>
+      <developer>Fullbright</developer>
+    </developers>
+    <publishers>
+      <publisher>Fullbright</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2013-08-15</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-02</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Ken Follett's The Pillars of the Earth</name>
+    <developers>
+      <developer>Daedalic Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Daedalic Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-15</release_date>
+      <price>26.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-04-15</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Shadowrun Returns</name>
+    <developers>
+      <developer>Harebrained Schemes</developer>
+    </developers>
+    <publishers>
+      <publisher>Paradox Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2013-07-25</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-08-27</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Europa Universalis IV</name>
+    <developers>
+      <developer>Paradox Development Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>Paradox Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2013-08-13</release_date>
+      <price>34.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-30</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Transistor</name>
+    <developers>
+      <developer>Supergiant Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Supergiant Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2014-05-20</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2014-05-20</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Amnesia: A Machine for Pigs</name>
+    <developers>
+      <developer>The Chinese Room</developer>
+    </developers>
+    <publishers>
+      <publisher>Frictional Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2013-09-10</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-10-15</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Sherlock Holmes: Crimes and Punishments</name>
+    <developers>
+      <developer>Frogwares</developer>
+    </developers>
+    <publishers>
+      <publisher>Focus Home Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2014-09-29</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-02</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Nuclear Throne</name>
+    <developers>
+      <developer>Vlambeer</developer>
+    </developers>
+    <publishers>
+      <publisher>Vlambeer</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2015-12-05</release_date>
+      <price>9.29</price>
+    </steam>
+    <epic>
+      <release_date>2019-11-07</release_date>
+      <price>14.39</price>
+    </epic>
+  </game>
+  <game>
+    <name>Aztez</name>
+    <developers>
+      <developer>Team Colorblind</developer>
+    </developers>
+    <publishers>
+      <publisher>Team Colorblind</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-01</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-02-06</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Tropico 5</name>
+    <developers>
+      <developer>Haemimont Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Kalypso Media Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>RPG</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2014-05-23</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-23</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Wolf Among Us</name>
+    <developers>
+      <developer>Telltale Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Telltale Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2013-10-11</release_date>
+      <price>11.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-12-01</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Among the Sleep - Enhanced Edition</name>
+    <developers>
+      <developer>Krillbite Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>Krillbite Studio</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2014-05-29</release_date>
+      <price>13.49</price>
+    </steam>
+    <epic>
+      <release_date>2021-10-21</release_date>
+      <price>20.39</price>
+    </epic>
+  </game>
+  <game>
+    <name>Wargame: Red Dragon</name>
+    <developers>
+      <developer>Eugen Systems</developer>
+    </developers>
+    <publishers>
+      <publisher>Focus Home Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2014-04-17</release_date>
+      <price>24.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-03-04</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>TowerFall Ascension</name>
+    <developers>
+      <developer>Matt Thorson</developer>
+    </developers>
+    <publishers>
+      <publisher>Matt Makes Games Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2014-03-11</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-12-31</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Stick It To The Man!</name>
+    <developers>
+      <developer>Zoink Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Ripstone</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2013-12-13</release_date>
+      <price>5.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-09-17</release_date>
+      <price>9.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>Cities: Skylines</name>
+    <developers>
+      <developer>Colossal Order Ltd.</developer>
+    </developers>
+    <publishers>
+      <publisher>Paradox Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2015-03-10</release_date>
+      <price>22.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-17</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Talos Principle</name>
+    <developers>
+      <developer>Croteam</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+      <publisher>Croteam</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2014-12-11</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2014-12-11</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Hyper Light Drifter</name>
+    <developers>
+      <developer>Heart Machine</developer>
+    </developers>
+    <publishers>
+      <publisher>Heart Machine</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2016-03-31</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-03-31</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Darkest Dungeon&#xAE;</name>
+    <developers>
+      <developer>Red Hook Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Red Hook Studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2016-01-19</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-25</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Subnautica</name>
+    <developers>
+      <developer>Unknown Worlds Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Unknown Worlds Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-01-23</release_date>
+      <price>19.49</price>
+    </steam>
+    <epic>
+      <release_date>2018-01-23</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Tower of Guns</name>
+    <developers>
+      <developer>Terrible Posture Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Terrible Posture Games LLC</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2014-03-04</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-07-22</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Edge Of Eternity</name>
+    <developers>
+      <developer>Midgar Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>Dear Villagers</publisher>
+    </publishers>
+    <genres>
+      <genre>RPG</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2018-12-05</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2021-06-08</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Costume Quest 2</name>
+    <developers>
+      <developer>Double Fine Productions</developer>
+    </developers>
+    <publishers>
+      <publisher>Midnight City</publisher>
+      <publisher>Majesco Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2014-10-07</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-10-22</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Krita</name>
+    <developers>
+      <developer>Krita Team</developer>
+    </developers>
+    <publishers>
+      <publisher>Krita Team</publisher>
+    </publishers>
+    <genres>
+      <genre>Animation &amp; Modeling</genre>
+      <genre>Design &amp; Illustration</genre>
+      <genre>Photo Editing</genre>
+    </genres>
+    <steam>
+      <release_date>2014-06-10</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-04-22</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>This War of Mine</name>
+    <developers>
+      <developer>11 bit studios</developer>
+    </developers>
+    <publishers>
+      <publisher>11 bit studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2014-11-14</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2014-11-14</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>SOMA</name>
+    <developers>
+      <developer>Frictional Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Frictional Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2015-09-21</release_date>
+      <price>22.99</price>
+    </steam>
+    <epic>
+      <release_date>2015-09-22</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Metro 2033 Redux</name>
+    <developers>
+      <developer>4A Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Deep Silver</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <steam>
+      <release_date>2014-08-27</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2010-03-16</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Sid Meier&#x2019;s Civilization&#xAE; VI</name>
+    <developers>
+      <developer>Firaxis Games</developer>
+      <developer>Aspyr (Mac)</developer>
+      <developer>Aspyr (Linux)</developer>
+    </developers>
+    <publishers>
+      <publisher>2K</publisher>
+      <publisher>Aspyr (Mac)</publisher>
+      <publisher>Aspyr (Linux)</publisher>
+    </publishers>
+    <genres>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2016-10-20</release_date>
+      <price>49.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-05-21</release_date>
+      <price>71.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Rebel Galaxy</name>
+    <developers>
+      <developer>Double Damage Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Double Damage Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2015-10-20</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2015-10-20</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>GNOG</name>
+    <developers>
+      <developer>KO_OP</developer>
+    </developers>
+    <publishers>
+      <publisher>Double Fine Presents</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-07-17</release_date>
+      <price>7.19</price>
+    </steam>
+    <epic>
+      <release_date>2018-06-17</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Fall</name>
+    <developers>
+      <developer>Over The Moon</developer>
+    </developers>
+    <publishers>
+      <publisher>Over The Moon</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2014-05-30</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-03-18</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>RimWorld</name>
+    <developers>
+      <developer>Ludeon Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Ludeon Studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-10-17</release_date>
+      <price>27.79</price>
+    </steam>
+    <epic>
+      <release_date>2020-06-09</release_date>
+      <price>41.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Never Alone (Kisima Ingitchuna)</name>
+    <developers>
+      <developer>Upper One Games</developer>
+      <developer>E-Line Media</developer>
+    </developers>
+    <publishers>
+      <publisher>E-Line Media</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2014-11-18</release_date>
+      <price>11.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-11-18</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Escapists</name>
+    <developers>
+      <developer>Mouldy Toof Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2015-02-13</release_date>
+      <price>12.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-12-12</release_date>
+      <price>21.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>City of Brass</name>
+    <developers>
+      <developer>Uppercut Games Pty Ltd</developer>
+    </developers>
+    <publishers>
+      <publisher>Uppercut Games Pty Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-05-04</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2018-05-04</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>INSIDE</name>
+    <developers>
+      <developer>Playdead</developer>
+    </developers>
+    <publishers>
+      <publisher>Playdead</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-07-07</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-07-07</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Sunless Sea</name>
+    <developers>
+      <developer>Failbetter Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Failbetter Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2015-02-06</release_date>
+      <price>13.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-02-25</release_date>
+      <price>22.79</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Long Dark</name>
+    <developers>
+      <developer>Hinterland Studio Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Hinterland Studio Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-01</release_date>
+      <price>23.79</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-19</release_date>
+      <price>41.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Enter the Gungeon</name>
+    <developers>
+      <developer>Dodge Roll</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-04-05</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-04-05</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Stranded Deep</name>
+    <developers>
+      <developer>Beam Team Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Beam Team Pty Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2015-01-23</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-28</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>LEGO&#xAE; Batman&#x2122; 3: Beyond Gotham</name>
+    <developers>
+      <developer>TT Games Ltd</developer>
+      <developer>Feral Interactive (Mac)</developer>
+    </developers>
+    <publishers>
+      <publisher>WB Games</publisher>
+      <publisher>Feral Interactive (Mac)</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2014-11-11</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2014-11-11</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Conarium</name>
+    <developers>
+      <developer>Zoetrope Interactive</developer>
+    </developers>
+    <publishers>
+      <publisher>Iceberg Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-06-06</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-06-06</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Oddworld: New 'n' Tasty</name>
+    <developers>
+      <developer>Just Add Water (Developments), Ltd.</developer>
+    </developers>
+    <publishers>
+      <publisher>Oddworld Inhabitants, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2015-02-25</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-18</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Absolute Drift</name>
+    <developers>
+      <developer>Funselektor Labs Inc.</developer>
+      <developer>FlippFly</developer>
+    </developers>
+    <publishers>
+      <publisher>Funselektor Labs Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+      <genre>Racing</genre>
+      <genre>Simulation</genre>
+      <genre>Sports</genre>
+    </genres>
+    <steam>
+      <release_date>2015-07-29</release_date>
+      <price>8.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-02-18</release_date>
+      <price>14.39</price>
+    </epic>
+  </game>
+  <game>
+    <name>20XX</name>
+    <developers>
+      <developer>Batterystaple Games</developer>
+      <developer>Fire Hose Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Batterystaple Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-16</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-30</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>SUPERHOT</name>
+    <developers>
+      <developer>SUPERHOT Team</developer>
+    </developers>
+    <publishers>
+      <publisher>SUPERHOT Team</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-02-25</release_date>
+      <price>17.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-02-24</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Frostpunk</name>
+    <developers>
+      <developer>11 bit studios</developer>
+    </developers>
+    <publishers>
+      <publisher>11 bit studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-04-24</release_date>
+      <price>24.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-06-03</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Jotun: Valhalla Edition</name>
+    <developers>
+      <developer>Thunder Lotus Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Thunder Lotus Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2015-09-29</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2019-12-06</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Ironcast</name>
+    <developers>
+      <developer>Dreadbit</developer>
+    </developers>
+    <publishers>
+      <publisher>Ripstone</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2015-03-26</release_date>
+      <price>9.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-07-08</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>2064: Read Only Memories</name>
+    <developers>
+      <developer>MidBoss, LLC.</developer>
+    </developers>
+    <publishers>
+      <publisher>MidBoss, LLC.</publisher>
+      <publisher>AGM PLAYISM</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2015-10-06</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-28</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Tales from the Borderlands</name>
+    <developers>
+      <developer>Telltale Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Telltale Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2014-11-25</release_date>
+      <price>11.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-02-17</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Jackbox Party Pack</name>
+    <developers>
+      <developer>Jackbox Games, Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Jackbox Games, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2014-11-26</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2014-11-18</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>AER Memories of Old</name>
+    <developers>
+      <developer>Forgotten Key</developer>
+    </developers>
+    <publishers>
+      <publisher>Daedalic Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-10-25</release_date>
+      <price>13.49</price>
+    </steam>
+    <epic>
+      <release_date>2020-06-25</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>AXIOM VERGE</name>
+    <developers>
+      <developer>Thomas Happ Games LLC</developer>
+    </developers>
+    <publishers>
+      <publisher>Thomas Happ Games LLC</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2015-05-14</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2015-05-14</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Yoku's Island Express</name>
+    <developers>
+      <developer>Villa Gorilla</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-05-29</release_date>
+      <price>15.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-02</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>ZOMBI</name>
+    <developers>
+      <developer>Straight Right</developer>
+    </developers>
+    <publishers>
+      <publisher>Ubisoft</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2015-08-18</release_date>
+      <price>16.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-10-13</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Tacoma</name>
+    <developers>
+      <developer>Fullbright</developer>
+    </developers>
+    <publishers>
+      <publisher>Fullbright</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-01</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-23</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Big Pharma</name>
+    <developers>
+      <developer>Twice Circled</developer>
+    </developers>
+    <publishers>
+      <publisher>Positech Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2015-08-27</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-15</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>InnerSpace</name>
+    <developers>
+      <developer>PolyKnight Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Aspyr</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-01-16</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-01-16</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Wolfenstein: The Old Blood</name>
+    <developers>
+      <developer>MachineGames</developer>
+    </developers>
+    <publishers>
+      <publisher>Bethesda Softworks</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <steam>
+      <release_date>2015-05-04</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-09</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Sherlock Holmes: The Devil's Daughter</name>
+    <developers>
+      <developer>Frogwares</developer>
+    </developers>
+    <publishers>
+      <publisher>Bigben Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2016-06-10</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-06-25</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Sheltered</name>
+    <developers>
+      <developer>Unicube</developer>
+      <developer>Team 17 Digital Ltd</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2016-03-15</release_date>
+      <price>9.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-09</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Q.U.B.E. 2</name>
+    <developers>
+      <developer>Toxic Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Trapped Nerve Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-03-13</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-03-18</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Elite Dangerous</name>
+    <developers>
+      <developer>Frontier Developments</developer>
+    </developers>
+    <publishers>
+      <publisher>Frontier Developments</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Massively Multiplayer</genre>
+      <genre>RPG</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2015-04-02</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-11-19</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Yooka-Laylee</name>
+    <developers>
+      <developer>Playtonic Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-04-11</release_date>
+      <price>34.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-08-19</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Total War: WARHAMMER</name>
+    <developers>
+      <developer>Creative Assembly</developer>
+      <developer>Feral Interactive (Linux)</developer>
+      <developer>Feral Interactive (Mac)</developer>
+    </developers>
+    <publishers>
+      <publisher>SEGA</publisher>
+      <publisher>Feral Interactive (Linux)</publisher>
+      <publisher>Feral Interactive (Mac)</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2016-05-24</release_date>
+      <price>39.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-11-22</release_date>
+      <price>71.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Barony</name>
+    <developers>
+      <developer>Turning Wheel LLC</developer>
+    </developers>
+    <publishers>
+      <publisher>Turning Wheel LLC</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2015-06-23</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-30</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Human Resource Machine</name>
+    <developers>
+      <developer>Tomorrow Corporation</developer>
+    </developers>
+    <publishers>
+      <publisher>Tomorrow Corporation</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2015-10-15</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2015-10-15</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Kingdom Come: Deliverance</name>
+    <developers>
+      <developer>Warhorse Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Warhorse Studios</publisher>
+      <publisher>Deep Silver</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2018-02-13</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-02-13</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Hue</name>
+    <developers>
+      <developer>Fiddlesticks Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Curve Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-08-30</release_date>
+      <price>11.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-02</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>ABZU</name>
+    <developers>
+      <developer>Giant Squid</developer>
+    </developers>
+    <publishers>
+      <publisher>505 Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2016-08-02</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-08-02</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Shadow Complex Remastered</name>
+    <developers>
+      <developer>ChAIR Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Epic Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <steam>
+      <release_date>2016-05-03</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2009-08-19</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Darksiders II Deathinitive Edition</name>
+    <developers>
+      <developer>Gunfire Games</developer>
+      <developer>Vigil Games</developer>
+      <developer>THQ Nordic</developer>
+    </developers>
+    <publishers>
+      <publisher>THQ Nordic</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2015-11-05</release_date>
+      <price>24.99</price>
+    </steam>
+    <epic>
+      <release_date>2015-11-05</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Oxenfree</name>
+    <developers>
+      <developer>Night School Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>Night School Studio</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-01-14</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-01-15</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Crashlands</name>
+    <developers>
+      <developer>Butterscotch Shenanigans</developer>
+    </developers>
+    <publishers>
+      <publisher>Butterscotch Shenanigans</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2016-01-21</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-30</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Faeria</name>
+    <developers>
+      <developer>Abrakam SA</developer>
+    </developers>
+    <publishers>
+      <publisher>Versus Evil</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Massively Multiplayer</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-03-08</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-02-13</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Jackbox Party Pack 2</name>
+    <developers>
+      <developer>Jackbox Games, Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Jackbox Games, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2015-10-13</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2015-10-13</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Hob</name>
+    <developers>
+      <developer>Runic Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Runic Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-09-26</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-02</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Uncertain: Last Quiet Day</name>
+    <developers>
+      <developer>ComonGames</developer>
+    </developers>
+    <publishers>
+      <publisher>ComonGames</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-09-22</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-04-29</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>ELEX</name>
+    <developers>
+      <developer>Piranha Bytes</developer>
+    </developers>
+    <publishers>
+      <publisher>THQ Nordic</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2017-10-17</release_date>
+      <price>39.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-03-25</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Shadow Tactics: Blades of the Shogun</name>
+    <developers>
+      <developer>Mimimi Productions</developer>
+    </developers>
+    <publishers>
+      <publisher>Daedalic Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2016-12-06</release_date>
+      <price>34.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-12-06</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Rising Storm 2: Vietnam</name>
+    <developers>
+      <developer>Antimatter Games</developer>
+      <developer>Tripwire Interactive</developer>
+    </developers>
+    <publishers>
+      <publisher>Tripwire Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Massively Multiplayer</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-05-30</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-10-08</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>DEMON'S TILT</name>
+    <developers>
+      <developer>WIZNWAR</developer>
+      <developer>FLARB LLC</developer>
+    </developers>
+    <publishers>
+      <publisher>FLARB LLC</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2019-01-21</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2021-05-10</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Air Missions: HIND</name>
+    <developers>
+      <developer>3Division</developer>
+    </developers>
+    <publishers>
+      <publisher>3Division</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2017-06-14</release_date>
+      <price>12.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-27</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Vampyr</name>
+    <developers>
+      <developer>DONTNOD Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Focus Home Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2018-06-04</release_date>
+      <price>44.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-06-05</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Town of Light</name>
+    <developers>
+      <developer>LKA</developer>
+    </developers>
+    <publishers>
+      <publisher>LKA</publisher>
+      <publisher>Wired Productions</publisher>
+    </publishers>
+    <genres>
+      <genre>Sexual Content</genre>
+      <genre>Nudity</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-02-26</release_date>
+      <price>13.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-11-02</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Slime Rancher</name>
+    <developers>
+      <developer>Monomi Park</developer>
+    </developers>
+    <publishers>
+      <publisher>Monomi Park</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-01</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-08-01</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>GoNNER</name>
+    <developers>
+      <developer>Art in Heart</developer>
+    </developers>
+    <publishers>
+      <publisher>Raw Fury</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-10-12</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-02-27</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Niche - a genetics survival game</name>
+    <developers>
+      <developer>Stray Fawn Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>Stray Fawn Studio</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-09-21</release_date>
+      <price>13.59</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-15</release_date>
+      <price>21.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Count Lucanor</name>
+    <developers>
+      <developer>Baroque Decay</developer>
+    </developers>
+    <publishers>
+      <publisher>Baroque Decay</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2016-03-03</release_date>
+      <price>7.19</price>
+    </steam>
+    <epic>
+      <release_date>2021-06-30</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Drawful 2</name>
+    <developers>
+      <developer>Jackbox Games, Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Jackbox Games, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2016-06-20</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-06-21</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Where The Water Tastes Like Wine</name>
+    <developers>
+      <developer>Dim Bulb Games</developer>
+      <developer>Serenity Forge</developer>
+    </developers>
+    <publishers>
+      <publisher>Good Shepherd Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2018-02-28</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-09-10</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>APE OUT</name>
+    <developers>
+      <developer>Gabe Cuzzillo</developer>
+      <developer>Bennett Foddy</developer>
+      <developer>Matt Boch</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2019-02-28</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-02-28</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Overcooked</name>
+    <developers>
+      <developer>Ghost Town Games Ltd.</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2016-08-03</release_date>
+      <price>12.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-08-07</release_date>
+      <price>20.39</price>
+    </epic>
+  </game>
+  <game>
+    <name>Battle Chasers: Nightwar</name>
+    <developers>
+      <developer>Airship Syndicate</developer>
+    </developers>
+    <publishers>
+      <publisher>THQ Nordic</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2017-10-03</release_date>
+      <price>24.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-03-25</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Asemblance</name>
+    <developers>
+      <developer>Nilo Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Nilo Studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-06-21</release_date>
+      <price>5.79</price>
+    </steam>
+    <epic>
+      <release_date>2021-06-25</release_date>
+      <price>9.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>Hand of Fate 2</name>
+    <developers>
+      <developer>Defiant Development</developer>
+    </developers>
+    <publishers>
+      <publisher>Defiant Development</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2017-11-07</release_date>
+      <price>23.79</price>
+    </steam>
+    <epic>
+      <release_date>2021-04-22</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Oxygen Not Included</name>
+    <developers>
+      <developer>Klei Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Klei Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2017-05-18</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-11-25</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Darksiders Warmastered Edition</name>
+    <developers>
+      <developer>KAIKO</developer>
+      <developer>Vigil Games</developer>
+    </developers>
+    <publishers>
+      <publisher>THQ Nordic</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2016-11-29</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2016-11-26</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Empires of the Undergrowth</name>
+    <developers>
+      <developer>Slug Disco Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Slug Disco Studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2017-12-01</release_date>
+      <price>15.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-10-28</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Solitairica</name>
+    <developers>
+      <developer>Righteous Hammer Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Righteous Hammer Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2016-05-31</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-29</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>RUINER</name>
+    <developers>
+      <developer>Reikon Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-09-26</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-09-26</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Surviving Mars</name>
+    <developers>
+      <developer>Haemimont Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Paradox Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-03-15</release_date>
+      <price>26.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-03-15</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Northgard</name>
+    <developers>
+      <developer>Shiro Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Shiro Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-03-07</release_date>
+      <price>23.79</price>
+    </steam>
+    <epic>
+      <release_date>2021-07-21</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Speed Brawl</name>
+    <developers>
+      <developer>Double Stallion Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Kongregate</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-09-18</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2018-09-18</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Prey</name>
+    <developers>
+      <developer>Arkane Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Bethesda Softworks</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2017-05-04</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-09-09</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Night in the Woods</name>
+    <developers>
+      <developer>Infinite Fall</developer>
+    </developers>
+    <publishers>
+      <publisher>Finji</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2017-02-21</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-27</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Aven Colony</name>
+    <developers>
+      <developer>Mothership Entertainment LLC</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-07-25</release_date>
+      <price>24.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-11-04</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>God's Trigger</name>
+    <developers>
+      <developer>One More Level</developer>
+    </developers>
+    <publishers>
+      <publisher>Techland Publishing</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2019-04-18</release_date>
+      <price>11.95</price>
+    </steam>
+    <epic>
+      <release_date>2020-08-20</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Warhammer 40,000: Gladius - Relics of War</name>
+    <developers>
+      <developer>Proxy Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Slitherine Ltd.</publisher>
+    </publishers>
+    <genres>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-07-12</release_date>
+      <price>30.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-11-12</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Tropico 6</name>
+    <developers>
+      <developer>Limbic Entertainment</developer>
+    </developers>
+    <publishers>
+      <publisher>Kalypso Media</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2019-03-29</release_date>
+      <price>39.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-23</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>RiME</name>
+    <developers>
+      <developer>Tequila Works</developer>
+      <developer>QLOC</developer>
+    </developers>
+    <publishers>
+      <publisher>Grey Box</publisher>
+      <publisher>Six Foot</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2017-05-26</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-05-26</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Figment</name>
+    <developers>
+      <developer>Bedtime Digital Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Bedtime Digital Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-09-22</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-03-26</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Dungeons 3</name>
+    <developers>
+      <developer>Realmforge Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Kalypso Media Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-10-13</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-11-05</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>What Remains of Edith Finch</name>
+    <developers>
+      <developer>Giant Sparrow</developer>
+    </developers>
+    <publishers>
+      <publisher>Annapurna Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-04-24</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-04-25</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Railway Empire</name>
+    <developers>
+      <developer>Gaming Minds Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Kalypso Media Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-01-26</release_date>
+      <price>39.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-09-10</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Celeste</name>
+    <developers>
+      <developer>Matt Makes Games Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Matt Makes Games Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-01-25</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-01-05</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Totally Accurate Battle Simulator</name>
+    <developers>
+      <developer>Landfall</developer>
+    </developers>
+    <publishers>
+      <publisher>Landfall</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2019-04-01</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2019-04-01</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Wheels of Aurelia</name>
+    <developers>
+      <developer>Santa Ragione</developer>
+    </developers>
+    <publishers>
+      <publisher>Santa Ragione</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2016-09-20</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-16</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Fall Part 2: Unbound</name>
+    <developers>
+      <developer>Over The Moon</developer>
+    </developers>
+    <publishers>
+      <publisher>Over The Moon</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-02-12</release_date>
+      <price>13.49</price>
+    </steam>
+    <epic>
+      <release_date>2021-03-15</release_date>
+      <price>20.39</price>
+    </epic>
+  </game>
+  <game>
+    <name>For The King</name>
+    <developers>
+      <developer>IronOak Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Curve Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-04-19</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-23</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Pathway</name>
+    <developers>
+      <developer>Robotality</developer>
+    </developers>
+    <publishers>
+      <publisher>Chucklefish</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2019-04-11</release_date>
+      <price>12.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-06-11</release_date>
+      <price>19.19</price>
+    </epic>
+  </game>
+  <game>
+    <name>The First Tree</name>
+    <developers>
+      <developer>David Wehle</developer>
+    </developers>
+    <publishers>
+      <publisher>David Wehle</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-09-14</release_date>
+      <price>7.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-04-15</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Gorogoa</name>
+    <developers>
+      <developer>Buried Signal</developer>
+    </developers>
+    <publishers>
+      <publisher>Annapurna Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-12-14</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2017-12-14</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Stories Untold</name>
+    <developers>
+      <developer>No Code</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-02-27</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-02-27</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Blade Strangers</name>
+    <developers>
+      <developer>Studio Saizensen</developer>
+    </developers>
+    <publishers>
+      <publisher>Nicalis, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-27</release_date>
+      <price>30.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-10-06</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Pikuniku</name>
+    <developers>
+      <developer>Arnaud De Bock</developer>
+      <developer>R&#xE9;mi Forcadell</developer>
+      <developer>Alan Zucconi</developer>
+      <developer>Calum Bowen</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2019-01-24</release_date>
+      <price>10.29</price>
+    </steam>
+    <epic>
+      <release_date>2020-10-01</release_date>
+      <price>15.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>Mothergunship</name>
+    <developers>
+      <developer>Grip Digital</developer>
+      <developer>Terrible Posture Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Grip Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-07-17</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-07-29</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Everything</name>
+    <developers>
+      <developer>David OReilly</developer>
+    </developers>
+    <publishers>
+      <publisher>David OReilly</publisher>
+      <publisher>Double Fine Presents</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2017-04-21</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-04-21</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The End is Nigh</name>
+    <developers>
+      <developer>Edmund McMillen</developer>
+      <developer>Tyler Glaiel</developer>
+    </developers>
+    <publishers>
+      <publisher>Edmund McMillen</publisher>
+      <publisher>Tyler Glaiel</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-07-12</release_date>
+      <price>10.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-07-12</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Sonic Mania</name>
+    <developers>
+      <developer>Christian Whitehead</developer>
+      <developer>Headcannon</developer>
+      <developer>PagodaWest Games</developer>
+    </developers>
+    <publishers>
+      <publisher>SEGA</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-29</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-06-24</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Dead Cells</name>
+    <developers>
+      <developer>Motion Twin</developer>
+    </developers>
+    <publishers>
+      <publisher>Motion Twin</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-06</release_date>
+      <price>21.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-10-22</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Into the Breach</name>
+    <developers>
+      <developer>Subset Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Subset Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-02-27</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2018-02-27</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Moonlighter</name>
+    <developers>
+      <developer>Digital Sun</developer>
+    </developers>
+    <publishers>
+      <publisher>11 bit studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-05-29</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2018-05-29</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Darksiders III</name>
+    <developers>
+      <developer>Gunfire Games</developer>
+    </developers>
+    <publishers>
+      <publisher>THQ Nordic</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2018-11-27</release_date>
+      <price>44.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-11-27</release_date>
+      <price>71.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Minit</name>
+    <developers>
+      <developer>JW, Kitty, Jukio, and Dom</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-04-03</release_date>
+      <price>6.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-04-03</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Jackbox Party Pack 4</name>
+    <developers>
+      <developer>Jackbox Games, Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Jackbox Games, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-10-18</release_date>
+      <price>18.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-10-19</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>House Flipper</name>
+    <developers>
+      <developer>Empyrean</developer>
+    </developers>
+    <publishers>
+      <publisher>Frozen District</publisher>
+      <publisher>PlayWay S.A.</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2018-05-17</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2021-08-05</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>while True: learn()</name>
+    <developers>
+      <developer>Luden.io</developer>
+    </developers>
+    <publishers>
+      <publisher>Nival</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2019-01-17</release_date>
+      <price>9.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-12-02</release_date>
+      <price>15.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>Whispers of a Machine</name>
+    <developers>
+      <developer>Clifftop Games</developer>
+      <developer>Faravid Interactive</developer>
+    </developers>
+    <publishers>
+      <publisher>Raw Fury</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+    </genres>
+    <steam>
+      <release_date>2019-04-17</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2020-11-24</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Last Day of June</name>
+    <developers>
+      <developer>Ovosonico</developer>
+    </developers>
+    <publishers>
+      <publisher>505 Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2017-08-31</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2017-08-31</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Jurassic World Evolution</name>
+    <developers>
+      <developer>Frontier Developments</developer>
+    </developers>
+    <publishers>
+      <publisher>Frontier Developments</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-06-11</release_date>
+      <price>34.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-31</release_date>
+      <price>53.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>My Time At Portia</name>
+    <developers>
+      <developer>Pathea Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2019-01-15</release_date>
+      <price>24.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-01-15</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Next Up Hero</name>
+    <developers>
+      <developer>Digital Continue</developer>
+    </developers>
+    <publishers>
+      <publisher>Aspyr</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2018-06-28</release_date>
+      <price>14.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-23</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>MudRunner</name>
+    <developers>
+      <developer>Saber Interactive</developer>
+    </developers>
+    <publishers>
+      <publisher>Focus Home Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2017-10-30</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-11-26</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Colonists</name>
+    <developers>
+      <developer>Codebyfire</developer>
+    </developers>
+    <publishers>
+      <publisher>Mode 7</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-10-24</release_date>
+      <price>19.49</price>
+    </steam>
+    <epic>
+      <release_date>2021-02-24</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>SUPERHOT: Mind Control Delete</name>
+    <developers>
+      <developer>SUPERHOT Team</developer>
+    </developers>
+    <publishers>
+      <publisher>SUPERHOT Team</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2017-12-07</release_date>
+      <price>9.29</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-16</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Fell Seal: Arbiter's Mark</name>
+    <developers>
+      <developer>6 Eyes Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>1C Entertainment</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-16</release_date>
+      <price>23.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-17</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Donut County</name>
+    <developers>
+      <developer>Ben Esposito</developer>
+    </developers>
+    <publishers>
+      <publisher>Annapurna Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-28</release_date>
+      <price>10.29</price>
+    </steam>
+    <epic>
+      <release_date>2018-08-28</release_date>
+      <price>15.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>Death Coming</name>
+    <developers>
+      <developer>NEXT Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>NEXT Studios</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2017-11-06</release_date>
+      <price>4.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-05-07</release_date>
+      <price>8.39</price>
+    </epic>
+  </game>
+  <game>
+    <name>Overcooked! 2</name>
+    <developers>
+      <developer>Ghost Town Games Ltd.</developer>
+      <developer>Team17 Digital Ltd</developer>
+    </developers>
+    <publishers>
+      <publisher>Team17 Digital Ltd</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Casual</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-07</release_date>
+      <price>19.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-06-17</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Breathedge</name>
+    <developers>
+      <developer>RedRuins Softworks</developer>
+    </developers>
+    <publishers>
+      <publisher>RedRuins Softworks</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2018-09-13</release_date>
+      <price>12.39</price>
+    </steam>
+    <epic>
+      <release_date>2021-02-25</release_date>
+      <price>29.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The World Next Door</name>
+    <developers>
+      <developer>Rose City Games</developer>
+    </developers>
+    <publishers>
+      <publisher>VIZ Media</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2019-03-28</release_date>
+      <price>11.69</price>
+    </steam>
+    <epic>
+      <release_date>2020-11-19</release_date>
+      <price>11.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Mutant Year Zero: Road to Eden</name>
+    <developers>
+      <developer>The Bearded Ladies</developer>
+    </developers>
+    <publishers>
+      <publisher>Funcom</publisher>
+    </publishers>
+    <genres>
+      <genre>RPG</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-12-04</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2018-12-04</release_date>
+      <price>41.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Spectrum Retreat</name>
+    <developers>
+      <developer>Dan Smith Studios</developer>
+    </developers>
+    <publishers>
+      <publisher>Ripstone</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Strategy</genre>
+    </genres>
+    <steam>
+      <release_date>2018-07-13</release_date>
+      <price>9.99</price>
+    </steam>
+    <epic>
+      <release_date>2021-07-01</release_date>
+      <price>15.59</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Messenger</name>
+    <developers>
+      <developer>Sabotage</developer>
+    </developers>
+    <publishers>
+      <publisher>Devolver Digital</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-30</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2019-11-14</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Jackbox Party Pack 5</name>
+    <developers>
+      <developer>Jackbox Games, Inc.</developer>
+    </developers>
+    <publishers>
+      <publisher>Jackbox Games, Inc.</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+    </genres>
+    <steam>
+      <release_date>2018-10-17</release_date>
+      <price>23.79</price>
+    </steam>
+    <epic>
+      <release_date>2017-10-17</release_date>
+      <price>35.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Farming Simulator 19</name>
+    <developers>
+      <developer>Giants Software</developer>
+    </developers>
+    <publishers>
+      <publisher>Focus Home Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2018-11-19</release_date>
+      <price>29.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-07-20</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>7 Billion Humans</name>
+    <developers>
+      <developer>Tomorrow Corporation</developer>
+    </developers>
+    <publishers>
+      <publisher>Tomorrow Corporation</publisher>
+    </publishers>
+    <genres>
+      <genre>Indie</genre>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-23</release_date>
+      <price>11.39</price>
+    </steam>
+    <epic>
+      <release_date>2018-08-23</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Levelhead</name>
+    <developers>
+      <developer>Butterscotch Shenanigans</developer>
+    </developers>
+    <publishers>
+      <publisher>Butterscotch Shenanigans</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2019-04-18</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2020-04-30</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Outward</name>
+    <developers>
+      <developer>Nine Dots Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>Deep Silver</publisher>
+    </publishers>
+    <genres>
+      <genre>RPG</genre>
+    </genres>
+    <steam>
+      <release_date>2019-03-26</release_date>
+      <price>34.99</price>
+    </steam>
+    <epic>
+      <release_date>2019-03-26</release_date>
+      <price>47.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>HyperParasite</name>
+    <developers>
+      <developer>Troglobytes Games</developer>
+    </developers>
+    <publishers>
+      <publisher>Troglobytes Games</publisher>
+      <publisher>Hound Picked Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2019-04-03</release_date>
+      <price>6.19</price>
+    </steam>
+    <epic>
+      <release_date>2021-03-19</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Hypnospace Outlaw</name>
+    <developers>
+      <developer>Tendershoot</developer>
+      <developer>Michael Lasch</developer>
+      <developer>ThatWhichIs Media</developer>
+    </developers>
+    <publishers>
+      <publisher>No More Robots</publisher>
+    </publishers>
+    <genres>
+      <genre>Simulation</genre>
+    </genres>
+    <steam>
+      <release_date>2019-03-12</release_date>
+      <price>15.49</price>
+    </steam>
+    <epic>
+      <release_date>2021-03-26</release_date>
+      <price>23.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Aground</name>
+    <developers>
+      <developer>Fancy Fish Games</developer>
+      <developer>Sn&#xF6;Box Studio</developer>
+    </developers>
+    <publishers>
+      <publisher>Fancy Fish Games</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Indie</genre>
+      <genre>RPG</genre>
+      <genre>Early Access</genre>
+    </genres>
+    <steam>
+      <release_date>2018-08-08</release_date>
+      <price>7.19</price>
+    </steam>
+    <epic>
+      <release_date>2021-02-11</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>The Textorcist: The Story of Ray Bibbia</name>
+    <developers>
+      <developer>MorbidWare</developer>
+    </developers>
+    <publishers>
+      <publisher>Headup</publisher>
+    </publishers>
+    <genres>
+      <genre>Action</genre>
+      <genre>Indie</genre>
+    </genres>
+    <steam>
+      <release_date>2019-02-14</release_date>
+      <price>11.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-11-12</release_date>
+      <price>17.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Among Us</name>
+    <developers>
+      <developer>Innersloth</developer>
+    </developers>
+    <publishers>
+      <publisher>Innersloth</publisher>
+    </publishers>
+    <genres>
+      <genre>Casual</genre>
+    </genres>
+    <steam>
+      <release_date>2018-11-16</release_date>
+      <price>3.99</price>
+    </steam>
+    <epic>
+      <release_date>2020-12-18</release_date>
+      <price>5.99</price>
+    </epic>
+  </game>
+  <game>
+    <name>Flower</name>
+    <developers>
+      <developer>thatgamecompany</developer>
+    </developers>
+    <publishers>
+      <publisher>Annapurna Interactive</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+    </genres>
+    <steam>
+      <release_date>2019-02-14</release_date>
+      <price>5.19</price>
+    </steam>
+    <epic>
+      <release_date>2019-02-14</release_date>
+      <price>8.39</price>
+    </epic>
+  </game>
+  <game>
+    <name>New Game</name>
+    <developers>
+      <developer>Hidden Path Entertainment</developer>
+      <developer>Traveller's Tales</developer>
+    </developers>
+    <publishers>
+      <publisher>2D BOY</publisher>
+    </publishers>
+    <genres>
+      <genre>Adventure</genre>
+      <genre>Casual</genre>
+    </genres>
+    <steam>
+      <release_date>2023-06-06</release_date>
+      <price>9.99</price>
+    </steam>
+    <epic>
+      <release_date>2023-06-06</release_date>
+      <price>9.99</price>
+    </epic>
+  </game>
+</games>

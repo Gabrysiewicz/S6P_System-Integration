@@ -1,0 +1,4159 @@
+[
+    {
+        "name": "Defense Grid: The Awakening",
+        "developer": [
+            "Hidden Path Entertainment"
+        ],
+        "publisher": [
+            "Hidden Path Entertainment"
+        ],
+        "genre": [
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2008-12-08",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2020-12-20",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Bad North",
+        "developer": [
+            "Traveller's Tales"
+        ],
+        "publisher": [
+            "Warner Bros. Interactive Entertainment"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2008-09-29",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2008-09-28",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Limbo",
+        "developer": [
+            "Playdead"
+        ],
+        "publisher": [
+            "Playdead"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2011-08-02",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2010-07-30",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Amnesia: The Dark Descent",
+        "developer": [
+            "Frictional Games"
+        ],
+        "publisher": [
+            "Frictional Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2010-09-08",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-04-30",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Ticket to Ride",
+        "developer": [
+            "Days of Wonder"
+        ],
+        "publisher": [
+            "Days of Wonder",
+            "Asmodee Digital"
+        ],
+        "genre": [
+            "Casual",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2012-05-24",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2012-05-24",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Alan Wake",
+        "developer": [
+            "Remedy Entertainment"
+        ],
+        "publisher": [
+            "Remedy Entertainment"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2012-02-16",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2016-02-16",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Costume Quest",
+        "developer": [
+            "Double Fine Productions"
+        ],
+        "publisher": [
+            "Double Fine Productions"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2011-10-14",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2010-10-19",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Cave Story+",
+        "developer": [
+            "Nicalis, Inc.",
+            "Studio Pixel"
+        ],
+        "publisher": [
+            "Nicalis, Inc."
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2011-11-22",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2020-12-03",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Wolfenstein: The New Order",
+        "developer": [
+            "Machine Games"
+        ],
+        "publisher": [
+            "Bethesda-Soft"
+        ],
+        "genre": [
+            "Action"
+        ],
+        "steam": {
+            "release_date": "2014-05-19",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2021-09-09",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Superbrothers: Sword & Sworcery EP",
+        "developer": [
+            "Capybara",
+            "Superbrothers",
+            "Jim Guthrie"
+        ],
+        "publisher": [
+            "Capybara Games"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2012-04-16",
+            "price": "4.99"
+        },
+        "epic": {
+            "release_date": "2020-07-30",
+            "price": "9.59"
+        }
+    },
+    {
+        "name": "The Bridge",
+        "developer": [
+            "Ty Taylor and Mario Casta?eda",
+            "The Quantum Astrophysicists Guild"
+        ],
+        "publisher": [
+            "The Quantum Astrophysicists Guild"
+        ],
+        "genre": [
+            "Casual",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2013-02-22",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2013-02-22",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "The Witness",
+        "developer": [
+            "Thekla, Inc."
+        ],
+        "publisher": [
+            "Thekla, Inc."
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-01-26",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2016-01-26",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "FTL: Faster Than Light",
+        "developer": [
+            "Subset Games"
+        ],
+        "publisher": [
+            "Subset Games"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2012-09-14",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2014-09-14",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "LEGO\u00ae Batman\u2122 2: DC Super Heroes",
+        "developer": [
+            "TT Games"
+        ],
+        "publisher": [
+            "Warner Bros. Interactive Entertainment"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2012-06-22",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2012-06-22",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "South Park\u2122: The Stick of Truth\u2122",
+        "developer": [
+            "Obsidian Entertainment"
+        ],
+        "publisher": [
+            "Ubisoft"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2014-03-06",
+            "price": "25.99"
+        },
+        "epic": {
+            "release_date": "2014-03-04",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Alien: Isolation",
+        "developer": [
+            "Creative Assembly",
+            "Feral Interactive (Mac)",
+            "Feral Interactive (Linux)"
+        ],
+        "publisher": [
+            "SEGA",
+            "Feral Interactive (Mac)",
+            "Feral Interactive (Linux)"
+        ],
+        "genre": [
+            "Action"
+        ],
+        "steam": {
+            "release_date": "2014-10-06",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2020-12-21",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "Trials Evolution: Gold Edition",
+        "developer": [
+            "Redlynx Ltd",
+            "Ubisoft  Shangha?"
+        ],
+        "publisher": [
+            "Ubisoft"
+        ],
+        "genre": [
+            "Action",
+            "Racing"
+        ],
+        "steam": {
+            "release_date": "2013-03-21",
+            "price": "16.99"
+        },
+        "epic": {
+            "release_date": "2021-02-11",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Little Inferno",
+        "developer": [
+            "Tomorrow Corporation"
+        ],
+        "publisher": [
+            "Tomorrow Corporation"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2012-11-19",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2012-11-19",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "The Stanley Parable",
+        "developer": [
+            "Galactic Cafe"
+        ],
+        "publisher": [
+            "Galactic Cafe"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2013-10-17",
+            "price": "9.99"
+        },
+        "epic": {
+            "release_date": "2020-03-26",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Fez",
+        "developer": [
+            "Polytron Corporation"
+        ],
+        "publisher": [
+            "Trapdoor"
+        ],
+        "genre": [
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2013-05-01",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2013-04-13",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Galactic Civilizations III",
+        "developer": [
+            "Stardock Entertainment"
+        ],
+        "publisher": [
+            "Stardock Entertainment"
+        ],
+        "genre": [
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2015-05-14",
+            "price": "23.79"
+        },
+        "epic": {
+            "release_date": "2021-01-21",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Killing Floor 2",
+        "developer": [
+            "Tripwire Interactive"
+        ],
+        "publisher": [
+            "Tripwire Interactive"
+        ],
+        "genre": [
+            "Action"
+        ],
+        "steam": {
+            "release_date": "2016-11-18",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2020-07-09",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Gone Home",
+        "developer": [
+            "Fullbright"
+        ],
+        "publisher": [
+            "Fullbright"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2013-08-15",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2020-04-02",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Ken Follett's The Pillars of the Earth",
+        "developer": [
+            "Daedalic Entertainment"
+        ],
+        "publisher": [
+            "Daedalic Entertainment"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-08-15",
+            "price": "26.99"
+        },
+        "epic": {
+            "release_date": "2021-04-15",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Shadowrun Returns",
+        "developer": [
+            "Harebrained Schemes"
+        ],
+        "publisher": [
+            "Paradox Interactive"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2013-07-25",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2020-08-27",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Europa Universalis IV",
+        "developer": [
+            "Paradox Development Studio"
+        ],
+        "publisher": [
+            "Paradox Interactive"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2013-08-13",
+            "price": "34.99"
+        },
+        "epic": {
+            "release_date": "2021-09-30",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "Transistor",
+        "developer": [
+            "Supergiant Games"
+        ],
+        "publisher": [
+            "Supergiant Games"
+        ],
+        "genre": [
+            "Action",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2014-05-20",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2014-05-20",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Amnesia: A Machine for Pigs",
+        "developer": [
+            "The Chinese Room"
+        ],
+        "publisher": [
+            "Frictional Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2013-09-10",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-10-15",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Sherlock Holmes: Crimes and Punishments",
+        "developer": [
+            "Frogwares"
+        ],
+        "publisher": [
+            "Focus Home Interactive"
+        ],
+        "genre": [
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2014-09-29",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2020-04-02",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Nuclear Throne",
+        "developer": [
+            "Vlambeer"
+        ],
+        "publisher": [
+            "Vlambeer"
+        ],
+        "genre": [
+            "Action",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2015-12-05",
+            "price": "9.29"
+        },
+        "epic": {
+            "release_date": "2019-11-07",
+            "price": "14.39"
+        }
+    },
+    {
+        "name": "Aztez",
+        "developer": [
+            "Team Colorblind"
+        ],
+        "publisher": [
+            "Team Colorblind"
+        ],
+        "genre": [
+            "Action",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-08-01",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-02-06",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Tropico 5",
+        "developer": [
+            "Haemimont Games"
+        ],
+        "publisher": [
+            "Kalypso Media Digital"
+        ],
+        "genre": [
+            "RPG",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2014-05-23",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-12-23",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "The Wolf Among Us",
+        "developer": [
+            "Telltale Games"
+        ],
+        "publisher": [
+            "Telltale Games"
+        ],
+        "genre": [
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2013-10-11",
+            "price": "11.99"
+        },
+        "epic": {
+            "release_date": "2019-12-01",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Among the Sleep - Enhanced Edition",
+        "developer": [
+            "Krillbite Studio"
+        ],
+        "publisher": [
+            "Krillbite Studio"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2014-05-29",
+            "price": "13.49"
+        },
+        "epic": {
+            "release_date": "2021-10-21",
+            "price": "20.39"
+        }
+    },
+    {
+        "name": "Wargame: Red Dragon",
+        "developer": [
+            "Eugen Systems"
+        ],
+        "publisher": [
+            "Focus Home Interactive"
+        ],
+        "genre": [
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2014-04-17",
+            "price": "24.99"
+        },
+        "epic": {
+            "release_date": "2021-03-04",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "TowerFall Ascension",
+        "developer": [
+            "Matt Thorson"
+        ],
+        "publisher": [
+            "Matt Makes Games Inc."
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2014-03-11",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2019-12-31",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Stick It To The Man!",
+        "developer": [
+            "Zoink Games"
+        ],
+        "publisher": [
+            "Ripstone"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2013-12-13",
+            "price": "5.99"
+        },
+        "epic": {
+            "release_date": "2020-09-17",
+            "price": "9.59"
+        }
+    },
+    {
+        "name": "Cities: Skylines",
+        "developer": [
+            "Colossal Order Ltd."
+        ],
+        "publisher": [
+            "Paradox Interactive"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2015-03-10",
+            "price": "22.99"
+        },
+        "epic": {
+            "release_date": "2020-12-17",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "The Talos Principle",
+        "developer": [
+            "Croteam"
+        ],
+        "publisher": [
+            "Devolver Digital",
+            "Croteam"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2014-12-11",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2014-12-11",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "Hyper Light Drifter",
+        "developer": [
+            "Heart Machine"
+        ],
+        "publisher": [
+            "Heart Machine"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2016-03-31",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2016-03-31",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Darkest Dungeon\u00ae",
+        "developer": [
+            "Red Hook Studios"
+        ],
+        "publisher": [
+            "Red Hook Studios"
+        ],
+        "genre": [
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2016-01-19",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2020-12-25",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Subnautica",
+        "developer": [
+            "Unknown Worlds Entertainment"
+        ],
+        "publisher": [
+            "Unknown Worlds Entertainment"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-01-23",
+            "price": "19.49"
+        },
+        "epic": {
+            "release_date": "2018-01-23",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Tower of Guns",
+        "developer": [
+            "Terrible Posture Games"
+        ],
+        "publisher": [
+            "Terrible Posture Games LLC"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2014-03-04",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2021-07-22",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Edge Of Eternity",
+        "developer": [
+            "Midgar Studio"
+        ],
+        "publisher": [
+            "Dear Villagers"
+        ],
+        "genre": [
+            "RPG",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2018-12-05",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2021-06-08",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Costume Quest 2",
+        "developer": [
+            "Double Fine Productions"
+        ],
+        "publisher": [
+            "Midnight City",
+            "Majesco Entertainment"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2014-10-07",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2020-10-22",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Krita",
+        "developer": [
+            "Krita Team"
+        ],
+        "publisher": [
+            "Krita Team"
+        ],
+        "genre": [
+            "Animation & Modeling",
+            "Design & Illustration",
+            "Photo Editing"
+        ],
+        "steam": {
+            "release_date": "2014-06-10",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2021-04-22",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "This War of Mine",
+        "developer": [
+            "11 bit studios"
+        ],
+        "publisher": [
+            "11 bit studios"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2014-11-14",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2014-11-14",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "SOMA",
+        "developer": [
+            "Frictional Games"
+        ],
+        "publisher": [
+            "Frictional Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2015-09-21",
+            "price": "22.99"
+        },
+        "epic": {
+            "release_date": "2015-09-22",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Metro 2033 Redux",
+        "developer": [
+            "4A Games"
+        ],
+        "publisher": [
+            "Deep Silver"
+        ],
+        "genre": [
+            "Action"
+        ],
+        "steam": {
+            "release_date": "2014-08-27",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2010-03-16",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Sid Meier\u2019s Civilization\u00ae VI",
+        "developer": [
+            "Firaxis Games",
+            "Aspyr (Mac)",
+            "Aspyr (Linux)"
+        ],
+        "publisher": [
+            "2K",
+            "Aspyr (Mac)",
+            "Aspyr (Linux)"
+        ],
+        "genre": [
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2016-10-20",
+            "price": "49.99"
+        },
+        "epic": {
+            "release_date": "2020-05-21",
+            "price": "71.99"
+        }
+    },
+    {
+        "name": "Rebel Galaxy",
+        "developer": [
+            "Double Damage Games"
+        ],
+        "publisher": [
+            "Double Damage Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2015-10-20",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2015-10-20",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "GNOG",
+        "developer": [
+            "KO_OP"
+        ],
+        "publisher": [
+            "Double Fine Presents"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-07-17",
+            "price": "7.19"
+        },
+        "epic": {
+            "release_date": "2018-06-17",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "The Fall",
+        "developer": [
+            "Over The Moon"
+        ],
+        "publisher": [
+            "Over The Moon"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2014-05-30",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2021-03-18",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "RimWorld",
+        "developer": [
+            "Ludeon Studios"
+        ],
+        "publisher": [
+            "Ludeon Studios"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-10-17",
+            "price": "27.79"
+        },
+        "epic": {
+            "release_date": "2020-06-09",
+            "price": "41.99"
+        }
+    },
+    {
+        "name": "Never Alone (Kisima Ingitchuna)",
+        "developer": [
+            "Upper One Games",
+            "E-Line Media"
+        ],
+        "publisher": [
+            "E-Line Media"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2014-11-18",
+            "price": "11.99"
+        },
+        "epic": {
+            "release_date": "2021-11-18",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "The Escapists",
+        "developer": [
+            "Mouldy Toof Studios"
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2015-02-13",
+            "price": "12.99"
+        },
+        "epic": {
+            "release_date": "2019-12-12",
+            "price": "21.59"
+        }
+    },
+    {
+        "name": "City of Brass",
+        "developer": [
+            "Uppercut Games Pty Ltd"
+        ],
+        "publisher": [
+            "Uppercut Games Pty Ltd"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-05-04",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2018-05-04",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "INSIDE",
+        "developer": [
+            "Playdead"
+        ],
+        "publisher": [
+            "Playdead"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-07-07",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2016-07-07",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Sunless Sea",
+        "developer": [
+            "Failbetter Games"
+        ],
+        "publisher": [
+            "Failbetter Games"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2015-02-06",
+            "price": "13.99"
+        },
+        "epic": {
+            "release_date": "2021-02-25",
+            "price": "22.79"
+        }
+    },
+    {
+        "name": "The Long Dark",
+        "developer": [
+            "Hinterland Studio Inc."
+        ],
+        "publisher": [
+            "Hinterland Studio Inc."
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-08-01",
+            "price": "23.79"
+        },
+        "epic": {
+            "release_date": "2020-12-19",
+            "price": "41.99"
+        }
+    },
+    {
+        "name": "Enter the Gungeon",
+        "developer": [
+            "Dodge Roll"
+        ],
+        "publisher": [
+            "Devolver Digital"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-04-05",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2016-04-05",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Stranded Deep",
+        "developer": [
+            "Beam Team Games"
+        ],
+        "publisher": [
+            "Beam Team Pty Ltd"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2015-01-23",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2020-12-28",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "LEGO\u00ae Batman\u2122 3: Beyond Gotham",
+        "developer": [
+            "TT Games Ltd",
+            "Feral Interactive (Mac)"
+        ],
+        "publisher": [
+            "WB Games",
+            "Feral Interactive (Mac)"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2014-11-11",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2014-11-11",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Conarium",
+        "developer": [
+            "Zoetrope Interactive"
+        ],
+        "publisher": [
+            "Iceberg Interactive"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-06-06",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2017-06-06",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Oddworld: New 'n' Tasty",
+        "developer": [
+            "Just Add Water (Developments), Ltd."
+        ],
+        "publisher": [
+            "Oddworld Inhabitants, Inc."
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2015-02-25",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-12-18",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Absolute Drift",
+        "developer": [
+            "Funselektor Labs Inc.",
+            "FlippFly"
+        ],
+        "publisher": [
+            "Funselektor Labs Inc."
+        ],
+        "genre": [
+            "Action",
+            "Indie",
+            "Racing",
+            "Simulation",
+            "Sports"
+        ],
+        "steam": {
+            "release_date": "2015-07-29",
+            "price": "8.99"
+        },
+        "epic": {
+            "release_date": "2021-02-18",
+            "price": "14.39"
+        }
+    },
+    {
+        "name": "20XX",
+        "developer": [
+            "Batterystaple Games",
+            "Fire Hose Games"
+        ],
+        "publisher": [
+            "Batterystaple Games"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-08-16",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2020-07-30",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "SUPERHOT",
+        "developer": [
+            "SUPERHOT Team"
+        ],
+        "publisher": [
+            "SUPERHOT Team"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-02-25",
+            "price": "17.99"
+        },
+        "epic": {
+            "release_date": "2016-02-24",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Frostpunk",
+        "developer": [
+            "11 bit studios"
+        ],
+        "publisher": [
+            "11 bit studios"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-04-24",
+            "price": "24.99"
+        },
+        "epic": {
+            "release_date": "2021-06-03",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Jotun: Valhalla Edition",
+        "developer": [
+            "Thunder Lotus Games"
+        ],
+        "publisher": [
+            "Thunder Lotus Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2015-09-29",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2019-12-06",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Ironcast",
+        "developer": [
+            "Dreadbit"
+        ],
+        "publisher": [
+            "Ripstone"
+        ],
+        "genre": [
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2015-03-26",
+            "price": "9.99"
+        },
+        "epic": {
+            "release_date": "2021-07-08",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "2064: Read Only Memories",
+        "developer": [
+            "MidBoss, LLC."
+        ],
+        "publisher": [
+            "MidBoss, LLC.",
+            "AGM PLAYISM"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2015-10-06",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2021-09-28",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Tales from the Borderlands",
+        "developer": [
+            "Telltale Games"
+        ],
+        "publisher": [
+            "Telltale Games"
+        ],
+        "genre": [
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2014-11-25",
+            "price": "11.99"
+        },
+        "epic": {
+            "release_date": "2021-02-17",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "The Jackbox Party Pack",
+        "developer": [
+            "Jackbox Games, Inc."
+        ],
+        "publisher": [
+            "Jackbox Games, Inc."
+        ],
+        "genre": [
+            "Casual",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2014-11-26",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2014-11-18",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "AER Memories of Old",
+        "developer": [
+            "Forgotten Key"
+        ],
+        "publisher": [
+            "Daedalic Entertainment"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-10-25",
+            "price": "13.49"
+        },
+        "epic": {
+            "release_date": "2020-06-25",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "AXIOM VERGE",
+        "developer": [
+            "Thomas Happ Games LLC"
+        ],
+        "publisher": [
+            "Thomas Happ Games LLC"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2015-05-14",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2015-05-14",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Yoku's Island Express",
+        "developer": [
+            "Villa Gorilla"
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-05-29",
+            "price": "15.99"
+        },
+        "epic": {
+            "release_date": "2021-09-02",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "ZOMBI",
+        "developer": [
+            "Straight Right"
+        ],
+        "publisher": [
+            "Ubisoft"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2015-08-18",
+            "price": "16.99"
+        },
+        "epic": {
+            "release_date": "2020-10-13",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Tacoma",
+        "developer": [
+            "Fullbright"
+        ],
+        "publisher": [
+            "Fullbright"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-08-01",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-07-23",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Big Pharma",
+        "developer": [
+            "Twice Circled"
+        ],
+        "publisher": [
+            "Positech Games"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2015-08-27",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2020-12-15",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "InnerSpace",
+        "developer": [
+            "PolyKnight Games"
+        ],
+        "publisher": [
+            "Aspyr"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-01-16",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2018-01-16",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Wolfenstein: The Old Blood",
+        "developer": [
+            "MachineGames"
+        ],
+        "publisher": [
+            "Bethesda Softworks"
+        ],
+        "genre": [
+            "Action"
+        ],
+        "steam": {
+            "release_date": "2015-05-04",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2021-09-09",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Sherlock Holmes: The Devil's Daughter",
+        "developer": [
+            "Frogwares"
+        ],
+        "publisher": [
+            "Bigben Interactive"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2016-06-10",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2021-06-25",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Sheltered",
+        "developer": [
+            "Unicube",
+            "Team 17 Digital Ltd"
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2016-03-15",
+            "price": "9.99"
+        },
+        "epic": {
+            "release_date": "2021-09-09",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Q.U.B.E. 2",
+        "developer": [
+            "Toxic Games"
+        ],
+        "publisher": [
+            "Trapped Nerve Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-03-13",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2018-03-18",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Elite Dangerous",
+        "developer": [
+            "Frontier Developments"
+        ],
+        "publisher": [
+            "Frontier Developments"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Massively Multiplayer",
+            "RPG",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2015-04-02",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2020-11-19",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Yooka-Laylee",
+        "developer": [
+            "Playtonic Games"
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-04-11",
+            "price": "34.99"
+        },
+        "epic": {
+            "release_date": "2021-08-19",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "Total War: WARHAMMER",
+        "developer": [
+            "Creative Assembly",
+            "Feral Interactive (Linux)",
+            "Feral Interactive (Mac)"
+        ],
+        "publisher": [
+            "SEGA",
+            "Feral Interactive (Linux)",
+            "Feral Interactive (Mac)"
+        ],
+        "genre": [
+            "Action",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2016-05-24",
+            "price": "39.99"
+        },
+        "epic": {
+            "release_date": "2021-11-22",
+            "price": "71.99"
+        }
+    },
+    {
+        "name": "Barony",
+        "developer": [
+            "Turning Wheel LLC"
+        ],
+        "publisher": [
+            "Turning Wheel LLC"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2015-06-23",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2020-07-30",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Human Resource Machine",
+        "developer": [
+            "Tomorrow Corporation"
+        ],
+        "publisher": [
+            "Tomorrow Corporation"
+        ],
+        "genre": [
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2015-10-15",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2015-10-15",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Kingdom Come: Deliverance",
+        "developer": [
+            "Warhorse Studios"
+        ],
+        "publisher": [
+            "Warhorse Studios",
+            "Deep Silver"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2018-02-13",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2018-02-13",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Hue",
+        "developer": [
+            "Fiddlesticks Games"
+        ],
+        "publisher": [
+            "Curve Digital"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-08-30",
+            "price": "11.99"
+        },
+        "epic": {
+            "release_date": "2020-07-02",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "ABZU",
+        "developer": [
+            "Giant Squid"
+        ],
+        "publisher": [
+            "505 Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2016-08-02",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2016-08-02",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Shadow Complex Remastered",
+        "developer": [
+            "ChAIR Entertainment"
+        ],
+        "publisher": [
+            "Epic Games"
+        ],
+        "genre": [
+            "Action"
+        ],
+        "steam": {
+            "release_date": "2016-05-03",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2009-08-19",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Darksiders II Deathinitive Edition",
+        "developer": [
+            "Gunfire Games",
+            "Vigil Games",
+            "THQ Nordic"
+        ],
+        "publisher": [
+            "THQ Nordic"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2015-11-05",
+            "price": "24.99"
+        },
+        "epic": {
+            "release_date": "2015-11-05",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Oxenfree",
+        "developer": [
+            "Night School Studio"
+        ],
+        "publisher": [
+            "Night School Studio"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-01-14",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2019-01-15",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Crashlands",
+        "developer": [
+            "Butterscotch Shenanigans"
+        ],
+        "publisher": [
+            "Butterscotch Shenanigans"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2016-01-21",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2020-04-30",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Faeria",
+        "developer": [
+            "Abrakam SA"
+        ],
+        "publisher": [
+            "Versus Evil"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "Massively Multiplayer",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-03-08",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2020-02-13",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "The Jackbox Party Pack 2",
+        "developer": [
+            "Jackbox Games, Inc."
+        ],
+        "publisher": [
+            "Jackbox Games, Inc."
+        ],
+        "genre": [
+            "Casual",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2015-10-13",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2015-10-13",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Hob",
+        "developer": [
+            "Runic Games"
+        ],
+        "publisher": [
+            "Runic Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-09-26",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-04-02",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "The Uncertain: Last Quiet Day",
+        "developer": [
+            "ComonGames"
+        ],
+        "publisher": [
+            "ComonGames"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-09-22",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2021-04-29",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "ELEX",
+        "developer": [
+            "Piranha Bytes"
+        ],
+        "publisher": [
+            "THQ Nordic"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2017-10-17",
+            "price": "39.99"
+        },
+        "epic": {
+            "release_date": "2021-03-25",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Shadow Tactics: Blades of the Shogun",
+        "developer": [
+            "Mimimi Productions"
+        ],
+        "publisher": [
+            "Daedalic Entertainment"
+        ],
+        "genre": [
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2016-12-06",
+            "price": "34.99"
+        },
+        "epic": {
+            "release_date": "2018-12-06",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "Rising Storm 2: Vietnam",
+        "developer": [
+            "Antimatter Games",
+            "Tripwire Interactive"
+        ],
+        "publisher": [
+            "Tripwire Interactive"
+        ],
+        "genre": [
+            "Action",
+            "Massively Multiplayer",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-05-30",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2020-10-08",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "DEMON'S TILT",
+        "developer": [
+            "WIZNWAR",
+            "FLARB LLC"
+        ],
+        "publisher": [
+            "FLARB LLC"
+        ],
+        "genre": [
+            "Action",
+            "Indie",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2019-01-21",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2021-05-10",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Air Missions: HIND",
+        "developer": [
+            "3Division"
+        ],
+        "publisher": [
+            "3Division"
+        ],
+        "genre": [
+            "Action",
+            "Casual",
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2017-06-14",
+            "price": "12.99"
+        },
+        "epic": {
+            "release_date": "2021-09-27",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Vampyr",
+        "developer": [
+            "DONTNOD Entertainment"
+        ],
+        "publisher": [
+            "Focus Home Interactive"
+        ],
+        "genre": [
+            "Action",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2018-06-04",
+            "price": "44.99"
+        },
+        "epic": {
+            "release_date": "2018-06-05",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "The Town of Light",
+        "developer": [
+            "LKA"
+        ],
+        "publisher": [
+            "LKA",
+            "Wired Productions"
+        ],
+        "genre": [
+            "Sexual Content",
+            "Nudity",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-02-26",
+            "price": "13.99"
+        },
+        "epic": {
+            "release_date": "2021-11-02",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Slime Rancher",
+        "developer": [
+            "Monomi Park"
+        ],
+        "publisher": [
+            "Monomi Park"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2017-08-01",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2017-08-01",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "GoNNER",
+        "developer": [
+            "Art in Heart"
+        ],
+        "publisher": [
+            "Raw Fury"
+        ],
+        "genre": [
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-10-12",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2020-02-27",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Niche - a genetics survival game",
+        "developer": [
+            "Stray Fawn Studio"
+        ],
+        "publisher": [
+            "Stray Fawn Studio"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-09-21",
+            "price": "13.59"
+        },
+        "epic": {
+            "release_date": "2021-09-15",
+            "price": "21.59"
+        }
+    },
+    {
+        "name": "The Count Lucanor",
+        "developer": [
+            "Baroque Decay"
+        ],
+        "publisher": [
+            "Baroque Decay"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2016-03-03",
+            "price": "7.19"
+        },
+        "epic": {
+            "release_date": "2021-06-30",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Drawful 2",
+        "developer": [
+            "Jackbox Games, Inc."
+        ],
+        "publisher": [
+            "Jackbox Games, Inc."
+        ],
+        "genre": [
+            "Casual",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2016-06-20",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2016-06-21",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Where The Water Tastes Like Wine",
+        "developer": [
+            "Dim Bulb Games",
+            "Serenity Forge"
+        ],
+        "publisher": [
+            "Good Shepherd Entertainment"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2018-02-28",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-09-10",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "APE OUT",
+        "developer": [
+            "Gabe Cuzzillo",
+            "Bennett Foddy",
+            "Matt Boch"
+        ],
+        "publisher": [
+            "Devolver Digital"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2019-02-28",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2019-02-28",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Overcooked",
+        "developer": [
+            "Ghost Town Games Ltd."
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Action",
+            "Casual",
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2016-08-03",
+            "price": "12.99"
+        },
+        "epic": {
+            "release_date": "2018-08-07",
+            "price": "20.39"
+        }
+    },
+    {
+        "name": "Battle Chasers: Nightwar",
+        "developer": [
+            "Airship Syndicate"
+        ],
+        "publisher": [
+            "THQ Nordic"
+        ],
+        "genre": [
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2017-10-03",
+            "price": "24.99"
+        },
+        "epic": {
+            "release_date": "2021-03-25",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Asemblance",
+        "developer": [
+            "Nilo Studios"
+        ],
+        "publisher": [
+            "Nilo Studios"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-06-21",
+            "price": "5.79"
+        },
+        "epic": {
+            "release_date": "2021-06-25",
+            "price": "9.59"
+        }
+    },
+    {
+        "name": "Hand of Fate 2",
+        "developer": [
+            "Defiant Development"
+        ],
+        "publisher": [
+            "Defiant Development"
+        ],
+        "genre": [
+            "Action",
+            "Indie",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2017-11-07",
+            "price": "23.79"
+        },
+        "epic": {
+            "release_date": "2021-04-22",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Oxygen Not Included",
+        "developer": [
+            "Klei Entertainment"
+        ],
+        "publisher": [
+            "Klei Entertainment"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2017-05-18",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2019-11-25",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Darksiders Warmastered Edition",
+        "developer": [
+            "KAIKO",
+            "Vigil Games"
+        ],
+        "publisher": [
+            "THQ Nordic"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2016-11-29",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2016-11-26",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Empires of the Undergrowth",
+        "developer": [
+            "Slug Disco Studios"
+        ],
+        "publisher": [
+            "Slug Disco Studios"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2017-12-01",
+            "price": "15.99"
+        },
+        "epic": {
+            "release_date": "2020-10-28",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Solitairica",
+        "developer": [
+            "Righteous Hammer Games"
+        ],
+        "publisher": [
+            "Righteous Hammer Games"
+        ],
+        "genre": [
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2016-05-31",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2020-12-29",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "RUINER",
+        "developer": [
+            "Reikon Games"
+        ],
+        "publisher": [
+            "Devolver Digital"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-09-26",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2017-09-26",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Surviving Mars",
+        "developer": [
+            "Haemimont Games"
+        ],
+        "publisher": [
+            "Paradox Interactive"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-03-15",
+            "price": "26.99"
+        },
+        "epic": {
+            "release_date": "2018-03-15",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Northgard",
+        "developer": [
+            "Shiro Games"
+        ],
+        "publisher": [
+            "Shiro Games"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-03-07",
+            "price": "23.79"
+        },
+        "epic": {
+            "release_date": "2021-07-21",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Speed Brawl",
+        "developer": [
+            "Double Stallion Games"
+        ],
+        "publisher": [
+            "Kongregate"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-09-18",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2018-09-18",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Prey",
+        "developer": [
+            "Arkane Studios"
+        ],
+        "publisher": [
+            "Bethesda Softworks"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2017-05-04",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2021-09-09",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "Night in the Woods",
+        "developer": [
+            "Infinite Fall"
+        ],
+        "publisher": [
+            "Finji"
+        ],
+        "genre": [
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2017-02-21",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-12-27",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Aven Colony",
+        "developer": [
+            "Mothership Entertainment LLC"
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-07-25",
+            "price": "24.99"
+        },
+        "epic": {
+            "release_date": "2021-11-04",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "God's Trigger",
+        "developer": [
+            "One More Level"
+        ],
+        "publisher": [
+            "Techland Publishing"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2019-04-18",
+            "price": "11.95"
+        },
+        "epic": {
+            "release_date": "2020-08-20",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Warhammer 40,000: Gladius - Relics of War",
+        "developer": [
+            "Proxy Studios"
+        ],
+        "publisher": [
+            "Slitherine Ltd."
+        ],
+        "genre": [
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-07-12",
+            "price": "30.99"
+        },
+        "epic": {
+            "release_date": "2020-11-12",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "Tropico 6",
+        "developer": [
+            "Limbic Entertainment"
+        ],
+        "publisher": [
+            "Kalypso Media"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2019-03-29",
+            "price": "39.99"
+        },
+        "epic": {
+            "release_date": "2020-12-23",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "RiME",
+        "developer": [
+            "Tequila Works",
+            "QLOC"
+        ],
+        "publisher": [
+            "Grey Box",
+            "Six Foot"
+        ],
+        "genre": [
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2017-05-26",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2017-05-26",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Figment",
+        "developer": [
+            "Bedtime Digital Games"
+        ],
+        "publisher": [
+            "Bedtime Digital Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-09-22",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-03-26",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Dungeons 3",
+        "developer": [
+            "Realmforge Studios"
+        ],
+        "publisher": [
+            "Kalypso Media Digital"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-10-13",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2020-11-05",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "What Remains of Edith Finch",
+        "developer": [
+            "Giant Sparrow"
+        ],
+        "publisher": [
+            "Annapurna Interactive"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-04-24",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2017-04-25",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Railway Empire",
+        "developer": [
+            "Gaming Minds Studios"
+        ],
+        "publisher": [
+            "Kalypso Media Digital"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-01-26",
+            "price": "39.99"
+        },
+        "epic": {
+            "release_date": "2020-09-10",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Celeste",
+        "developer": [
+            "Matt Makes Games Inc."
+        ],
+        "publisher": [
+            "Matt Makes Games Inc."
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-01-25",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2018-01-05",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Totally Accurate Battle Simulator",
+        "developer": [
+            "Landfall"
+        ],
+        "publisher": [
+            "Landfall"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation",
+            "Strategy",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2019-04-01",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2019-04-01",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Wheels of Aurelia",
+        "developer": [
+            "Santa Ragione"
+        ],
+        "publisher": [
+            "Santa Ragione"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2016-09-20",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2020-04-16",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "The Fall Part 2: Unbound",
+        "developer": [
+            "Over The Moon"
+        ],
+        "publisher": [
+            "Over The Moon"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-02-12",
+            "price": "13.49"
+        },
+        "epic": {
+            "release_date": "2021-03-15",
+            "price": "20.39"
+        }
+    },
+    {
+        "name": "For The King",
+        "developer": [
+            "IronOak Games"
+        ],
+        "publisher": [
+            "Curve Digital"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-04-19",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2020-04-23",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Pathway",
+        "developer": [
+            "Robotality"
+        ],
+        "publisher": [
+            "Chucklefish"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2019-04-11",
+            "price": "12.99"
+        },
+        "epic": {
+            "release_date": "2020-06-11",
+            "price": "19.19"
+        }
+    },
+    {
+        "name": "The First Tree",
+        "developer": [
+            "David Wehle"
+        ],
+        "publisher": [
+            "David Wehle"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-09-14",
+            "price": "7.99"
+        },
+        "epic": {
+            "release_date": "2021-04-15",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Gorogoa",
+        "developer": [
+            "Buried Signal"
+        ],
+        "publisher": [
+            "Annapurna Interactive"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-12-14",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2017-12-14",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Stories Untold",
+        "developer": [
+            "No Code"
+        ],
+        "publisher": [
+            "Devolver Digital"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-02-27",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2017-02-27",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Blade Strangers",
+        "developer": [
+            "Studio Saizensen"
+        ],
+        "publisher": [
+            "Nicalis, Inc."
+        ],
+        "genre": [
+            "Action"
+        ],
+        "steam": {
+            "release_date": "2018-08-27",
+            "price": "30.99"
+        },
+        "epic": {
+            "release_date": "2021-10-06",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Pikuniku",
+        "developer": [
+            "Arnaud De Bock",
+            "R\u00e9mi Forcadell",
+            "Alan Zucconi",
+            "Calum Bowen"
+        ],
+        "publisher": [
+            "Devolver Digital"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2019-01-24",
+            "price": "10.29"
+        },
+        "epic": {
+            "release_date": "2020-10-01",
+            "price": "15.59"
+        }
+    },
+    {
+        "name": "Mothergunship",
+        "developer": [
+            "Grip Digital",
+            "Terrible Posture Games"
+        ],
+        "publisher": [
+            "Grip Digital"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-07-17",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2021-07-29",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Everything",
+        "developer": [
+            "David OReilly"
+        ],
+        "publisher": [
+            "David OReilly",
+            "Double Fine Presents"
+        ],
+        "genre": [
+            "Casual",
+            "Indie",
+            "RPG",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2017-04-21",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2017-04-21",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "The End is Nigh",
+        "developer": [
+            "Edmund McMillen",
+            "Tyler Glaiel"
+        ],
+        "publisher": [
+            "Edmund McMillen",
+            "Tyler Glaiel"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-07-12",
+            "price": "10.99"
+        },
+        "epic": {
+            "release_date": "2017-07-12",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Sonic Mania",
+        "developer": [
+            "Christian Whitehead",
+            "Headcannon",
+            "PagodaWest Games"
+        ],
+        "publisher": [
+            "SEGA"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Casual"
+        ],
+        "steam": {
+            "release_date": "2017-08-29",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2021-06-24",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Dead Cells",
+        "developer": [
+            "Motion Twin"
+        ],
+        "publisher": [
+            "Motion Twin"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-08-06",
+            "price": "21.99"
+        },
+        "epic": {
+            "release_date": "2020-10-22",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Into the Breach",
+        "developer": [
+            "Subset Games"
+        ],
+        "publisher": [
+            "Subset Games"
+        ],
+        "genre": [
+            "Indie",
+            "RPG",
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-02-27",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2018-02-27",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Moonlighter",
+        "developer": [
+            "Digital Sun"
+        ],
+        "publisher": [
+            "11 bit studios"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-05-29",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2018-05-29",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Darksiders III",
+        "developer": [
+            "Gunfire Games"
+        ],
+        "publisher": [
+            "THQ Nordic"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2018-11-27",
+            "price": "44.99"
+        },
+        "epic": {
+            "release_date": "2018-11-27",
+            "price": "71.99"
+        }
+    },
+    {
+        "name": "Minit",
+        "developer": [
+            "JW, Kitty, Jukio, and Dom"
+        ],
+        "publisher": [
+            "Devolver Digital"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-04-03",
+            "price": "6.99"
+        },
+        "epic": {
+            "release_date": "2018-04-03",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "The Jackbox Party Pack 4",
+        "developer": [
+            "Jackbox Games, Inc."
+        ],
+        "publisher": [
+            "Jackbox Games, Inc."
+        ],
+        "genre": [
+            "Casual",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-10-18",
+            "price": "18.99"
+        },
+        "epic": {
+            "release_date": "2017-10-19",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "House Flipper",
+        "developer": [
+            "Empyrean"
+        ],
+        "publisher": [
+            "Frozen District",
+            "PlayWay S.A."
+        ],
+        "genre": [
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2018-05-17",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2021-08-05",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "while True: learn()",
+        "developer": [
+            "Luden.io"
+        ],
+        "publisher": [
+            "Nival"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2019-01-17",
+            "price": "9.99"
+        },
+        "epic": {
+            "release_date": "2021-12-02",
+            "price": "15.59"
+        }
+    },
+    {
+        "name": "Whispers of a Machine",
+        "developer": [
+            "Clifftop Games",
+            "Faravid Interactive"
+        ],
+        "publisher": [
+            "Raw Fury"
+        ],
+        "genre": [
+            "Adventure"
+        ],
+        "steam": {
+            "release_date": "2019-04-17",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2020-11-24",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Last Day of June",
+        "developer": [
+            "Ovosonico"
+        ],
+        "publisher": [
+            "505 Games"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2017-08-31",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2017-08-31",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Jurassic World Evolution",
+        "developer": [
+            "Frontier Developments"
+        ],
+        "publisher": [
+            "Frontier Developments"
+        ],
+        "genre": [
+            "Simulation",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-06-11",
+            "price": "34.99"
+        },
+        "epic": {
+            "release_date": "2020-12-31",
+            "price": "53.99"
+        }
+    },
+    {
+        "name": "My Time At Portia",
+        "developer": [
+            "Pathea Games"
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "Indie",
+            "RPG",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2019-01-15",
+            "price": "24.99"
+        },
+        "epic": {
+            "release_date": "2019-01-15",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Next Up Hero",
+        "developer": [
+            "Digital Continue"
+        ],
+        "publisher": [
+            "Aspyr"
+        ],
+        "genre": [
+            "Action",
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2018-06-28",
+            "price": "14.99"
+        },
+        "epic": {
+            "release_date": "2020-07-23",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "MudRunner",
+        "developer": [
+            "Saber Interactive"
+        ],
+        "publisher": [
+            "Focus Home Interactive"
+        ],
+        "genre": [
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2017-10-30",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2020-11-26",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "The Colonists",
+        "developer": [
+            "Codebyfire"
+        ],
+        "publisher": [
+            "Mode 7"
+        ],
+        "genre": [
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-10-24",
+            "price": "19.49"
+        },
+        "epic": {
+            "release_date": "2021-02-24",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "SUPERHOT: Mind Control Delete",
+        "developer": [
+            "SUPERHOT Team"
+        ],
+        "publisher": [
+            "SUPERHOT Team"
+        ],
+        "genre": [
+            "Action",
+            "Indie",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2017-12-07",
+            "price": "9.29"
+        },
+        "epic": {
+            "release_date": "2020-07-16",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Fell Seal: Arbiter's Mark",
+        "developer": [
+            "6 Eyes Studio"
+        ],
+        "publisher": [
+            "1C Entertainment"
+        ],
+        "genre": [
+            "Indie",
+            "RPG",
+            "Strategy",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2018-08-16",
+            "price": "23.99"
+        },
+        "epic": {
+            "release_date": "2020-12-17",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Donut County",
+        "developer": [
+            "Ben Esposito"
+        ],
+        "publisher": [
+            "Annapurna Interactive"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-08-28",
+            "price": "10.29"
+        },
+        "epic": {
+            "release_date": "2018-08-28",
+            "price": "15.59"
+        }
+    },
+    {
+        "name": "Death Coming",
+        "developer": [
+            "NEXT Studios"
+        ],
+        "publisher": [
+            "NEXT Studios"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2017-11-06",
+            "price": "4.99"
+        },
+        "epic": {
+            "release_date": "2020-05-07",
+            "price": "8.39"
+        }
+    },
+    {
+        "name": "Overcooked! 2",
+        "developer": [
+            "Ghost Town Games Ltd.",
+            "Team17 Digital Ltd"
+        ],
+        "publisher": [
+            "Team17 Digital Ltd"
+        ],
+        "genre": [
+            "Action",
+            "Casual",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-08-07",
+            "price": "19.99"
+        },
+        "epic": {
+            "release_date": "2021-06-17",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "Breathedge",
+        "developer": [
+            "RedRuins Softworks"
+        ],
+        "publisher": [
+            "RedRuins Softworks"
+        ],
+        "genre": [
+            "Adventure",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2018-09-13",
+            "price": "12.39"
+        },
+        "epic": {
+            "release_date": "2021-02-25",
+            "price": "29.99"
+        }
+    },
+    {
+        "name": "The World Next Door",
+        "developer": [
+            "Rose City Games"
+        ],
+        "publisher": [
+            "VIZ Media"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2019-03-28",
+            "price": "11.69"
+        },
+        "epic": {
+            "release_date": "2020-11-19",
+            "price": "11.99"
+        }
+    },
+    {
+        "name": "Mutant Year Zero: Road to Eden",
+        "developer": [
+            "The Bearded Ladies"
+        ],
+        "publisher": [
+            "Funcom"
+        ],
+        "genre": [
+            "RPG",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-12-04",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2018-12-04",
+            "price": "41.99"
+        }
+    },
+    {
+        "name": "The Spectrum Retreat",
+        "developer": [
+            "Dan Smith Studios"
+        ],
+        "publisher": [
+            "Ripstone"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "Strategy"
+        ],
+        "steam": {
+            "release_date": "2018-07-13",
+            "price": "9.99"
+        },
+        "epic": {
+            "release_date": "2021-07-01",
+            "price": "15.59"
+        }
+    },
+    {
+        "name": "The Messenger",
+        "developer": [
+            "Sabotage"
+        ],
+        "publisher": [
+            "Devolver Digital"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2018-08-30",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2019-11-14",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "The Jackbox Party Pack 5",
+        "developer": [
+            "Jackbox Games, Inc."
+        ],
+        "publisher": [
+            "Jackbox Games, Inc."
+        ],
+        "genre": [
+            "Casual"
+        ],
+        "steam": {
+            "release_date": "2018-10-17",
+            "price": "23.79"
+        },
+        "epic": {
+            "release_date": "2017-10-17",
+            "price": "35.99"
+        }
+    },
+    {
+        "name": "Farming Simulator 19",
+        "developer": [
+            "Giants Software"
+        ],
+        "publisher": [
+            "Focus Home Interactive"
+        ],
+        "genre": [
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2018-11-19",
+            "price": "29.99"
+        },
+        "epic": {
+            "release_date": "2020-07-20",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "7 Billion Humans",
+        "developer": [
+            "Tomorrow Corporation"
+        ],
+        "publisher": [
+            "Tomorrow Corporation"
+        ],
+        "genre": [
+            "Indie",
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2018-08-23",
+            "price": "11.39"
+        },
+        "epic": {
+            "release_date": "2018-08-23",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Levelhead",
+        "developer": [
+            "Butterscotch Shenanigans"
+        ],
+        "publisher": [
+            "Butterscotch Shenanigans"
+        ],
+        "genre": [
+            "Action",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2019-04-18",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2020-04-30",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Outward",
+        "developer": [
+            "Nine Dots Studio"
+        ],
+        "publisher": [
+            "Deep Silver"
+        ],
+        "genre": [
+            "RPG"
+        ],
+        "steam": {
+            "release_date": "2019-03-26",
+            "price": "34.99"
+        },
+        "epic": {
+            "release_date": "2019-03-26",
+            "price": "47.99"
+        }
+    },
+    {
+        "name": "HyperParasite",
+        "developer": [
+            "Troglobytes Games"
+        ],
+        "publisher": [
+            "Troglobytes Games",
+            "Hound Picked Games"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "Indie",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2019-04-03",
+            "price": "6.19"
+        },
+        "epic": {
+            "release_date": "2021-03-19",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Hypnospace Outlaw",
+        "developer": [
+            "Tendershoot",
+            "Michael Lasch",
+            "ThatWhichIs Media"
+        ],
+        "publisher": [
+            "No More Robots"
+        ],
+        "genre": [
+            "Simulation"
+        ],
+        "steam": {
+            "release_date": "2019-03-12",
+            "price": "15.49"
+        },
+        "epic": {
+            "release_date": "2021-03-26",
+            "price": "23.99"
+        }
+    },
+    {
+        "name": "Aground",
+        "developer": [
+            "Fancy Fish Games",
+            "Sn\u00f6Box Studio"
+        ],
+        "publisher": [
+            "Fancy Fish Games"
+        ],
+        "genre": [
+            "Adventure",
+            "Indie",
+            "RPG",
+            "Early Access"
+        ],
+        "steam": {
+            "release_date": "2018-08-08",
+            "price": "7.19"
+        },
+        "epic": {
+            "release_date": "2021-02-11",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "The Textorcist: The Story of Ray Bibbia",
+        "developer": [
+            "MorbidWare"
+        ],
+        "publisher": [
+            "Headup"
+        ],
+        "genre": [
+            "Action",
+            "Indie"
+        ],
+        "steam": {
+            "release_date": "2019-02-14",
+            "price": "11.99"
+        },
+        "epic": {
+            "release_date": "2020-11-12",
+            "price": "17.99"
+        }
+    },
+    {
+        "name": "Among Us",
+        "developer": [
+            "Innersloth"
+        ],
+        "publisher": [
+            "Innersloth"
+        ],
+        "genre": [
+            "Casual"
+        ],
+        "steam": {
+            "release_date": "2018-11-16",
+            "price": "3.99"
+        },
+        "epic": {
+            "release_date": "2020-12-18",
+            "price": "5.99"
+        }
+    },
+    {
+        "name": "Flower",
+        "developer": [
+            "thatgamecompany"
+        ],
+        "publisher": [
+            "Annapurna Interactive"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual"
+        ],
+        "steam": {
+            "release_date": "2019-02-14",
+            "price": "5.19"
+        },
+        "epic": {
+            "release_date": "2019-02-14",
+            "price": "8.39"
+        }
+    },
+    {
+        "name": "New Game",
+        "developer": [
+            "Hidden Path Entertainment",
+            "Traveller's Tales"
+        ],
+        "publisher": [
+            "2D BOY"
+        ],
+        "genre": [
+            "Adventure",
+            "Casual"
+        ],
+        "steam": {
+            "release_date": "2023-06-06",
+            "price": "9.99"
+        },
+        "epic": {
+            "release_date": "2023-06-06",
+            "price": "9.99"
+        }
+    }
+]
