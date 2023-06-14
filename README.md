@@ -27,6 +27,15 @@
 - [X] wykorzystanie mechanizmów uwierzytelnienia i autoryzacji przy użyciu tokenów JWT – 5 pkt
 - [X] wykorzystanie poziomów izolacji w bazie danych – 5 pkt
 
+# Wymagane technologie
+Aplikacja web:
+Laravel 10
+Composer 2.5.8
+PHP 8.2.4
+
+Client Soap:
+.NET 6
+
 # Instrukcja instalacji
 1. Rozpakuj projekt
 
