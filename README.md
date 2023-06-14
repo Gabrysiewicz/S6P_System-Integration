@@ -59,18 +59,21 @@ php artisan sail:install
 ```
 php artisan optimize:clear
 ```
-
-8. Wyczyść już istniejące migracje
+8. Należy uruchomić aplikację:
+```
+./vendor/bin/sail up -d
+```
+9. Wyczyść już istniejące migracje
 ```
 ./vendor/bin/sail artisan migrate:fresh
 ```
 
-9. Wygeneruj Secret Key (JWT)
+10. Wygeneruj Secret Key (JWT)
 ```
 ./vendor/bin/sail artisan key:generate
 ```
 
-10. Uruchom kontenery Dockera przy użyciu polecenia:
+11. Uruchom kontenery Dockera przy użyciu polecenia:
 ```
 ./vendor/bin/sail up
 ```
