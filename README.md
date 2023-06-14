@@ -84,13 +84,9 @@ php artisan optimize:clear
 ./vendor/bin/sail artisan migrate:fresh
 ```
 
-10. Wygeneruj Secret Key (JWT)
+9.5 Moze okazać się potrzeba zmiana uprawnień
 ```
-./vendor/bin/sail artisan key:generate
-```
-10.5 Moze okazać się potrzeba zmiana uprawnień
-```
-chmod 777 .env
+chmod 777 -R *
 ```
 
 # Opis
