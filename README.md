@@ -59,10 +59,12 @@ php artisan sail:install
 ```
 php artisan optimize:clear
 ```
+
 8. Należy uruchomić aplikację:
 ```
 ./vendor/bin/sail up -d
 ```
+
 9. Wyczyść już istniejące migracje
 ```
 ./vendor/bin/sail artisan migrate:fresh
@@ -72,10 +74,9 @@ php artisan optimize:clear
 ```
 ./vendor/bin/sail artisan key:generate
 ```
-
-11. Uruchom kontenery Dockera przy użyciu polecenia:
+10.5 Moze okazać się potrzeba zmiana uprawnień
 ```
-./vendor/bin/sail up
+chmod 777 .env
 ```
 
 # Opis
