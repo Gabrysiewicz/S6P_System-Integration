@@ -1,114 +1,115 @@
 <table align='center'>
   <tr> <td colspan='3'> <img width="884px" > </td> </tr>
   <tr> <td colspan="3" align='center'> <img src='https://github.com/Gabrysiewicz/Programowanie-aplikacji-w-chmurze-obliczeniowe/blob/main/logo_politechniki_lubelskiej.jpg' width="400px" height="400px"></td> </tr>
-  <tr> <td> Kamil Gabrysiewicz </td> <td> Index: 95400 </td> <td> Grupa: 6.3 </td> </tr>  
-  <tr> <td> Jakub Dudek </td> <td> Index: 95391 </td> <td> Grupa: 6.3 </td> </tr>  
-  <tr> <td> Semestr 6 </td> <td colspan='2' align='center'> Integracja systemów </td> </tr>  
+  <tr> <td> Kamil Gabrysiewicz </td> <td> Index: 95400 </td> <td> Group: 6.3 </td> </tr>  
+  <tr> <td> Jakub Dudek </td> <td> Index: 95391 </td> <td> Group: 6.3 </td> </tr>  
+  <tr> <td> Session 6 </td> <td colspan='2' align='center'> System Integration </td> </tr>  
 </table>
 
-# Zestawienie danych statystycznych dotyczących gier na platformach Steam i Epic Games Store
+# Statistical Data Summary on Games on Steam and Epic Games Store Platforms
 
-## Projekt:
-- realizowany w grupach dwuosobowych
-- należy wykonać w technologiach przedstawionych w skrypcie
-- należy zaprezentować prowadzącemu i przesłać w terminie do przedostatnich zajęć włącznie
-- integrowane dane przechowywane w plikach lub bazie danych muszą być zgodne z tematyką projektu
-- wymagany jest interfejs graficzny pozwalający na wykonywanie akcji oraz prezentację danych
-- Poniżej przedstawiono punktację za poszczególne realizowane funkcjonalności
+## Project:
+- carried out in two-person groups
+- must be implemented using technologies presented in the script
+- must be presented to the instructor and submitted by the penultimate class at the latest
+- integrated data stored in files or a database must be relevant to the project topic
+- a graphical interface is required, allowing actions to be performed and data to be presented
+- Below is the scoring for individual implemented functionalities
 
-### W projekcie:
-- [X] eksport/import z pliku XML – 5 pkt
-- [X] eksport/import z pliku JSON/YAML – 5 pkt
-- [X] eksport/import z bazy danych – 5 pkt
-- [X] wykorzystanie ORM w celu dostępu do bazy danych – 5 pkt
-- [X] wykorzystanie usług typu SOAP – 5 pkt
-- [X] wykorzystanie usług typu REST – 5 pkt
-- [X] wykorzystanie kontenerów Docker – 5 pkt
-- [X] wykorzystanie mechanizmów uwierzytelnienia i autoryzacji przy użyciu tokenów JWT – 5 pkt
-- [X] wykorzystanie poziomów izolacji w bazie danych – 5 pkt
+### In the project:
+- [X] export/import from XML file – 5 pts
+- [X] export/import from JSON/YAML file – 5 pts
+- [X] export/import from a database – 5 pts
+- [X] use of ORM for database access – 5 pts
+- [X] use of SOAP services – 5 pts
+- [X] use of REST services – 5 pts
+- [X] use of Docker containers – 5 pts
+- [X] use of authentication and authorization mechanisms with JWT tokens – 5 pts
+- [X] use of isolation levels in the database – 5 pts
 
-# Wymagane technologie
-Aplikacja web:
-Laravel 10
-Composer 2.5.8
-PHP 8.2.4
+# Required tech
+Web App:
+- Laravel 10
+- Composer 2.5.8
+- PHP 8.2.4
 
 Client Soap:
-.NET 6
+- .NET 6
 
-# Instrukcja instalacji
-1. Rozpakuj projekt
+# Installation guide
+1. Unpack project
 
-2. Przejdź do katalogu projektu:
+2. Go to the project directory:
 ```
 cd Project/project
 ```
 
-3. Zainstaluj zależności Composer:
+3. Install Composer dependencies:
 ```
 composer install
 ```
 
-4. Skopiuj zawartość pliku `.env.example` do pliku `.env`:
+4.Copy the content of `.env.example` to `.env`:
 ```
 cp .env.example .env
 ```
 
-5. Wygeneruj klucz aplikacji:
+5. Generate App key:
 ```
 php artisan key:generate
 ```
 
-5.5. Wygeneruj Secret key
+5.5. Generate secret key
 ```
 php artisan jwt:secret
 ```
 
-6. Zainstaluj i skonfiguruj narzędzie Sail, które umożliwi uruchomienie kontenerów Dockera (należy wybrać mysql [0]):
+6. Install and configure the Sail tool, which will allow you to run Docker containers (you should select MySQL [0]):
 ```
 php artisan sail:install
 ```
 
-7. Wyczyść zbuforowane dane aplikacji, przed uruchomieniem kontenerów:
+7. Clear the application's cached data before starting the containers
 ```
 php artisan optimize:clear
 ```
 
-8. Należy uruchomić aplikację:
+8. Run the app:
 ```
 ./vendor/bin/sail up -d
 ```
 
-9. Wyczyść już istniejące migracje
+9. Clear already existing migrations
 ```
 ./vendor/bin/sail artisan migrate:fresh
 ```
 
-9.5 Moze okazać się potrzeba zmiana uprawnień
+9.5 It may be necessary to change permissions
 ```
 chmod 777 -R *
 ```
 
-10. Zamknięcie aplikacji (wewnątrz katalogu z projektem)
+10. Closing the application (inside the project directory)
 ```
 ./vendor/bin/sail down
 ```
-# Opis
-Projekt przedstawia zestawienie danych o grach na platformach Steam i Epic Games Store. Umożliwia użytkownikom rejestracje, logowanie, import/export danych oraz wyświetlanie ich na stronie internetowej
+# Description
+The project presents a summary of data on games from the Steam and Epic Games Store platforms. It allows users to register, log in, import/export data, and display it on a web page.
 
-Dane do projektu znajdują się w katalogu datasets. 
-Należy zaimportować jeden z plików:
-- games.csv,
-- games.json,
-- games.xml
+Data for the project is located in the `datasets` directory.  
+You need to import one of the files:  
+- `games.csv`  
+- `games.json`  
+- `games.xml`  
 
-Aby import/export był możliwy należy utworzyć konto. `Create an account` w sekcji login
+To enable import/export, you must create an account via `Create an account` in the login section.  
 
-Aplikacja działa na porcie `8000` więc adresem projektu jest `localhost:8000`
+The application runs on port `8000`, so the project address is `localhost:8000`.
+
 # XML 
-Import plików .xml jest możliwy tylko gdy plik ma następującą strukturę:
+Importing `.xml` files is only possible if the file has the following structure:
 
-W postaci pojedyńczego elementu
+As a single element
 ```
 <game>
     <name>Example Game 1</name>
@@ -133,7 +134,7 @@ W postaci pojedyńczego elementu
 </game>
 ```
 
-W postaci tablicy elementów
+As an array of elements
 ```
 <games>
     <game>
@@ -183,11 +184,12 @@ W postaci tablicy elementów
 ```
 
 # JSON
-Plik .json musi mieć następujące klucze: name, developer, publisher, genre, steam: price, release_date, epic: price, release_date<br>
-W przypadku kluczy developer, publisher i genre, można podać wiele wartości, umieszczając je w tablicy [" "," "]<br>
-Import plików .json jest możliwy tylko gdy plik ma następującą strukturę:
+A `.json` file must have the following keys: `name`, `developer`, `publisher`, `genre`, `steam: price`, `release_date`, `epic: price`, `release_date`.  
+For the keys `developer`, `publisher`, and `genre`, multiple values can be provided by placing them in an array `[" ", " "]`.  
 
-W postaci pojedyńczego obiektu
+Importing `.json` files is only possible if the file has the following structure:
+
+As a single object
 ```
 {
     "name": "Test1",
@@ -205,7 +207,7 @@ W postaci pojedyńczego obiektu
 }
 ```
 
-W postaci tablicy obiektów
+As an array of objects
 ```
 [
     {
@@ -240,7 +242,7 @@ W postaci tablicy obiektów
 ```
 
 # DB
-Import plików .csv jest możliwy tylko gdy plik ma następującą strukturę:
+Importing `.csv` files is only possible if the file has the following structure:
 
 ```
 name;developer;publisher;genre;release_date_steam;price_steam;release_date_epic;price_epic
@@ -248,37 +250,37 @@ Test1;Developer1;Publisher1;Action;31.09.2008;19.99;29.09.2008;14,99
 Test2;"Developer2;Developer3";"Publisher2;Publisher3";"Adventure;Indie";31.09.2008;29.99;29.09.2008;24,99
 ```
 
-Pierwszy wiersz musi zawierać nagłówki kolumn <br>
-Kolumny muszą być oddzielone znakiem ";" <br>
-W przypadku kolumn developer, publisher i genre, można podać wiele danych, oddzielając je znakiem ";" <br>
+The first row must contain column headers.  
+Columns must be separated by the ";" character.  
+For the columns `developer`, `publisher`, and `genre`, multiple values can be provided by separating them with the ";" character.
 
 Diagram ERD
 
 <img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/images/erd.png" >
 
-Relacje
-- jeden do jednego:
-    - game i steam - jedna gra może mieć informacje specyficzne dla platformy Steam w tabeli steam
-    - game i epic - jedna gra może mieć informacje specyficzne dla platformy Epic Games w tabeli epic
-- jeden do wielu:
-    - user i game - jeden użytkownik może dodać wiele gier, ale jedna gra jest dodana przez jednego użytkownika
-- wiele do wielu:
-    - game i genre - jedna gra może należeć do wielu różnych gatunków, a jeden gatunek może być przypisany do wielu różnych gier
-    - developer i game - jeden deweloper może mieć wiele gier, a jedna gra może być stworzona przez wielu deweloperów
-    - publisher i game - jeden wydawca może mieć wiele gier, a jedna gra może być wydana przez wielu wydawców
+Relationships
+- One-to-one:
+    - `game` and `steam` – a game can have Steam-specific information in the `steam` table
+    - `game` and `epic` – a game can have Epic Games-specific information in the `epic` table
+- One-to-many:
+    - `user` and `game` – one user can add many games, but one game is added by a single user
+- Many-to-many:
+    - `game` and `genre` – a game can belong to multiple genres, and a genre can be assigned to multiple games
+    - `developer` and `game` – a developer can have multiple games, and a game can be created by multiple developers
+    - `publisher` and `game` – a publisher can have multiple games, and a game can be published by multiple publishers
 
-Uruchomienie konsoli mysql w kontenerze
+Starting the MySQL console in the container
 ```
 docker exec -it [ container-id / container-tag ] mysql -u sail -h mysql -D laravel -p
 ```
 
-Zmiana roli na `admin` dla usera o id `3`
+Changing the role to `admin` for the user with ID `3`
 ```
 UPDATE user SET role = "admin" WHERE id = 3;
 ```
 
 # ORM
-ORM jest realizowany za pośrednictwen Laravel'owego Eloquent
+ORM is implemented via Laravel's Eloquent
 ```
 <?php
 
@@ -315,12 +317,12 @@ return new class extends Migration
 ```
 
 # SOAP
-Soap server jest tworzony razem z plikiem wsdl poprzez biblioteke NuSOAP
+The SOAP server is created along with the WSDL file using the NuSOAP library
 ```
 composer require econea/nusoap
 ```
 
-Tworzenie routa w pliku `routes/api.php` w celu odbierania pliku wsdl, wraz z funkcją do pobierania nazwy gry na podstawie podanego id od strony clienta
+Creating a route in the `routes/api.php` file to receive the WSDL file, along with a function to fetch the game name based on the provided ID from the client side
 ```
 Route::any('soap', function() {
     $server = new \nusoap_server();
@@ -355,10 +357,10 @@ Route::any('soap', function() {
 });
 ```
 
-Ważne jest aby w pliku konfiguracyjnym /vendor/econea/nusoap/src/nusoap.php zmienić linie odpowiedzialne za encoding pliku wsdl.
-Jest to wymagane aby połączyć się z usługą ze strony clienta.
+It is important to modify the lines responsible for WSDL file encoding in the configuration file `/vendor/econea/nusoap/src/nusoap.php`.  
+This is required to connect to the service from the client side.
 
-Przed zmianą
+Before the change
 ```
 var $soap_defencoding = 'ISO-8859-1';
 //var $soap_defencoding = 'UTF-8';
@@ -366,18 +368,17 @@ var $soap_defencoding = 'ISO-8859-1';
 $xml = '<?xml version="1.0" encoding="ISO-8859-1"?>';
 ```
 
-Po zmianie:
+After change:
 ```
 //var $soap_defencoding = 'ISO-8859-1';
 var $soap_defencoding = 'UTF-8';
 
 $xml = '<?xml version="1.0" encoding="' . $this->soap_defencoding . '"?>';
 ```
+The SOAP client was created using the WCF Web Service tool available in Visual Studio, which allows connecting a .NET project to a web service.  
+This tool generates all the code and references after providing the service address.
 
-Soap client został stworzony za pomocą narzędzia WCF Web Service, dostępnego w Visual Studio, które umożliwia łączenie projektu .NET z usługą internetową.
-To narzędzie generuje cały kod oraz referencje po podaniu adresu do usługi.
-
-Główny kod programu pobierający nazwę gry na podstawie podanego id:
+The main program code that retrieves the game name based on the provided ID:
 ```
 private async Task GetNameAsync(string id)
 {
@@ -394,28 +395,27 @@ private async Task GetNameAsync(string id)
 }
 ```
 
-Wygląd aplikacji stworzony za pomocą Windows Forms
+The appearance of the application is created using Windows Forms
 
 <img src="https://github.com/Gabrysiewicz/S6P_Integracja_systemow/blob/main/images/soapclient.png" >
 
 # REST
-REST API jest realizowane z wykorzystaniem JWT. W Laravel'u do wstępnej implementacji API należy utworzyć odpowiedni kontroler wykorzystujący
-odpowiadający nam model:
+The REST API is implemented using JWT. In Laravel, to start implementing the API, you need to create the appropriate controller using the corresponding model:
 ```
 sail artisan make:controller ApiController --resource --model=Game
 ```
 
-Powyższe polecenie utworzy kontroler (`make:controller`) o nazwie `ApiController`, 
-bazujący na modelu Game (`--model=Game`), dodatkowo domyślnie zadeklaruje niezbędne funkcje:
-- index
-- create
-- store
-- show
-- edit
-- update
-- destroy
+The above command will create a controller (`make:controller`) named `ApiController`,  
+based on the `Game` model (`--model=Game`), and by default will declare the necessary functions:  
+- `index`  
+- `create`  
+- `store`  
+- `show`  
+- `edit`  
+- `update`  
+- `destroy`  
 
-W pliku `routes/api.php` musimy zadeklarować routy dla naszego api:
+In the `routes/api.php` file, we need to declare the routes for our API:
 
 ```
 // Route::resource('games', ApiController::class );
@@ -434,12 +434,12 @@ Route::group(['middleware' => 'jwt.auth'], function () {
     Route::delete('games/{game}', [ApiController::class, 'destroy']);
 });
 ```
-*Zakomentowana linia pozwala na bardzo uproszczony dostęp do wszystkich funkcji (index, edit, delete, itd...)*
+*The commented line allows very simplified access to all functions (`index`, `edit`, `delete`, etc.)*
 
-Dostęp do api domyślnie odbywa się poprzez trasę `localhost/api` np (POST) `localhost/api/login` 
-z loginem i hasłem umieszczonym wewnątrz body w celu pobrania tokenu JWT
+Access to the API is by default via the route `localhost/api`, e.g., (POST) `localhost/api/login`  
+with the login and password provided in the body to obtain a JWT token.
 
-Routing związany z api można konfigurować w `Providers/RouteServiceProvider.php` w funkcji `boot()`:
+API routing can be configured in `Providers/RouteServiceProvider.php` in the `boot()` function:
 ```
 public function boot(): void
 {
@@ -461,7 +461,7 @@ public function boot(): void
 }
 ```
 
-Widok Index dla klienta o roli `user`
+Index view for a client with the `user` role
 ```
 {
     "status": 1,
@@ -478,7 +478,7 @@ Widok Index dla klienta o roli `user`
 }
 ```
 
-Widok Index dla klienta o roli `admin`
+Index view for a client with the `admin` role
 ```
 {
 "status": 1,
@@ -564,21 +564,22 @@ Widok Index dla klienta o roli `admin`
 }
 ```
 
-*Admin posiada dostęp do wszelkich danych podczas gry user widzi zaledwie nazwę gry, id user który tę grę dodał, oraz daty dodania oraz modyfikacji*
+*The admin has access to all data, while a user sees only the game name, the ID of the user who added the game, and the creation and modification dates.*
 
 # Docker
-Konteneryzacja we frameworku Laravel jest realizowana za pośrednictwem sail. W tym celu do już istniejącego projektu należy doinstalować sail:
+Containerization in the Laravel framework is implemented via Sail. For this, Sail must be installed in the existing project:
 ```
 composer require laravel/sail --dev
 ```
 
-Następnie za pośrednictwem sail zostanie wygenerowany `docker-compose`, oraz `.env`:
+Next, Sail will generate `docker-compose` and `.env` files:
 ```
 php artisan sail:install
 ```
 
-Wygenerowany docker-compose.yml zawiera 2 kontenery, laravel.test z zainstalowanym laravelem i composerem 
-wewnątrz którego będzie również znajdował się projekt, oraz kontener bazodanowy z bazą mysql:
+The generated `docker-compose.yml` contains 2 containers:  
+- `laravel.test` with Laravel and Composer installed, inside which the project will also reside  
+- a database container with a MySQL database
 ```
 version: '3'
 services:
@@ -639,14 +640,14 @@ volumes:
 ```
 
 # JWT
-Do logowania się do aplikacji jak i API zostanie zastosowana metoda JWT:
+JWT will be used for logging into both the application and the API:
 
-Dodanie odpowiedniego pakietu
+Adding the appropriate package
 ```
 composer require tymon/jwt-auth
 ```
 
-Konfiguracja config/auth.php
+Configuration of config/auth.php
 ```
 'guards' => [
     'web' => [
@@ -661,7 +662,7 @@ Konfiguracja config/auth.php
 ],
 ```
 
-Następnie należy utworzyć kontroler do obsługi autoryzacji
+Next, you need to create a controller to handle authorization
 ```
 sail artisan make:controller AuthController
 ```
@@ -754,12 +755,13 @@ class AuthController extends Controller
     }
 }
 ```
-Jak widać w kodzie, kontroler obsługuje rejestracje, logowanie, wylogowywanie oraz pobranie informacji o aktualnie zalogowanym użytkowniku.
-Ponieważ JWT zostało wykorzystane zarówno do logowania na stronie (WEB) jak i w API, musiały zostać odpowiednio obsłużone `returny`.
-Dla API zwracany jest `response` z json, a dla `WEB` widok lub redirect
-Co ważne `$request->expectsJson()` w kodzie odnosi się do klucza `Accept` i wartości `application/json` w programach typu Postman a nie do klucza `Expect`
+As seen in the code, the controller handles registration, login, logout, and retrieving information about the currently logged-in user.  
+Since JWT is used for both web login and API access, the `return` statements had to be handled accordingly.  
+For the API, a JSON `response` is returned, while for the web, a view or redirect is returned.  
 
-Jeżeli się tego nie zrobiło, należy wygenerować SecretKey. Automatycznie zostanie dodany do .env
+Importantly, `$request->expectsJson()` in the code refers to the `Accept` header with the value `application/json` in tools like Postman, not the `Expect` header.  
+
+If this has not been done, a SecretKey must be generated. It will be automatically added to the `.env` file.
 ```
 php artisan jwt:secret
 ```
@@ -769,12 +771,12 @@ Output
 jwt-auth secret [cvVG7cV8RTY6KtpodfatKMweRhBTL7lVtMSNfYRWuNNjmOuGBUZVIFBvdnGwXJoJ] set successfully.
 ```
 
-Wygenerowanie pliku `config/jwt.php` przechowującego informacje i konfigurację JWT:
+Generating the `config/jwt.php` file that stores JWT information and configuration:
 ```
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 ```
 
-Utworzenie Middleware do obsługi JWT
+Creating Middleware to handle JWT
 ```
 php artisan make:middleware JwtMiddleware
 ```
@@ -805,7 +807,7 @@ class JwtMiddleware
 }
 ```
 
-Wewnątrz `Models/User.php` należy dodać funkcję do pobierania tokenów od User
+Inside `Models/User.php`, a function must be added to retrieve tokens from the User
 ```
 public function getJWTIdentifier()
 {
@@ -817,14 +819,14 @@ public function getJWTCustomClaims()
 }
 ```
 
-Ponieważ w `routes/api.php` korzystamy z non-default middleware
+Since non-default middleware is used in `routes/api.php`
 ```
 Route::group(['middleware' => 'jwt.auth'], function () {
     [...]
 })
 ```
 
-Wewnątrz `Http/Kernel.php` musimy dodać alias do tego middleware
+Inside `Http/Kernel.php`, we need to add an alias for this middleware
 ```
 protected $middlewareAliases = [
         [...],
@@ -833,9 +835,9 @@ protected $middlewareAliases = [
 ```
 
 # ISOLATION
-W Laravelu dla bazydanych jest możliwy tylko 1 tryb izolacji na raz.
+In Laravel, only one isolation level can be used for databases at a time.  
 
-Aby wykorzystać izolacje musimy skonfigurować `config/database.php`
+To use isolation, we need to configure `config/database.php`
 REPETABLE READ:
 ```
 'mysql' => [
@@ -857,12 +859,12 @@ READ COMMITTED:
 ],
 ```
 
-Aby zmiana `config` działała należy użyć polecenia
+To apply the changes in `config`, the following command must be used
 ```
 sail artisan config:cache
 ```
 
-## Wykorzystanie poziomów izolacji dla API
+## Using Isolation Levels for the API
 REPEATABLE READ:
 ```
 public function index()
@@ -891,7 +893,7 @@ public function index()
     ];
 }
 ```
-*Podczas pobierania danych za pośrednictwem api /localhost/api/games jest tworzona transakcja z wykorzystanie mechanizmu REPEATABLE READ. Aby poprawnie wykorzystać tę transakcję należy zastosować lockForUpdate(). Z kolei w przypadku READ COMMITTED wystarczy usunąć tę funkcję pośredniczącą.*
+*When retrieving data via the API `/localhost/api/games`, a transaction is created using the REPEATABLE READ mechanism. To correctly use this transaction, `lockForUpdate()` must be applied. In the case of READ COMMITTED, it is sufficient to remove this intermediate function.*
 
 READ COMMITTED:
 ```
