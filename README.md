@@ -1,6 +1,6 @@
 <table align='center'>
   <tr> <td colspan='3'> <img width="884px" > </td> </tr>
-  <tr> <td colspan="3" align='center'> <img src='https://github.com/Gabrysiewicz/Programowanie-aplikacji-w-chmurze-obliczeniowe/blob/main/logo_politechniki_lubelskiej.jpg' width="400px" height="400px"></td> </tr>
+  <tr> <td colspan="3" align='center'> <img src='https://github.com/Gabrysiewicz/S6P_System-Integration/blob/main/images/PL.png' width="400px" height="400px"></td> </tr>
   <tr> <td> Kamil Gabrysiewicz </td> <td> Index: 95400 </td> <td> Group: 6.3 </td> </tr>  
   <tr> <td> Jakub Dudek </td> <td> Index: 95391 </td> <td> Group: 6.3 </td> </tr>  
   <tr> <td> Session 6 </td> <td colspan='2' align='center'> System Integration </td> </tr>  
